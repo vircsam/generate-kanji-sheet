@@ -1,0 +1,786 @@
+SET 11 — 20 Kanji
+1. 標 (hyou ヒョウ) — signpost
+目標 (もくひょう) mokuhyou — goal, target, aim, objective; mark, sign, landmark
+標準 (ひょうじゅん) hyoujun — standard, criterion, norm, model, mark; average, the norm, the ordinary
+標識 (ひょうしき) hyoushiki — sign, mark, marker, beacon; marker [linguistics]
+標本 (ひょうほん) hyouhon — specimen, sample; (classic) example, type
+標語 (ひょうご) hyougo — slogan, motto (entry cut off)
+2. 油 (yu ユ / abura あぶら) — oil
+醤油 (しょうゆ) shouyu — soy sauce, soya sauce, shoyu
+石油 (せきゆ) sekiyu — oil, petroleum; kerosene, paraffin (colloquial)
+油 (あぶら) abura — oil
+油断 (ゆだん) yudan — negligence, carelessness, inattention, unpreparedness
+灯油 (とうゆ) touyu — kerosene, lamp oil (entry cut off)
+3. 輪 (rin リン / wa わ) — wheel
+指輪 (ゆびわ) yubiwa — (finger) ring
+輪 (わ) wa — ring, circle, loop; hoop; wheel; circle (e.g. of friends); planetary ring [astronomy]
+車輪 (しゃりん) sharin — (vehicle) wheel
+年輪 (ねんりん) nenrin — annual tree ring, growth ring (entry cut off)
+4. 植 (shoku ショク / u.eru う.える) — plant
+植える (うえる) ueru — to plant, to grow, to raise; to insert, to transplant, to implant, to set (type); to inoculate; to instill, to inculcate
+植物 (しょくぶつ) shokubutsu — plant, vegetation
+植木 (うえき) ueki — garden plant, garden tree; potted plant
+田植え (たうえ) taue — rice planting
+植民地 (しょくみんち) shokuminchi — colony (entry cut off)
+5. 熱 (netsu ネツ / atsu.i あつ.い) — heat
+熱い (あつい) atsui — hot (to the touch); passionate (feelings, etc.), ardent, hot (e.g. gaze); hot (e.g. temper); zealous, enthusiastic, fired up; intense, severe, extreme; hot (topic), of interest
+熱 (ねつ) netsu — heat; fever, temperature; zeal, passion, enthusiasm, mania, craze, rage
+熱心 (ねっしん) nesshin — zealous, enthusiastic, ardent, fervent, keen, eager
+熱帯 (ねったい) nettai — tropics
+熱中 (ねっちゅう) necchuu — being absorbed in, engrossed in (entry cut off)
+6. 宿 (shuku シュク / yado やど) — inn
+宿題 (しゅくだい) shukudai — homework, assignment; pending issue, unresolved problem, open question
+下宿 (げしゅく) geshuku — boarding, lodging, board and lodging, room and board; boarding house, lodging house
+宿泊 (しゅくはく) shukuhaku — accommodation, lodging
+宿 (やど) yado — lodging, inn, hotel; house, home, dwelling; home of a servant's parents (or guarantor, etc.)
+宿る (やどる) yadoru — to dwell, to lodge, to be pregnant with (entry cut off)
+7. 清 (sei セイ / kiyo.i きよ.い) — pure
+清潔 (せいけつ) seiketsu — clean, hygienic, sanitary; pure, virtuous, immaculate
+清い (きよい) kiyoi — clean, clear; pure, honest, clean, innocent, platonic, chaste
+清掃 (せいそう) seisou — cleaning, clean-up, garbage collection, scavenging
+清算 (せいさん) seisan — (financial) settlement, squaring accounts, clearing debts; liquidation; ending (a relationship), breaking up (with), burying (the past), redeeming (one's faults)
+8. 覚 (kaku カク / obo.eru おぼ.える) — memorize
+覚える (おぼえる) oboeru — to memorize, to commit to memory, to learn by heart, to bear in mind, to remember; to learn, to pick up, to acquire; to feel; to think, to regard
+感覚 (かんかく) kankaku — sense, sensation, feeling, intuition
+覚悟 (かくご) kakugo — readiness, (mental) preparedness; resolution, determination; resignation (to one's fate)
+覚める (さめる) sameru — to wake, to wake up; to wear off (of drunkenness, anaesthesia, etc.), to regain consciousness, to sober up
+9. 船 (sen セン / fune ふね) — ship
+船 (ふね) fune — ship, boat, watercraft, vessel, seaplane; tank, tub, vat, trough; counter for boat-shaped containers
+風船 (ふうせん) fuusen — balloon (toy or decoration); balloon (hot-air or gas) (dated term)
+造船 (ぞうせん) zousen — shipbuilding
+汽船 (きせん) kisen — steamship, steamboat, steamer
+10. 倍 (bai バイ) — double
+倍 (ばい) bai — double, twice (as much); times (as much), -fold; 1-nth, 1 to n, 1 in n
+倍率 (ばいりつ) bairitsu — magnification, leverage, amplification, scaling factor, scale factor; competitiveness rating (e.g. for university entrance)
+人一倍 (ひといちばい) hitoichibai — (much) more than others, exceedingly, extremely, unusually
+倍加 (ばいか) baika — doubling; marked increase, multiplying, redoubling
+11. 億 (oku オク) — hundred million
+億 (おく) oku — hundred million, 100,000,000, 10^8
+億万長者 (おくまんちょうじゃ) okumanchouja — billionaire, multimillionaire, very rich person
+一億 (いちおく) ichioku — 100,000,000, one hundred million, 10^8
+十億 (じゅうおく) juuoku — 1,000,000,000, billion
+百億 (ひゃくおく) hyakuoku — 10,000,000,000, ten billion
+12. 芸 (gei ゲイ) — technique
+芸術 (げいじゅつ) geijutsu — art, the arts
+工芸 (こうげい) kougei — industrial arts, craft
+園芸 (えんげい) engei — horticulture, gardening
+文芸 (ぶんげい) bungei — literature; the arts, art and literature, liberal arts
+芸能 (げいのう) geinou — (public) entertainment, performing arts (entry cut off)
+13. 停 (tei テイ) — halt
+停留所 (ていりゅうじょ) teiryuujo — stop (bus, tram, etc.), station, stopping place
+停止 (ていし) teishi — stoppage, coming to a stop, halt, standstill; ceasing (movement, activity, etc.), suspension (of operations), interruption, cutting off; suspension (of payment, a licence, etc.), (temporary) prohibition, ban
+停車 (ていしゃ) teisha — stopping (of a train, car, etc.), stop (Ant: 発車)
+14. 陸 (riku リク) — land
+大陸 (たいりく) tairiku — continent; continental Asia (especially mainland China); continental Europe
+陸 (りく) riku — land, shore
+着陸 (ちゃくりく) chakuriku — landing, alighting, touch down
+上陸 (じょうりく) jouriku — landing, going ashore, disembarkation; making landfall (of a typhoon), striking land, hitting land
+15. 玉 (gyoku ギョク / tama たま) — jewel
+玉 (たま) tama — jewel, gem (see reading examples above; other forms 球・珠・弾)
+玉ねぎ (たまねぎ) tamanegi — onion (Allium cepa)
+目玉 (めだま) medama — eyeball; special feature, centerpiece, showpiece, drawcard; sunny-side up fried egg (abbr.)
+替え玉 (かえだま) kaedama — stand-in, proxy, substitute, double, ringer; second serving of noodles (added to remaining ramen broth)
+16. 波 (ha ハ / nami なみ) — waves
+波 (なみ) nami — wave, billow, ripple, breaker, swell; ups and downs (idiomatic); (something) advancing step by step; tendency, (new) wave [art]
+電波 (でんぱ) denpa — radio wave, reception, signal; saying strange things (slang)
+津波 (つなみ) tsunami — tsunami, tidal wave
+波止場 (はとば) hatoba — wharf, pier (entry cut off)
+17. 帯 (tai タイ / obi おび) — sash
+熱帯 (ねったい) nettai — tropics
+帯 (おび) obi — obi (kimono sash); obi (strip of paper looped around a book, CD, etc.); band, belt, strip; cingulum [anatomy/zoology]; radio/TV program broadcast in the same time slot daily
+地帯 (ちたい) chitai — zone, area, belt, region
+包帯 (ほうたい) houtai — bandage, dressing
+18. 羽 (u ウ / ha は / hane はね) — feathers
+羽、羽根 (はね) hane — feather, plume, down; wing; blade (of a fan, propeller, etc.); shuttlecock (in badminton/hanetsuki); arrow feathers
+羽毛 (うもう) umou — feather, plume, plumage, down
+羽織 (はおり) haori — haori (Japanese formal coat)
+羽目 (はめ) hame — panel, wainscoting, wainscotting (entry cut off)
+19. 努 (do ド / tsuto.meru つと.める) — toil
+努力 (どりょく) doryoku — effort, exertion, endeavour, hard work, striving
+努める (つとめる) tsutomeru — to endeavor (to do), to try hard, to work hard, to strive, to make an effort, to exert oneself, to devote oneself, to be committed (to doing)
+奮励努力 (ふんれいどりょく) funreidoryoku — making strenuous efforts, exerting oneself (yojijukugo)
+自助努力 (じじょどりょく) jijodoryoku — self-help efforts, independent efforts, self-supporting endeavor
+努々 (ゆめゆめ) yumeyume — never, not in the least (entry cut off)
+20. 固 (ko コ / kata.meru かた.める) — harden
+硬い・固い・堅い (かたい) katai — hard, solid, tough (esp. 固い/堅い for wood, 硬い for metal/stone); stiff, tight, wooden, unpolished; strong, firm; safe, steady, honest, steadfast; obstinate, stubborn; bookish, formal, stuffy (Ant: 砕けた)
+固まる (かたまる) katamaru — to harden, to solidify; to become firm, to become certain; to gather (together), to assemble, to huddle together; to freeze, to hang, to stop responding [computing]
+固定 (こてい) kotei — fixing (in place), being fixed (in place), securing, anchoring, fastening down; fixing (e.g. salary, capital), keeping the same; fixation (histology) [biology]
+SET 12 — 20 Kanji
+1. 散 (san サン / chi.rasu ち.らす) — scatter
+散歩 (さんぽ) sanpo — walk, stroll
+解散 (かいさん) kaisan — breaking up (a meeting, gathering, etc.), dispersal (e.g. of a crowd); dissolution (of a company, organization, etc.), winding-up, disbandment, split-up; dissolution (of the Diet, Parliament, etc.)
+散らかす (ちらかす) chirakasu — to scatter around, to leave untidy, to make a mess
+散る (ちる) chiru — to fall (e.g. blossoms, leaves); to scatter, to be dispersed; to disappear, to dissolve, to break up; to spread, to run, to blur; to die a noble death
+拡散 (かくさん) kakusan — diffusion, spreading (entry cut off)
+2. 司 (shi シ / tsukasado.ru つかさど.る) — director
+上司 (じょうし) joushi — (one's) superior, (one's) boss, the higher-ups
+司法 (しほう) shihou — administration of justice, judicature
+司る (つかさどる) tsukasadoru — to be in charge of, to manage, to direct, to administer, to preside over; to rule, to govern, to control
+司令官 (しれいかん) shireikan — commandant, commanding officer, general
+司会者 (しかいしゃ) shikaisha — emcee, moderator (entry cut off)
+3. 康 (kou コウ) — ease
+健康 (けんこう) kenkou — health; healthy, sound, fit, wholesome
+小康 (しょうこう) shoukou — lull, breathing spell, respite; remission (of an illness), becoming stable
+不健康 (ふけんこう) fukenkou — poor health, ill health, unhealthy
+国民健康保険 (こくみんけんこうほけん) kokuminkenkouhoken — national health insurance
+康寧 (こうねい) kounei — tranquility, peacefulness (rare term)
+4. 静 (sei セイ / shizu.ka しず.か) — quiet
+静か (しずか) shizuka — quiet, silent; slow, unhurried; calm, peaceful
+冷静 (れいせい) reisei — calmness, composure, coolness, serenity, presence of mind
+静まる、鎮まる (しずまる) shizumaru — to become quiet, to quiet down, to quieten down (esp. 静まる); to calm down, to die down, to subside, to abate, to be suppressed (esp. 鎮まる)
+静止 (せいし) seishi — stillness, rest, being stationary, standing still, coming to a standstill (Ant: 運動)
+5. 喜 (ki キ / yoroko.bu よろこ.ぶ) — rejoice
+喜ぶ (よろこぶ) yorokobu — to be delighted, to be glad, to be pleased, to rejoice; to congratulate; to welcome (a proposal, advice, etc.), to take kindly to; to do with pleasure, to do gladly, to be happy (to do)
+喜び (よろこび) yorokobi — joy, delight, rapture, pleasure, gratification, rejoicing, congratulations, felicitations
+喜劇 (きげき) kigeki — comedy
+歓喜 (かんき) kanki — great joy, exultation (entry cut off)
+6. 囲 (i イ / kako.mu かこ.む) — surround
+囲む (かこむ) kakomu — to surround, to encircle, to enclose, to fence, to wall in; to besiege, to lay siege to; to play (go, shogi, etc.)
+範囲 (はんい) han'i — extent, scope, sphere, range, span
+周囲 (しゅうい) shuui — surroundings, environs; circumference
+雰囲気 (ふんいき) fun'iki — atmosphere, mood, ambience, ambiance, aura, feel; a certain air, presence, special aura, something (about someone) (entry cut off)
+7. 卒 (sotsu ソツ) — graduate
+卒業 (そつぎょう) sotsugyou — graduation, completion (of a course); moving on (from), outgrowing (something); leaving (a group, company, etc.), quitting
+何卒、何とぞ (なにとぞ) nanitozo — please, kindly, I beg of you, if it pleases you (humble/kenjougo language); by all means, without fail
+脳卒中 (のうそっちゅう) nousocchuu — stroke, cerebral haemorrhage, cerebral hemorrhage [medicine]
+高卒 (こうそつ) kousotsu — having graduated from high school (as one's highest completed level of education), high school graduate (colloquial) (abbr. of 高等学校卒)
+8. 順 (jun ジュン) — obey
+順番 (じゅんばん) junban — order, turn
+順調 (じゅんちょう) junchou — favourable, favorable, doing well, OK, all right
+順 (じゅん) jun — order, turn, sorting; (じゅん only) obedient, docile, submissive, meek
+順序 (じゅんじょ) junjo — order, sequence; procedure
+道順 (みちじゅん) michijun — route, itinerary (entry cut off)
+9. 級 (kyuu キュウ) — class
+級 (きゅう) kyuu — (school) grade, year, class; class, grade, rank, level; kyu (junior rank in martial arts, go, shogi, etc.)
+高級 (こうきゅう) koukyuu — high-class, high-grade, high-quality, high-end, luxury (Ant: 低級); high-ranking, high-level, senior
+上級 (じょうきゅう) joukyuu — upper level, upper grade, high rank, advanced level, senior level, upper class
+初級 (しょきゅう) shokyuu — elementary level, beginner level
+階級 (かいきゅう) kaikyuu — class, rank, hierarchy (entry cut off)
+10. 幸 (kou コウ / saiwa.i さいわ.い) — happiness
+幸福 (こうふく) koufuku — happiness, well-being, joy, welfare, blessedness
+不幸 (ふこう) fukou — unhappiness, sorrow, misfortune, disaster, accident; death (usually of a relative), bereavement
+幸運 (こううん) kouun — good luck, fortune (Ant: 不運)
+幸せ (しあわせ) shiawase — happiness, good fortune, luck, blessing
+11. 岩 (gan ガン / iwa いわ) — boulder
+岩 (いわ) iwa — rock, boulder; crag
+溶岩 (ようがん) yougan — lava
+岩石 (がんせき) ganseki — rock
+一枚岩 (いちまいいわ) ichimaiiwa — monolith, large slab of rock; unity (of a group, organization, etc.), unanimity, solidarity
+12. 練 (ren レン / ne.ru ね.る) — practice
+練習 (れんしゅう) renshuu — practice, training, drill, (an) exercise, workout
+訓練 (くんれん) kunren — training, drill, practice, discipline
+練る (ねる) neru — to knead, to thicken into a paste (stirring over a flame); to polish (a plan, etc.), to refine, to elaborate, to work out; to train, to drill, to exercise; to gloss (silk), to soften, to degum; to tan (leather); to temper (steel); to walk in procession, to parade, to march
+洗練 (せんれん) senren — refinement, polish (entry cut off)
+13. 等 (tou トウ / ra ら) — etc.
+高等学校 (こうとうがっこう) koutougakkou — senior high school, high school
+等しい (ひとしい) hitoshii — equal, identical, the same; no different (from), just like, equivalent
+平等 (びょうどう) byoudou — equality, impartiality, evenness
+上等 (じょうとう) joutou — superior, first-class, excellent, top quality; (that's) just fine!, bring it on!
+対等 (たいとう) taitou — equal, on equal footing (entry cut off)
+14. 救 (kyuu キュウ / suku.u すく.う) — salvation
+救う (すくう) sukuu — to rescue (someone), to save, to help (out of a difficulty), to relieve (from); to save (spiritually), to redeem (from sin), to deliver (from suffering, distress, etc.), to bring to salvation
+救助 (きゅうじょ) kyuujo — relief, aid, rescue
+救済 (きゅうさい) kyuusai — relief, aid, help, rescue; (religious) salvation, (Christian) grace
+救い (すくい) sukui — help, rescue, aid, relief; salvation, solace, (source of) comfort, saving grace; (religious) salvation, (Christian) grace
+15. 老 (rou ロウ / o.iru お.いる) — old man
+老人 (ろうじん) roujin — old person, senior citizen, the aged, the elderly
+老いる (おいる) oiru — to age, to grow old
+老ける (ふける) fukeru — to age, to grow old (especially in appearance), to show marks of age
+老後 (ろうご) rougo — old age
+老齢 (ろうれい) rourei — old age (entry cut off)
+16. 令 (rei レイ) — orders
+命令 (めいれい) meirei — order, command, decree, directive; (software) instruction, statement [computing]
+指令 (しれい) shirei — order, directive, instructions, command
+司令官 (しれいかん) shireikan — commandant, commanding officer, general
+戒厳令 (かいげんれい) kaigenrei — martial law
+辞令 (じれい) jirei — notice of personnel change (appointment, dismissal, etc.); wording, choice of language, phraseology
+17. 角 (kaku カク / kado かど) — angle
+角 (かど) kado — corner, edge; (street) corner, turning; rough edges (of one's character, words, etc.), abrasiveness, harshness, sharpness
+角度 (かくど) kakudo — angle
+街角、町角 (まちかど) machikado — street corner
+四角 (しかく) shikaku — quadrilateral, square [geometry]
+四つ角 (よつかど) yotsukado — four corners; crossroads, intersecting street, street corner
+18. 曲 (kyoku キョク / ma.garu ま.がる) — bend
+作曲 (さっきょく) sakkyoku — composition (of music), setting, writing music
+曲げる (まげる) mageru — to bend, to crook, to bow, to curve, to curl; to lean, to tilt, to incline, to slant; to bend (the truth), to distort, to twist, to pervert; to yield (a point), to depart (from a principle), to ignore (what one really thinks); to pawn
+曲線 (きょくせん) kyokusen — curve
+曲がる (まがる) magaru — to bend, to curve, to warp, to wind, to twist; to turn; to be awry, to be askew, to be crooked
+19. 庭 (tei テイ / niwa にわ) — courtyard
+庭 (にわ) niwa — garden, yard, courtyard; field (of action), area
+家庭 (かてい) katei — home, household, family, hearth
+校庭 (こうてい) koutei — schoolyard, school playground, school grounds, campus
+庭園 (ていえん) teien — garden, park
+中庭 (なかにわ) nakaniwa — courtyard, quadrangle, middle court
+20. 徒 (to ト) — on foot
+生徒 (せいと) seito — pupil, student, schoolchild
+徒歩 (とほ) toho — walking, going on foot
+教徒 (きょうと) kyouto — believer, adherent
+信徒 (しんと) shinto — layman, believer, adherent, follower, laity
+徒労 (とろう) torou — fruitless effort, wasted effort, abortive scheme, futility
+使徒 (しと) shito — apostle (entry cut off)
+SET 13 — 20 Kanji
+1. 貨 — freight
+On'yomi: ka (カ) Related words:
+硬貨 (こうか) kouka — coin; hard currency
+銅貨 (どうか) douka — copper coin
+通貨 (つうか) tsuuka — currency
+貨幣 (かへい) kahei — money, currency, coin
+外貨 (がいか) gaika — foreign currency/money/exchange; foreign goods, imported goods
+2. 血 — blood
+On'yomi: ketsu (ケツ) | Kun'yomi: chi (ち) Related words:
+血 (ち) chi — blood; ancestry, lineage; feelings, passions
+血液 (けつえき) ketsueki — blood
+血圧 (けつあつ) ketsuatsu — blood pressure
+輸血 (ゆけつ) yuketsu — blood transfusion
+出血 (しゅっけつ) shukketsu — bleeding, haemorrhage; bleeding money (colloquial)
+3. 温 — warm
+On'yomi: on (オン) | Kun'yomi: atata.kai (あたた.かい) Related words:
+暖かい／温かい (あたたかい) atatakai — warm, mild, pleasantly hot; kind, genial
+温度 (おんど) ondo — temperature
+気温 (きおん) kion — (air) temperature
+体温 (たいおん) taion — body temperature
+温暖 (おんだん) ondan — warm, mild (climate)
+4. 季 — seasons
+On'yomi: ki (キ) Related words:
+季節 (きせつ) kisetsu — season, time of year
+四季 (しき) shiki — the four seasons
+季刊 (きかん) kikan — quarterly publication
+雨季／雨期 (うき) uki — rainy season
+季語 (きご) kigo — seasonal word (in haiku)
+冬季 (とうき) touki — winter season
+5. 星 — star
+On'yomi: sei (セイ) | Kun'yomi: hoshi (ほし) Related words:
+星 (ほし) hoshi — star, planet, heavenly body; dot, spot; perp/suspect (slang)
+衛星 (えいせい) eisei — satellite, moon
+惑星 (わくせい) wakusei — planet; dark horse
+火星 (かせい) kasei — Mars
+6. 庫 — warehouse
+On'yomi: ko (コ) Related words:
+冷蔵庫 (れいぞうこ) reizouko — refrigerator, fridge
+金庫 (きんこ) kinko — safe, strongbox, vault
+倉庫 (そうこ) souko — storehouse, warehouse, godown
+車庫 (しゃこ) shako — garage, carport, depot
+在庫 (ざいこ) zaiko — stock, inventory
+7. 欠 — lack
+On'yomi: ketsu (ケツ) | Kun'yomi: ka.ku (か.く) Related words:
+欠ける (かける) kakeru — to chip, be missing, be lacking
+欠陥 (けっかん) kekkan — defect, fault, flaw
+欠点 (けってん) ketten — fault, defect, weak point
+欠席 (けっせき) kesseki — absence
+8. 坂 — slope
+Kun'yomi: saka (さか) Related words:
+坂 (さか) saka — slope, incline, hill; milestone/age mark
+坂道 (さかみち) sakamichi — hill road
+上り坂 (のぼりざか) noborizaka — ascent, uphill, upward slope
+下り坂 (くだりざか) kudarizaka — downhill, downward slope, decline
+9. 底 — bottom
+On'yomi: tei (テイ) | Kun'yomi: soko (そこ) Related words:
+底 (そこ) soko — bottom, sole
+徹底 (てってい) tettei — thoroughness, completeness, consistency
+根底 (こんてい) kontei — root, basis, foundation
+海底 (かいてい) kaitei — bottom of the ocean, seafloor, seabed
+10. 寺 — Buddhist temple
+On'yomi: ji (ジ) | Kun'yomi: tera (てら) Related words:
+寺 (てら) tera — temple (Buddhist)
+寺院 (じいん) jiin — Buddhist temple; religious building
+山寺 (やまでら) yamadera — mountain temple
+禅寺 (ぜんでら) zendera — Zen temple
+国分寺 (こくぶんじ) kokubunji — state-supported provincial temple (Nara period)
+寺参り (てらまいり) teramairi — temple visit (cut off)
+11. 息 — breath
+On'yomi: soku (ソク) | Kun'yomi: iki (いき) Related words:
+息子 (むすこ) musuko — son
+息 (いき) iki — breath, breathing; harmony/rapport; steam/vapor
+休息 (きゅうそく) kyuusoku — rest, relief, relaxation
+ため息／溜め息 (ためいき) tameiki — sigh
+12. 願 — petition
+On'yomi: gan (ガン) | Kun'yomi: nega.u (ねが.う) Related words:
+願う (ねがう) negau — to desire, wish, hope; to beg, request, implore
+願い (ねがい) negai — desire, wish, hope; request, entreaty; prayer
+願書 (がんしょ) gansho — written application/request, petition
+お願い (おねがい) onegai — request, favor (polite)
+13. 絵 — picture
+On'yomi: e (エ) Related words:
+絵 (え) e — picture, drawing, painting, sketch
+絵画 (かいが) kaiga — painting, picture
+絵の具 (えのぐ) enogu — paint, coloring materials
+油絵 (あぶらえ) aburae — oil painting
+14. 希 — hope
+On'yomi: ki (キ) Related words:
+希望 (きぼう) kibou — hope, wish, aspiration; prospects
+希薄 (きはく) kihaku — thin (air), weak (liquid), dilute; lacking, insubstantial
+希少 (きしょう) kishou — scarce, rare
+15. 笑 — laugh
+On'yomi: shou (ショウ) | Kun'yomi: wara.u (わら.う) Related words:
+笑う (わらう) warau — to laugh, to smile; to sneer; to be flabbergasted
+微笑む (ほほえむ) hohoemu — to smile
+笑顔 (えがお) egao — smiling face, smile
+笑い (わらい) warai — laugh, laughter
+16. 束 — bundle
+On'yomi: soku (ソク) | Kun'yomi: taba (たば) Related words:
+約束 (やくそく) yakusoku — promise, agreement, arrangement; appointment; destiny
+束 (たば) taba — bundle, bunch, sheaf
+束縛 (そくばく) sokubaku — restraint, restriction, fetters, shackles
+結束 (けっそく) kessoku — union, unity, solidarity; bundling, binding
+17. 仲 — go-between
+On'yomi: chuu (チュウ) | Kun'yomi: naka (なか) Related words:
+仲間 (なかま) nakama — companion, fellow, friend, comrade
+仲 (なか) naka — relation, relationship
+仲良し (なかよし) nakayoshi — close friendship, close friend
+仲直り (なかなおり) nakanaori — reconciliation, making up, making peace
+18. 栄 — flourish
+On'yomi: ei (エイ) | Kun'yomi: saka.eru (さか.える) Related words:
+栄養 (えいよう) eiyou — nutrition, nourishment
+繁栄 (はんえい) han'ei — prosperity, thriving, flourishing
+栄える (さかえる) sakaeru — to prosper, to flourish, to thrive
+栄光 (えいこう) eikou — glory
+栄誉 (えいよ) eiyo — honour, honor
+19. 札 — tag
+On'yomi: satsu (サツ) | Kun'yomi: fuda (ふだ) Related words:
+札 (さつ) satsu — banknote, bill, note, paper money
+名札 (なふだ) nafuda — name plate, name tag, label
+入札 (にゅうさつ) nyuusatsu — bid, tender, bidding
+改札口 (かいさつぐち) kaisatsuguchi — ticket barrier, ticket gate, wicket
+札束 (さつたば) satsutaba — bundle of banknotes, stack of bills; large sum of money
+千円札 (せんえんさつ) sen'ensatsu — thousand-yen bill (cut off)
+20. 板 — plank
+On'yomi: ban (バン) | Kun'yomi: ita (いた) Related words:
+板 (いた) ita — board, plank; sheet (metal), plate (glass); cutting board; chef; stage
+黒板 (こくばん) kokuban — blackboard
+看板 (かんばん) kanban — signboard, sign, billboard; draw/feature; reputation
+鉄板 (てっぱん) teppan — iron plate/griddle (cut off)
+SET 14 — 20 Kanji
+1. 列 — file
+On'yomi: retsu (レツ) Related words:
+列車 (れっしゃ) ressha — train, railway train
+列 (れつ) retsu — row, line, file, column, queue, rank
+行列 (ぎょうれつ) gyouretsu — line, queue, procession; matrix (math)
+列島 (れっとう) rettou — archipelago, chain of islands
+整列 (せいれつ) seiretsu — forming a line, lining up (cut off)
+2. 節 — node
+On'yomi: setsu (セツ) | Kun'yomi: fushi (ふし) Related words:
+季節 (きせつ) kisetsu — season, time of year
+節約 (せつやく) setsuyaku — saving (money/time/resources), economizing
+節 (ふし) fushi — joint, knuckle; tune, melody; node, knot
+調節 (ちょうせつ) chousetsu — regulation, adjustment, control
+関節 (かんせつ) kansetsu — joint (anatomy)
+3. 遊 — play
+On'yomi: yuu (ユウ) | Kun'yomi: aso.bu (あそ.ぶ) Related words:
+遊び (あそび) asobi — play, playing, game; amusement, pastime
+遊園地 (ゆうえんち) yuuenchi — amusement park
+遊牧 (ゆうぼく) yuuboku — nomadism
+浮遊 (ふゆう) fuyuu — floating, drifting, suspension; wandering
+4. 君 — mister
+On'yomi: kun (クン) | Kun'yomi: kimi (きみ) Related words:
+君 (きみ) kimi — you, buddy, pal; monarch, ruler, sovereign
+君主 (くんしゅ) kunshu — monarch, sovereign, ruler, liege
+諸君 (しょくん) shokun — you (people); gentlemen, everyone
+君臨 (くんりん) kunrin — reign, rule (cut off)
+5. 包 — wrap
+On'yomi: hou (ホウ) | Kun'yomi: tsutsu.mu (つつ.む) Related words:
+包む (つつむ) tsutsumu — to wrap up, to pack, to bundle; to conceal
+小包 (こづつみ) kodzutsumi — parcel, package
+包み (つつみ) tsutsumi — bundle, package, parcel
+包帯 (ほうたい) houtai — bandage, dressing
+6. 折 — fold
+On'yomi: setsu (セツ) | Kun'yomi: o.ru (お.る) Related words:
+折る (おる) oru — to break, fracture, snap off; to fold, bend; to make (origami)
+折れる (おれる) oreru — to break, be broken; to be folded; to give in, back down
+骨折 (こっせつ) kossetsu — bone fracture
+屈折 (くっせつ) kussetsu — bending, curving, twisting; refraction; inflection
+7. 草 — grass
+On'yomi: sou (ソウ) | Kun'yomi: kusa (くさ) Related words:
+草 (くさ) kusa — grass, weed, herb, thatch; marijuana (slang); LOL (internet slang)
+草履 (ぞうり) zouri — zori, traditional Japanese thonged sandals
+雑草 (ざっそう) zassou — weed
+草案 (そうあん) souan — draft, rough copy (cut off)
+8. 焼 — bake
+On'yomi: shou (ショウ) | Kun'yomi: ya.ku (や.く), ya.keru (や.ける) Related words:
+焼ける (やける) yakeru — to burn, burn down; to be roasted; to be sunburnt; to be jealous
+燃焼 (ねんしょう) nenshou — burning, combustion
+夕焼け (ゆうやけ) yuuyake — evening glow, red sunset
+日焼け (ひやけ) hiyake — sunburn, suntan, tan
+9. 章 — badge
+On'yomi: shou (ショウ) Related words:
+文章 (ぶんしょう) bunshou — writing, composition, essay, article, sentence
+章 (しょう) shou — chapter, section; medal, badge, insignia
+憲章 (けんしょう) kenshou — charter
+勲章 (くんしょう) kunshou — decoration, order, medal
+楽章 (がくしょう) gakushou — movement (of a musical piece) (cut off)
+10. 照 — illuminate
+On'yomi: shou (ショウ) | Kun'yomi: te.ru (て.る) Related words:
+照らす (てらす) terasu — to shine on, to illuminate; to compare with
+照る (てる) teru — to shine
+参照 (さんしょう) sanshou — reference, consultation, comparison; browsing (computing)
+照明 (しょうめい) shoumei — illumination, lighting
+対照的 (たいしょうてき) taishouteki — contrastive, contrasting (cut off)
+11. 酒 — sake
+On'yomi: shu (シュ) | Kun'yomi: sake (さけ) Related words:
+酒 (さけ) sake — alcohol, sake
+酒場 (さかば) sakaba — bar, pub, tavern
+禁酒 (きんしゅ) kinshu — abstinence from alcohol, temperance
+酒屋 (さかや) sakaya — liquor store, wine shop; sake dealer
+日本酒 (にほんしゅ) nihonshu — sake (rice wine)
+酒造 (しゅぞう) shuzou — sake brewing (cut off)
+12. 悲 — grieve
+On'yomi: hi (ヒ) | Kun'yomi: kana.shimu (かな.しむ) Related words:
+悲しい (かなしい) kanashii — sad, miserable, unhappy, sorrowful
+悲劇 (ひげき) higeki — tragedy, tragic drama
+悲惨 (ひさん) hisan — disastrous, tragic, miserable, wretched
+悲鳴 (ひめい) himei — shriek, scream
+13. 秒 — second (1/60 minute)
+On'yomi: byou (ビョウ) Related words:
+秒 (びょう) byou — second (unit of time), arc second
+秒速 (びょうそく) byousoku — speed/velocity per second; instant, moment
+秒読み (びょうよみ) byouyomi — countdown
+一秒 (いちびょう) ichibyou — one second
+秒針 (びょうしん) byoushin — second hand (of a clock) (cut off)
+14. 晴 — clear up
+On'yomi: sei (セイ) | Kun'yomi: ha.reru (は.れる), ha.rasu (は.らす) Related words:
+晴れる (はれる) hareru — to clear up, clear away, be sunny, stop raining
+素晴らしい (すばらしい) subarashii — wonderful, splendid, magnificent, amazing
+快晴 (かいせい) kaisei — clear weather, cloudless weather
+晴天 (せいてん) seiten — fair weather, clear sky
+15. 陽 — sunshine
+On'yomi: you (ヨウ) | Kun'yomi: hi (ひ) Related words:
+太陽 (たいよう) taiyou — Sun
+陽気 (ようき) youki — cheerful, jovial, merry, lively; weather, season
+陽光 (ようこう) youkou — sunshine, sunlight
+陽性 (ようせい) yousei — positive (result/attitude), cheerful, optimistic
+斜陽 (しゃよう) shayou — the setting sun; declining fortunes (cut off)
+16. 皮 — pelt
+On'yomi: hi (ヒ) | Kun'yomi: kawa (かわ) Related words:
+皮 (かわ) kawa — skin, hide, pelt, fur; rind, peel, husk; shell; mask
+皮肉 (ひにく) hiniku — irony, sarcasm, cynicism, satire; unexpected
+皮膚 (ひふ) hifu — skin
+毛皮 (けがわ) kegawa — fur, skin, pelt
+17. 漁 — fishing
+On'yomi: gyo (ギョ), ryou (リョウ) Related words:
+漁師 (りょうし) ryoushi — fisherman
+漁業 (ぎょぎょう) gyogyou — fishing industry, fishery
+漁船 (ぎょせん) gyosen — fishing boat
+漁村 (ぎょそん) gyoson — fishing village
+漁港 (ぎょこう) gyokou — fishing harbour, fishing harbor
+豊漁 (ほうりょう) houryou — good catch, good fishing haul (cut off)
+18. 貯 — savings
+On'yomi: cho (チョ) Related words:
+貯金 (ちょきん) chokin — putting money aside, savings, deposit
+貯蔵 (ちょぞう) chozou — storage, preservation, stocking, stockpiling
+貯蓄 (ちょちく) chochiku — savings
+貯水池 (ちょすいち) chosuichi — reservoir
+預貯金 (よちょきん) yochokin — bank deposits and savings (cut off)
+19. 歯 — tooth
+On'yomi: shi (シ) | Kun'yomi: ha (は) Related words:
+歯 (は) ha — tooth, teeth; tooth (of a comb/saw), cog
+歯医者 (はいしゃ) haisha — dentist
+虫歯 (むしば) mushiba — tooth decay, decayed tooth, dental cavity
+歯車 (はぐるま) haguruma — gear, cogwheel
+20. 柱 — pillar
+On'yomi: chuu (チュウ) | Kun'yomi: hashira (はしら) Related words:
+電柱 (でんちゅう) denchuu — utility pole, power pole, telephone pole
+柱 (はしら) hashira — pillar, post; support, prop, mainstay
+支柱 (しちゅう) shichuu — prop, stay, support, brace, fulcrum
+円柱 (えんちゅう) enchuu — column, shaft, cylinder; round pillar
+SET 15 — 20 Kanji
+1. 祭 — ritual
+On'yomi: sai (サイ) | Kun'yomi: matsu.ri (まつ.り) Related words:
+祭り／祭 (まつり) matsuri — festival, feast; online mob harassment/flaming (colloquial); galore, frenzy, mania (suffix, colloquial)
+祭る／祀る (まつる) matsuru — to deify, to enshrine; to pray, to worship
+祭日 (さいじつ) saijitsu — national holiday, festival day
+ひな祭り (ひなまつり) hinamatsuri — Hinamatsuri (March 3), Girls' Festival, Dolls' Festival
+2. 雪 — snow
+On'yomi: setsu (セツ) | Kun'yomi: yuki (ゆき) Related words:
+雪 (ゆき) yuki — snow, snowfall
+吹雪 (ふぶき) fubuki — snow storm, blizzard
+新雪 (しんせつ) shinsetsu — fresh snow, new snow
+初雪 (はつゆき) hatsuyuki — first snow (of the season)
+積雪 (せきせつ) sekisetsu — fallen snow, snow cover
+3. 筆 — writing brush
+On'yomi: hitsu (ヒツ) | Kun'yomi: fude (ふで) Related words:
+鉛筆 (えんぴつ) enpitsu — (wooden) pencil
+万年筆 (まんねんひつ) mannenhitsu — fountain pen
+筆 (ふで) fude — writing brush, paintbrush, pen; penmanship; (as counter) land lot/plot
+執筆 (しっぴつ) shippitsu — writing (a manuscript) (cut off)
+4. 訓 — instruction
+On'yomi: kun (クン) Related words:
+訓練 (くんれん) kunren — training, drill, practice, discipline
+訓 (くん) kun — native Japanese reading of a Chinese character; precept, lesson
+教訓 (きょうくん) kyoukun — lesson, precept, teachings, moral
+訓示 (くんじ) kunji — instruction, direction, briefing
+訓読み (くんよみ) kunyomi — kun reading (cut off)
+5. 浴 — bathe
+On'yomi: yoku (ヨク) | Kun'yomi: a.biru (あ.びる) Related words:
+浴びる (あびる) abiru — to dash over oneself (water), to take (a shower), to bask in; to suffer (an attack), to draw (criticism/attention)
+浴衣 (ゆかた) yukata — light cotton kimono, worn in summer or as bathrobe
+海水浴 (かいすいよく) kaisuiyoku — swimming in the ocean, sea bathing
+浴室 (よくしつ) yokushitsu — bathroom
+6. 童 — juvenile
+On'yomi: dou (ドウ) | Kun'yomi: warawa (わらわ) Related words:
+児童 (じどう) jidou — children, juvenile
+童話 (どうわ) douwa — children's story, fairy tale
+神童 (しんどう) shindou — child prodigy, infant genius, wonder child
+童謡 (どうよう) douyou — children's song, nursery rhyme
+童心 (どうしん) doushin — child's mind, childlike innocence, naivete
+童顔 (どうがん) dougan — baby face, childlike face (cut off)
+7. 塩 — salt
+On'yomi: en (エン) | Kun'yomi: shio (しお) Related words:
+塩 (しお) shio — salt, common salt, table salt; hardship, toil; saltiness; cold, indifferent (prefix, colloquial)
+食塩 (しょくえん) shokuen — table salt
+塩辛い (しおからい) shiokarai — salty (taste), briny
+塩素 (えんそ) enso — chlorine (Cl)
+8. 兆 — portent
+On'yomi: chou (チョウ) | Kun'yomi: kiza.shi (きざ.し) Related words:
+兆し (きざし) kizashi — sign, indication, omen, symptom
+兆候／徴候 (ちょうこう) choukou — sign, indication, omen, symptom
+前兆 (ぜんちょう) zenchou — omen, portent, sign, presage, harbinger
+兆す (きざす) kizasu — to show signs, to have symptoms; to bud, germinate, sprout
+9. 畑 — farm
+Kun'yomi: hatake (はたけ) Related words:
+畑 (はたけ) hatake — field (for crops), cultivated land, vegetable plot; field of specialization, sphere; womb, birthplace (colloquial)
+田畑 (たはた) tahata — fields (of rice and other crops)
+麦畑 (むぎばたけ) mugibatake — wheat field, barley field, cornfield
+10. 毛 — fur
+On'yomi: mou (モウ) | Kun'yomi: ke (け) Related words:
+毛 (け) ke — hair; fur, wool; down, plumage, feathers
+毛布 (もうふ) moufu — blanket
+髪の毛 (かみのけ) kaminoke — hair (on the head), a hair
+毛皮 (けがわ) kegawa — fur, skin, pelt
+羊毛 (ようもう) youmou — wool (cut off)
+11. 緑 — green
+On'yomi: ryoku (リョク) | Kun'yomi: midori (みどり) Related words:
+緑 (みどり) midori — green; greenery, verdure
+緑色 (みどりいろ) midoriiro — green, green color
+緑茶 (りょくちゃ) ryokucha — green tea, Japanese tea
+新緑 (しんりょく) shinryoku — fresh verdure, new green leaves
+12. 祝 — celebrate
+On'yomi: shuku (シュク) | Kun'yomi: iwa.u (いわ.う) Related words:
+お祝い (おいわい) oiwai — congratulation, celebration, festival; congratulatory gift, present
+祝う (いわう) iwau — to celebrate, to congratulate, to observe (a festival); to present a gift in celebration; to wish for (good fortune)
+祝い (いわい) iwai — congratulation, celebration, festival; congratulatory gift, present
+13. 礼 — salute
+On'yomi: rei (レイ) Related words:
+お礼 (おれい) orei — thanks, gratitude; manners; bow; reward, gift; ceremony, ritual (polite language)
+礼儀 (れいぎ) reigi — manners, courtesy, etiquette
+礼 (れい) rei — thanks, gratitude; manners; bow (counter); reward; ceremony; key money (abbreviation)
+無礼 (ぶれい) burei — rudeness, impoliteness, disrespect (cut off)
+14. 昔 — once upon a time
+Kun'yomi: mukashi (むかし) Related words:
+昔 (むかし) mukashi — the old days, the past, former times, a long time ago; the past ten years/decade (unit of time)
+大昔 (おおむかし) oomukashi — ancient times, prehistoric times, the distant past
+昔話 (むかしばなし) mukashibanashi — old tale, folk tale, legend; reminiscence
+今昔 (こんじゃく) konjaku — past and present
+15. 衣 — garment
+On'yomi: i (イ) | Kun'yomi: koromo (ころも) Related words:
+衣服 (いふく) ifuku — clothes
+衣食住 (いしょくじゅう) ishokujuu — food, clothing and shelter, necessities of life
+浴衣 (ゆかた) yukata — yukata, light cotton kimono worn in summer or as a bathrobe
+衣類 (いるい) irui — clothes, clothing, garments
+更衣室 (こういしつ) kouishitsu — changing room (cut off)
+16. 泳 — swim
+On'yomi: ei (エイ) | Kun'yomi: oyo.gu (およ.ぐ) Related words:
+泳ぐ (およぐ) oyogu — to swim; to struggle through (a crowd); to make one's way through the world; to totter, lose one's balance
+水泳 (すいえい) suiei — swimming
+泳ぎ (およぎ) oyogi — swimming
+平泳ぎ (ひらおよぎ) hiraoyogi — breaststroke (cut off)
+17. 荷 — baggage
+On'yomi: ka (カ) | Kun'yomi: ni (に) Related words:
+荷物 (にもつ) nimotsu — luggage, baggage, package; burden; payload
+荷造り／荷作り (にづくり) nidzukuri — packing, baling, crating
+荷 (に) ni — load, baggage, cargo, freight, goods; burden, responsibility
+出荷 (しゅっか) shukka — shipping, shipment, forwarding, delivery
+負荷 (ふか) fuka — load, burden (cut off)
+18. 黄 — yellow
+On'yomi: ou (オウ) | Kun'yomi: ki (き) Related words:
+黄色 (きいろ) kiiro — yellow, amber
+硫黄 (いおう) iou — sulfur, sulphur
+黄身 (きみ) kimi — egg yolk
+黄ばむ (きばむ) kibamu — to turn yellow, to become tinged with yellow (with age)
+黄金 (こがね) kogane — gold (cut off)
+19. 臣 — retainer
+On'yomi: shin (シン), jin (ジン) Related words:
+大臣 (だいじん) daijin — cabinet minister
+総理大臣 (そうりだいじん) souridaijin — prime minister, premier
+国務大臣 (こくむだいじん) kokumudaijin — minister of state, cabinet minister (in Japan)
+忠臣 (ちゅうしん) chuushin — loyal retainer, loyal subject
+家臣 (かしん) kashin — vassal, retainer
+重臣 (じゅうしん) juushin — senior vassal, high-ranking retainer (cut off)
+20. 浅 — shallow
+On'yomi: sen (セン) | Kun'yomi: asa.i (あさ.い) Related words:
+浅い (あさい) asai — shallow, superficial; slight (wound), light (sleep), pale (colour); short (time), early, young
+浅瀬 (あさせ) asase — shoal, shallows, sand bar, ford
+浅黒い (あさぐろい) asaguroi — dark (skin/complexion), swarthy, tanned
+浅はか (あさはか) asahaka — shallow, superficial, thoughtless, short-sighted, foolish
+遠浅 (とおあさ) tooasa — shoaling beach, gradually shelving shore (cut off)
+SET 16 — 26 Kanji
+1. 雲 — cloud
+On'yomi: un (ウン) | Kun'yomi: kumo (くも) Related words:
+雲 (くも) kumo — cloud
+暗雲 (あんうん) an'un — dark clouds; threatening signs, ominous indications
+雨雲 (あまぐも) amagumo — rain cloud
+雲行き (くもゆき) kumoyuki — weather, look of the sky; situation, turn of affairs, way the wind is blowing
+雲泥の差 (うんでいのさ) undeinosa — wide difference, a world of difference (idiomatic)
+2. 鳴 — chirp
+On'yomi: mei (メイ) | Kun'yomi: na.ku (な.く), na.ru (な.る) Related words:
+鳴く (なく) naku — to make sound (of an animal), to call, cry, whine, sing, chirp; to make a meld call (mahjong)
+鳴る (なる) naru — to sound, to ring, to resound, to echo, to roar, to rumble
+鳴らす (ならす) narasu — to ring, to sound, to chime, to beat, to snort (nose), to snap/crack; to be popular/esteemed; to state, insist, complain; to fart loudly (archaic)
+怒鳴る (どなる) donaru — to shout (in anger), to yell
+3. 炭 — charcoal
+On'yomi: tan (タン) | Kun'yomi: sumi (すみ) Related words:
+石炭 (せきたん) sekitan — coal
+炭鉱 (たんこう) tankou — coal mine, coal pit, colliery; coal-mine shaft
+炭素 (たんそ) tanso — carbon (C)
+炭 (すみ) sumi — charcoal; charred remains (rare)
+4. 勇 — courage
+On'yomi: yuu (ユウ) | Kun'yomi: isa.mu (いさ.む) Related words:
+勇気 (ゆうき) yuuki — courage, bravery, valour, nerve, boldness
+勇ましい (いさましい) isamashii — brave, valiant, gallant, courageous; stirring, vigorous, rousing
+勇敢 (ゆうかん) yuukan — brave, courageous, gallant, valiant, heroic
+勇む (いさむ) isamu — to be in high spirits, to be encouraged, to be lively, to cheer up
+勇士 (ゆうし) yuushi — brave warrior, hero (cut off)
+5. 械 — contraption
+On'yomi: kai (カイ) Related words:
+機械／器械 (きかい) kikai — machine, mechanism; instrument, appliance, apparatus
+工作機械 (こうさくきかい) kousakukikai — machine tool
+医療器械 (いりょうきかい) iryoukikai — medical appliances, surgical instruments
+諸器械 (しょきかい) shokikai — various appliances
+器械体操 (きかいたいそう) kikaitaisou — apparatus gymnastics, artistic gymnastics
+6. 湖 — lake
+On'yomi: ko (コ) | Kun'yomi: mizuumi (みずうみ) Related words:
+湖 (みずうみ) mizuumi — lake
+湖畔 (こはん) kohan — lakeside, lakeshore, lakefront
+湖水 (こすい) kosui — lake, lake water
+湖沼 (こしょう) koshou — lake, marsh, wetland, inland waters
+琵琶湖 (びわこ) biwako — Lake Biwa, Biwako
+7. 虫 — insect
+On'yomi: chuu (チュウ) | Kun'yomi: mushi (むし) Related words:
+虫歯 (むしば) mushiba — tooth decay, decayed tooth, dental cavity, dental caries
+昆虫 (こんちゅう) konchuu — insect, bug
+害虫 (がいちゅう) gaichuu — harmful insect, noxious insect, pest, vermin
+殺虫剤 (さっちゅうざい) sacchuuzai — insecticide, pesticide
+寄生虫 (きせいちゅう) kiseichuu — parasite (cut off)
+8. 刷 — printing
+On'yomi: satsu (サツ) | Kun'yomi: su.ru (す.る) Related words:
+印刷 (いんさつ) insatsu — printing
+刷る (する) suru — to print; to color/pattern fabric using a wooden mold
+刷新 (さっしん) sasshin — reform, renovation
+増刷 (ぞうさつ) zousatsu — additional printing, additional print run, reprint
+凸版印刷 (とっぱんいんさつ) toppan'insatsu — letterpress printing (cut off)
+9. 湯 — hot water
+On'yomi: tou (トウ) | Kun'yomi: yu (ゆ) Related words:
+湯 (ゆ) yu — hot water; hot bath, hot spring; molten iron
+湯気 (ゆげ) yuge — steam, vapour, vapor
+湯のみ／湯飲み (ゆのみ) yunomi — teacup (abbreviation)
+熱湯 (ねっとう) nettou — boiling water
+茶の湯 (ちゃのゆ) chanoyu — tea ceremony (cut off)
+10. 箱 — box
+Kun'yomi: hako (はこ) Related words:
+箱 (はこ) hako — box, case, chest, package, pack, crate; car (of a train); shamisen case; public/community building (colloquial); receptacle for human waste (archaic); counter for boxes
+本箱 (ほんばこ) honbako — bookcase
+ゴミ箱 (ごみばこ) gomibako — trash can, garbage can, rubbish bin, dustbin
+11. 泣 — cry
+On'yomi: kyuu (キュウ) | Kun'yomi: na.ku (な.く) Related words:
+泣く (なく) naku — to cry, to shed tears, to weep, to sob; to suffer/be troubled (by), to face hardship; to accept (an unreasonable request) reluctantly; to lament, to bemoan, to bewail
+泣き声 (なきごえ) nakigoe — cry (e.g. of a baby), sob, whine; tearful voice
+号泣 (ごうきゅう) goukyuu — crying loudly, bawling, wailing, lamentation
+悔し泣き (くやしなき) kuyashinaki — crying from vexation, tears of regret (cut off)
+12. 孫 — grandchild
+On'yomi: son (ソン) | Kun'yomi: mago (まご) Related words:
+孫 (まご) mago — grandchild
+子孫 (しそん) shison — descendant, progeny, offspring
+孫娘 (まごむすめ) magomusume — granddaughter
+ひ孫／曾孫 (ひまご, ひこ) himago / hiko — great-grandchild
+13. 毒 — poison
+On'yomi: doku (ドク) Related words:
+毒 (どく) doku — poison, toxicant, venom; harm, evil influence; ill will, spite, malice; abusive language (abbreviation)
+気の毒 (きのどく) kinodoku — pitiful, unfortunate, poor, miserable, wretched; unpardonable, regrettable
+消毒 (しょうどく) shoudoku — disinfection, sterilization
+中毒 (ちゅうどく) chuudoku — poisoning; addiction (as suffix)
+毒殺 (どくさつ) dokusatsu — murder by poisoning (cut off)
+14. 氷 — icicle
+On'yomi: hyou (ヒョウ) | Kun'yomi: koori (こおり) Related words:
+氷 (こおり) koori — ice; shaved ice (usually with syrup)
+氷河 (ひょうが) hyouga — glacier
+氷山 (ひょうざん) hyouzan — iceberg
+氷点下 (ひょうてんか) hyoutenka — below freezing
+流氷 (りゅうひょう) ryuuhyou — drift ice (cut off)
+15. 拾 — pick up
+On'yomi: shuu (シュウ) | Kun'yomi: hiro.u (ひろ.う) Related words:
+拾う (ひろう) hirou — to pick up, to gather; to find (something dropped); to select, choose; to get unexpectedly; to pick up (someone in a car); to flag down (a taxi); to pick up (a signal); to just manage to return (a shot); to take on/employ (someone); to walk, go on foot
+収拾 (しゅうしゅう) shuushuu — control, bringing under control, settling (a matter), putting in order
+拾得 (しゅうとく) shuutoku — finding (lost property), picking up
+拾い物 (ひろいもの) hiroimono — a find, a lucky find (cut off)
+16. 粉 — flour
+On'yomi: fun (フン) | Kun'yomi: ko (こ) Related words:
+粉 (こな) kona — flour, meal, powder, dust; heroin (slang, こな only)
+花粉 (かふん) kafun — pollen
+粉末 (ふんまつ) funmatsu — fine powder
+小麦粉 (こむぎこ) komugiko — wheat flour
+パン粉 (パンこ) panko — breadcrumbs, panko
+17. 糸 — thread
+On'yomi: shi (シ) | Kun'yomi: ito (いと) Related words:
+糸 (いと) ito — thread, yarn, string
+毛糸 (けいと) keito — knitting wool, woolen yarn, woollen yarn
+糸口 (いとぐち) itoguchi — beginning, start, first step; clue, lead, hint; thread end
+絹糸 (きぬいと) kinuito — silk thread, silk yarn; corn silk (agriculture)
+18. 才 — genius
+On'yomi: sai (サイ) Related words:
+才能 (さいのう) sainou — talent, ability
+歳／才 (さい) sai — ...years old, age (counter)
+天才 (てんさい) tensai — genius, prodigy, natural gift
+秀才 (しゅうさい) shuusai — bright person, talented student, prodigy
+鬼才 (きさい) kisai — genius, remarkable talent
+漫才 (まんざい) manzai — manzai (traditional Japanese stand-up comedy)
+19. 灯 — lamp
+On'yomi: tou (トウ) | Kun'yomi: hi (ひ), akari (あかり) Related words:
+電灯 (でんとう) dentou — electric light
+灯り (あかり) akari — light, illumination, lamp
+灯 (ひ) hi — light, lamp
+灯台 (とうだい) toudai — lighthouse
+20. 麦 — barley
+On'yomi: baku (バク) | Kun'yomi: mugi (むぎ) Related words:
+小麦 (こむぎ) komugi — wheat
+大麦 (おおむぎ) oomugi — barley
+麦芽 (ばくが) bakuga — malt
+麦 (むぎ) mugi — wheat, barley, oats, rye
+麦茶 (むぎちゃ) mugicha — barley tea
+蕎麦屋 (そばや) sobaya — soba noodle shop, soba restaurant
+21. 鼻 — nose
+On'yomi: bi (ビ) | Kun'yomi: hana (はな) Related words:
+鼻 (はな) hana — nose
+耳鼻科 (じびか) jibika — otorhinolaryngology, otolaryngology, ENT
+鼻水 (はなみず) hanamizu — nasal mucus, snot
+鼻血 (はなぢ) hanaji — nosebleed
+鼻先 (はなさき) hanasaki — tip of the nose
+22. 胃 — stomach
+On'yomi: i (イ) Related words:
+胃 (い) i — stomach
+胃袋 (いぶくろ) ibukuro — stomach, dietary capacity
+胃腸 (いちょう) ichou — stomach and intestines, gastrointestinal tract
+胃がん (いがん) igan — stomach cancer
+23. 貝 — shellfish
+Kun'yomi: kai (かい) Related words:
+貝 (かい) kai — shellfish, seashell, shell
+貝殻 (かいがら) kaigara — seashell, shell
+ムール貝 (ムールがい) muurugai — mussel (Mytilidae family)
+貝ボタン (かいボタン) kaibotan — mother-of-pearl button, shell button
+24. 皿 — dish
+Kun'yomi: sara (さら) Related words:
+灰皿 (はいざら) haizara — ashtray
+お皿 (おさら) osara — plate, dish
+皿 (さら) sara — plate, dish, platter; disc, saucer; helper/saucer in kendama
+皿洗い (さらあらい) saraarai — dishwashing, washing up; dishwasher
+受け皿 (うけざら) ukezara — saucer, receptacle, catchment tray
+25. 誰 — who
+Kun'yomi: dare (だれ) Related words:
+誰 (だれ) dare — who
+誰か (だれか) dareka — someone, somebody
+誰も (だれも) daremo — anyone, anybody, everyone; nobody (with negative)
+誰でも (だれでも) daredemo — anyone, anybody, whoever
+誰にも (だれにも) darenimo — to anyone, to anybody; to nobody (with negative)
+26. 阪 — heights
+On'yomi: han (ハン) | Kun'yomi: saka (さか) Related words:
+阪 (さか) saka — slope, incline, hill
+大阪 (おおさか) osaka — Osaka (city/prefecture)
+阪神 (はんしん) hanshin — Osaka-Kobe area; Hanshin Tigers (baseball team)
+京阪 (けいはん) keihan — Kyoto-Osaka area

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanji Practice & Study Suite — Sets 6 to 10</title>
+  <title>Kanji Master Practice Suite — Sets 1 to 16</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@
     header {
       background: linear-gradient(135deg, #2B2825 0%, #1A1816 100%);
       color: #F8F6F0;
-      padding: 2.5rem 2rem 2rem;
+      padding: 2rem 2rem 1.5rem;
       border-bottom: 4px solid var(--accent-color);
       box-shadow: 0 4px 20px rgba(0,0,0,0.15);
       position: sticky;
@@ -153,15 +153,22 @@
       display: flex;
       gap: 0.4rem;
       overflow-x: auto;
-      padding-bottom: 4px;
+      padding-bottom: 6px;
+      max-width: 100%;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .set-tabs::-webkit-scrollbar {
+      display: none;
     }
 
     .tab-btn {
-      padding: 0.45rem 1rem;
+      padding: 0.4rem 0.85rem;
       border-radius: 6px;
       background: rgba(255,255,255,0.08);
       color: #D6D0C5;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 600;
       cursor: pointer;
       border: 1px solid transparent;
@@ -300,32 +307,6 @@
       font-weight: 600;
     }
 
-    .kanji-readings {
-      display: flex;
-      gap: 1.25rem;
-      font-size: 0.88rem;
-    }
-
-    .reading-tag {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .reading-label {
-      font-weight: 700;
-      color: var(--accent-color);
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .reading-val {
-      font-family: var(--font-kana);
-      color: var(--text-main);
-      font-weight: 600;
-    }
-
     .sound-btn {
       background: #FFFFFF;
       border: 1px solid var(--border-color);
@@ -390,7 +371,7 @@
     .info-td {
       text-align: left !important;
       padding: 0.75rem 1rem !important;
-      vertical-align: middle;
+      vertical-alignment: middle;
       background: #FAF7F2;
     }
 
@@ -489,7 +470,7 @@
           <div class="brand-logo">漢</div>
           <div class="brand-text">
             <h1>Kanji Master</h1>
-            <p>JLPT Practice Sheets & Vocabulary Suite — Sets 6 to 10 (100 Kanji)</p>
+            <p>JLPT Practice Sheets & Vocabulary Suite — Sets 1 to 16 (326 Kanji)</p>
           </div>
         </div>
         <div class="header-actions">
@@ -497,19 +478,14 @@
             🖨️ Print Sheets
           </button>
           <button class="btn btn-primary" onclick="downloadDocx()">
-            📥 Download DOCX
+            📥 Download DOCX (Sets 1–16)
           </button>
         </div>
       </div>
 
       <div class="controls-bar">
-        <div class="set-tabs">
-          <button class="tab-btn active" onclick="filterSet('all')">All Sets (100 Kanji)</button>
-          <button class="tab-btn" onclick="filterSet('Set 6')">Set 6 (副 - 形)</button>
-          <button class="tab-btn" onclick="filterSet('Set 7')">Set 7 (景 - 整)</button>
-          <button class="tab-btn" onclick="filterSet('Set 8')">Set 8 (横 - 細)</button>
-          <button class="tab-btn" onclick="filterSet('Set 9')">Set 9 (積 - 竹)</button>
-          <button class="tab-btn" onclick="filterSet('Set 10')">Set 10 (完 - 返)</button>
+        <div class="set-tabs" id="setTabs">
+          <!-- Filter buttons generated dynamically -->
         </div>
 
         <div class="search-box">
@@ -523,15 +499,15 @@
   <main>
     <div class="view-selector">
       <div class="view-title">
-        Practice Sheets <span id="currentFilterLabel">Sets 6 to 10</span>
+        Practice Sheets <span id="currentFilterLabel">Sets 1 to 16</span>
       </div>
       <div class="stats-badge" id="statsBadge">
-        Showing 100 / 100 Kanji Cards
+        Showing 326 / 326 Kanji Cards
       </div>
     </div>
 
     <div id="cardsContainer">
-      <!-- Cards rendered here -->
+      <!-- Cards rendered dynamically -->
     </div>
   </main>
 
@@ -541,11 +517,28 @@
 
     async function loadData() {
       try {
-        const response = await fetch('kanji_sets_6_to_10.json');
+        const response = await fetch('kanji_sets_1_to_16.json');
         kanjiData = await response.json();
+        buildTabs();
         renderCards();
       } catch (err) {
         console.error('Failed to load JSON dataset:', err);
+      }
+    }
+
+    function buildTabs() {
+      const tabsContainer = document.getElementById('setTabs');
+      tabsContainer.innerHTML = `<button class="tab-btn active" onclick="filterSet('all')">All Sets (326 Kanji)</button>`;
+      
+      for (let i = 1; i <= 16; i++) {
+        const sName = `Set ${i}`;
+        if (kanjiData[sName]) {
+          const btn = document.createElement('button');
+          btn.className = 'tab-btn';
+          btn.textContent = sName;
+          btn.onclick = () => filterSet(sName);
+          tabsContainer.appendChild(btn);
+        }
       }
     }
 
@@ -564,7 +557,7 @@
       document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.classList.toggle('active', btn.textContent.includes(setName === 'all' ? 'All Sets' : setName));
       });
-      document.getElementById('currentFilterLabel').textContent = setName === 'all' ? 'Sets 6 to 10' : setName;
+      document.getElementById('currentFilterLabel').textContent = setName === 'all' ? 'Sets 1 to 16' : setName;
       renderCards();
     }
 
@@ -574,8 +567,8 @@
 
     function downloadDocx() {
       const link = document.createElement('a');
-      link.href = 'Kanji_Practice_Sheets_Sets_6_to_10.docx';
-      link.download = 'Kanji_Practice_Sheets_Sets_6_to_10.docx';
+      link.href = 'Kanji_Practice_Sheets_Sets_1_to_16.docx';
+      link.download = 'Kanji_Practice_Sheets_Sets_1_to_16.docx';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -595,15 +588,12 @@
           if (!query) return true;
           const matchKanji = item.kanji.includes(query);
           const matchMeaning = item.meaning.toLowerCase().includes(query);
-          const matchOnyomi = item.onyomi.toLowerCase().includes(query);
-          const matchKunyomi = item.kunyomi.toLowerCase().includes(query);
           const matchVocab = item.vocabulary.some(v => 
             v.kanji.includes(query) || 
             v.hiragana.includes(query) || 
-            v.romaji.toLowerCase().includes(query) || 
             v.meaning.toLowerCase().includes(query)
           );
-          return matchKanji || matchMeaning || matchOnyomi || matchKunyomi || matchVocab;
+          return matchKanji || matchMeaning || matchVocab;
         });
 
         if (filteredList.length === 0) continue;
@@ -620,16 +610,6 @@
                 <div class="kanji-char-display">${item.kanji}</div>
                 <div class="kanji-meta">
                   <div class="kanji-meaning">${item.meaning}</div>
-                  <div class="kanji-readings">
-                    <div class="reading-tag">
-                      <span class="reading-label">On:</span>
-                      <span class="reading-val">${item.onyomi}</span>
-                    </div>
-                    <div class="reading-tag">
-                      <span class="reading-label">Kun:</span>
-                      <span class="reading-val">${item.kunyomi}</span>
-                    </div>
-                  </div>
                 </div>
               </div>
               <button class="sound-btn" title="Listen Pronunciation" onclick="speakWord('${item.kanji}')">
@@ -644,7 +624,7 @@
               <tr class="sub-row">
                 <td class="info-td" rowspan="3">
                   <div class="word-kanji">${vocab.kanji}</div>
-                  <div class="word-furigana">${vocab.hiragana} (${vocab.romaji})</div>
+                  <div class="word-furigana">${vocab.hiragana}</div>
                   <div class="word-meaning">${vocab.meaning}</div>
                 </td>
                 <td class="grid-box-td"><span class="trace-kanji">${vocab.kanji}</span></td>

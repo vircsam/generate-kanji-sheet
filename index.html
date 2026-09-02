@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji Practice & Study Suite — Sets 6 to 10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #F8F6F0;
+      --card-bg: #FFFFFF;
+      --banner-bg: #F3ECE1;
+      --accent-color: #8C2A1E; /* Japanese Vermilion / Rust */
+      --accent-hover: #A63428;
+      --gold-color: #8C6B3E;
+      --text-main: #2B2825;
+      --text-muted: #666059;
+      --border-color: #E2D9CC;
+      --grid-line: #E8E0D2;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 4px 16px rgba(140, 42, 30, 0.08);
+      --font-serif: 'Noto Serif JP', 'Georgia', serif;
+      --font-sans: 'Inter', sans-serif;
+      --font-kana: 'Zen Maru Gothic', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    /* Header & Navigation */
+    header {
+      background: linear-gradient(135deg, #2B2825 0%, #1A1816 100%);
+      color: #F8F6F0;
+      padding: 2.5rem 2rem 2rem;
+      border-bottom: 4px solid var(--accent-color);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo {
+      font-size: 2.5rem;
+      font-family: var(--font-serif);
+      color: var(--accent-color);
+      background: #F8F6F0;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      box-shadow: inset 0 0 0 2px var(--accent-color);
+    }
+
+    .brand-text h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.75rem;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      font-weight: 700;
+    }
+
+    .brand-text p {
+      font-size: 0.85rem;
+      color: #C2BBB0;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .btn {
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-color);
+      color: #FFFFFF;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #F8F6F0;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Controls Bar */
+    .controls-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .set-tabs {
+      display: flex;
+      gap: 0.4rem;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .tab-btn {
+      padding: 0.45rem 1rem;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.08);
+      color: #D6D0C5;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .tab-btn:hover {
+      background: rgba(255,255,255,0.15);
+      color: #FFFFFF;
+    }
+
+    .tab-btn.active {
+      background: var(--accent-color);
+      color: #FFFFFF;
+      border-color: rgba(255,255,255,0.3);
+    }
+
+    .search-box {
+      position: relative;
+      min-width: 260px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.55rem 1rem 0.55rem 2.4rem;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(0,0,0,0.3);
+      color: #FFFFFF;
+      font-size: 0.85rem;
+      outline: none;
+    }
+
+    .search-input::placeholder {
+      color: #9E978C;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #9E978C;
+      font-size: 0.9rem;
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1150px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .view-selector {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    .view-title {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .view-title span {
+      color: var(--accent-color);
+      font-weight: 700;
+    }
+
+    .stats-badge {
+      font-size: 0.85rem;
+      background: var(--banner-bg);
+      color: var(--gold-color);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-weight: 600;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Practice Sheet Cards */
+    .kanji-sheet-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 2.5rem;
+      overflow: hidden;
+      transition: box-shadow 0.25s ease;
+    }
+
+    .kanji-sheet-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+
+    /* Banner Header */
+    .banner-header {
+      background: var(--banner-bg);
+      border-left: 6px solid var(--accent-color);
+      padding: 1.25rem 1.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .banner-left {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .kanji-char-display {
+      font-family: var(--font-serif);
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--text-main);
+      line-height: 1;
+    }
+
+    .kanji-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .kanji-meaning {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-style: italic;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .kanji-readings {
+      display: flex;
+      gap: 1.25rem;
+      font-size: 0.88rem;
+    }
+
+    .reading-tag {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .reading-label {
+      font-weight: 700;
+      color: var(--accent-color);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .reading-val {
+      font-family: var(--font-kana);
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .sound-btn {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--accent-color);
+      transition: all 0.2s ease;
+      font-size: 1.1rem;
+    }
+
+    .sound-btn:hover {
+      background: var(--accent-color);
+      color: #FFFFFF;
+      border-color: var(--accent-color);
+      transform: scale(1.08);
+    }
+
+    /* Practice Grid Table */
+    .practice-table-wrapper {
+      padding: 1.25rem 1.75rem 1.75rem;
+      overflow-x: auto;
+    }
+
+    .practice-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .practice-table th, .practice-table td {
+      border: 1px solid var(--border-color);
+      text-align: center;
+    }
+
+    .practice-table th {
+      background-color: #F4EFE6;
+      color: #777067;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.5rem;
+      letter-spacing: 0.05em;
+    }
+
+    .practice-table th.col-word {
+      width: 25%;
+      text-align: left;
+      padding-left: 1rem;
+    }
+
+    .practice-table th.col-box {
+      width: 10.7%;
+    }
+
+    .practice-table tr {
+      height: 90px;
+    }
+
+    .info-td {
+      text-align: left !important;
+      padding: 0.75rem 1rem !important;
+      vertical-align: middle;
+      background: #FAF7F2;
+    }
+
+    .word-kanji {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .word-furigana {
+      font-family: var(--font-kana);
+      font-size: 0.88rem;
+      color: var(--gold-color);
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .word-meaning {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 3px;
+      line-height: 1.2;
+    }
+
+    .grid-box-td {
+      position: relative;
+      vertical-align: middle;
+      background-color: #FFFFFF;
+    }
+
+    /* Grid Dashed Guidelines */
+    .grid-box-td::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      right: 10%;
+      border-top: 1px dashed var(--grid-line);
+      pointer-events: none;
+    }
+
+    .grid-box-td::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 10%;
+      bottom: 10%;
+      border-left: 1px dashed var(--grid-line);
+      pointer-events: none;
+    }
+
+    .trace-kanji {
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      color: #E2D7C8;
+      user-select: none;
+      font-weight: 700;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Summary Table View */
+    .summary-section {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 2rem;
+    }
+
+    .summary-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    .summary-table th, .summary-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      text-align: left;
+    }
+
+    .summary-table th {
+      background-color: var(--banner-bg);
+      color: var(--accent-color);
+      font-family: var(--font-serif);
+      font-weight: 700;
+    }
+
+    .summary-table tr:hover {
+      background-color: #FBF9F5;
+    }
+
+    .set-heading {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      color: var(--accent-color);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .set-heading::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(to right, var(--border-color), transparent);
+    }
+
+    /* Print Styles */
+    @media print {
+      header, .controls-bar, .view-selector, .sound-btn {
+        display: none !important;
+      }
+      body {
+        background: white;
+        padding: 0;
+      }
+      main {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .kanji-sheet-card {
+        box-shadow: none;
+        border: 1px solid #000;
+        page-break-after: always;
+        margin-bottom: 0;
+      }
+      .banner-header {
+        background: #F3ECE1 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="title-row">
+        <div class="brand">
+          <div class="brand-logo">漢</div>
+          <div class="brand-text">
+            <h1>Kanji Master</h1>
+            <p>JLPT Practice Sheets & Vocabulary Suite — Sets 6 to 10 (100 Kanji)</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-secondary" onclick="window.print()">
+            🖨️ Print Sheets
+          </button>
+          <button class="btn btn-primary" onclick="downloadDocx()">
+            📥 Download DOCX
+          </button>
+        </div>
+      </div>
+
+      <div class="controls-bar">
+        <div class="set-tabs">
+          <button class="tab-btn active" onclick="filterSet('all')">All Sets (100 Kanji)</button>
+          <button class="tab-btn" onclick="filterSet('Set 6')">Set 6 (副 - 形)</button>
+          <button class="tab-btn" onclick="filterSet('Set 7')">Set 7 (景 - 整)</button>
+          <button class="tab-btn" onclick="filterSet('Set 8')">Set 8 (横 - 細)</button>
+          <button class="tab-btn" onclick="filterSet('Set 9')">Set 9 (積 - 竹)</button>
+          <button class="tab-btn" onclick="filterSet('Set 10')">Set 10 (完 - 返)</button>
+        </div>
+
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" class="search-input" id="searchInput" placeholder="Search kanji, reading, or meaning..." oninput="handleSearch()">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="view-selector">
+      <div class="view-title">
+        Practice Sheets <span id="currentFilterLabel">Sets 6 to 10</span>
+      </div>
+      <div class="stats-badge" id="statsBadge">
+        Showing 100 / 100 Kanji Cards
+      </div>
+    </div>
+
+    <div id="cardsContainer">
+      <!-- Kanji Practice Cards loaded dynamically -->
+    </div>
+  </main>
+
+  <script>
+    let kanjiData = {};
+    let activeSet = 'all';
+
+    async function loadData() {
+      try {
+        const response = await fetch('kanji_sets_6_to_10.json');
+        kanjiData = await response.json();
+        renderCards();
+      } catch (err) {
+        console.error('Failed to load JSON dataset:', err);
+      }
+    }
+
+    function speakWord(text) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'ja-JP';
+        utterance.rate = 0.9;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    function filterSet(setName) {
+      activeSet = setName;
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent.includes(setName === 'all' ? 'All Sets' : setName));
+      });
+      document.getElementById('currentFilterLabel').textContent = setName === 'all' ? 'Sets 6 to 10' : setName;
+      renderCards();
+    }
+
+    function handleSearch() {
+      renderCards();
+    }
+
+    function downloadDocx() {
+      const link = document.createElement('a');
+      link.href = 'Kanji_Practice_Sheets_Sets_6_to_10.docx';
+      link.download = 'Kanji_Practice_Sheets_Sets_6_to_10.docx';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function renderCards() {
+      const container = document.getElementById('cardsContainer');
+      const query = document.getElementById('searchInput').value.trim().toLowerCase();
+      container.innerHTML = '';
+
+      let totalMatches = 0;
+
+      for (const [setName, kanjiList] of Object.entries(kanjiData)) {
+        if (activeSet !== 'all' && activeSet !== setName) continue;
+
+        const filteredList = kanjiList.filter(item => {
+          if (!query) return true;
+          const matchKanji = item.kanji.includes(query);
+          const matchMeaning = item.meaning.toLowerCase().includes(query);
+          const matchOnyomi = item.onyomi.toLowerCase().includes(query);
+          const matchKunyomi = item.kunyomi.toLowerCase().includes(query);
+          const matchVocab = item.vocabulary.some(v => 
+            v.kanji.includes(query) || 
+            v.hiragana.includes(query) || 
+            v.romaji.toLowerCase().includes(query) || 
+            v.meaning.toLowerCase().includes(query)
+          );
+          return matchKanji || matchMeaning || matchOnyomi || matchKunyomi || matchVocab;
+        });
+
+        if (filteredList.length === 0) continue;
+
+        totalMatches += filteredList.length;
+
+        // Group vocabulary into pages/chunks of 3 items
+        filteredList.forEach(item => {
+          const vocabChunks = [];
+          for (let i = 0; i < item.vocabulary.length; i += 3) {
+            vocabChunks.push(item.vocabulary.slice(i, i + 3));
+          }
+
+          vocabChunks.forEach((chunk, chunkIdx) => {
+            const card = document.createElement('div');
+            card.className = 'kanji-sheet-card';
+
+            const headerHtml = `
+              <div class="banner-header">
+                <div class="banner-left">
+                  <div class="kanji-char-display">${item.kanji}</div>
+                  <div class="kanji-meta">
+                    <div class="kanji-meaning">${item.meaning} ${chunkIdx > 0 ? '(cont.)' : ''}</div>
+                    <div class="kanji-readings">
+                      <div class="reading-tag">
+                        <span class="reading-label">On:</span>
+                        <span class="reading-val">${item.onyomi}</span>
+                      </div>
+                      <div class="reading-tag">
+                        <span class="reading-label">Kun:</span>
+                        <span class="reading-val">${item.kunyomi}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="sound-btn" title="Listen Pronunciation" onclick="speakWord('${item.kanji}')">
+                  🔊
+                </button>
+              </div>
+            `;
+
+            let rowsHtml = '';
+            for (let rIdx = 0; rIdx < 3; rIdx++) {
+              if (rIdx < chunk.length) {
+                const vocab = chunk[rIdx];
+                rowsHtml += `
+                  <tr>
+                    <td class="info-td">
+                      <div class="word-kanji">${vocab.kanji}</div>
+                      <div class="word-furigana">${vocab.hiragana} (${vocab.romaji})</div>
+                      <div class="word-meaning">${vocab.meaning}</div>
+                    </td>
+                    <td class="grid-box-td"><span class="trace-kanji">${vocab.kanji}</span></td>
+                    <td class="grid-box-td"><span class="trace-kanji" style="opacity:0.4">${vocab.kanji}</span></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                  </tr>
+                `;
+              } else {
+                rowsHtml += `
+                  <tr>
+                    <td class="info-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                    <td class="grid-box-td"></td>
+                  </tr>
+                `;
+              }
+            }
+
+            card.innerHTML = `
+              ${headerHtml}
+              <div class="practice-table-wrapper">
+                <table class="practice-table">
+                  <thead>
+                    <tr>
+                      <th class="col-word">WORD</th>
+                      <th class="col-box">1</th>
+                      <th class="col-box">2</th>
+                      <th class="col-box">3</th>
+                      <th class="col-box">4</th>
+                      <th class="col-box">5</th>
+                      <th class="col-box">6</th>
+                      <th class="col-box">7</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${rowsHtml}
+                  </tbody>
+                </table>
+              </div>
+            `;
+
+            container.appendChild(card);
+          });
+        });
+      }
+
+      document.getElementById('statsBadge').textContent = `Showing ${totalMatches} Kanji Cards`;
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

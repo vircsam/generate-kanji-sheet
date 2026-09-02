@@ -1,0 +1,3648 @@
+{
+  "Set 6": [
+    {
+      "index": 1,
+      "kanji": "副",
+      "onyomi": "フク",
+      "kunyomi": "—",
+      "meaning": "vice",
+      "vocabulary": [
+        {
+          "kanji": "副詞",
+          "hiragana": "ふくし",
+          "romaji": "fukushi",
+          "meaning": "adverb [grammar]"
+        },
+        {
+          "kanji": "副作用",
+          "hiragana": "ふくさよう",
+          "romaji": "fukusayou",
+          "meaning": "side effect, adverse reaction"
+        },
+        {
+          "kanji": "副社長",
+          "hiragana": "ふくしゃちょう",
+          "romaji": "fukushachou",
+          "meaning": "executive vice-president"
+        },
+        {
+          "kanji": "副産物",
+          "hiragana": "ふくさんぶつ",
+          "romaji": "fukusanbutsu",
+          "meaning": "by-product, spin-off"
+        },
+        {
+          "kanji": "副賞",
+          "hiragana": "ふくしょう",
+          "romaji": "fukushou",
+          "meaning": "supplementary prize, bonus prize"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kanji": "算",
+      "onyomi": "サン",
+      "kunyomi": "—",
+      "meaning": "calculate",
+      "vocabulary": [
+        {
+          "kanji": "予算",
+          "hiragana": "よさん",
+          "romaji": "yosan",
+          "meaning": "estimate (of costs), budget"
+        },
+        {
+          "kanji": "計算",
+          "hiragana": "けいさん",
+          "romaji": "keisan",
+          "meaning": "calculation, computation"
+        },
+        {
+          "kanji": "掛け算",
+          "hiragana": "かけざん",
+          "romaji": "kakezan",
+          "meaning": "multiplication [mathematics]"
+        },
+        {
+          "kanji": "割り算",
+          "hiragana": "わりざん",
+          "romaji": "warizan",
+          "meaning": "division [mathematics]"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kanji": "育",
+      "onyomi": "イク",
+      "kunyomi": "そだ.てる, そだ.つ",
+      "meaning": "bring up",
+      "vocabulary": [
+        {
+          "kanji": "教育",
+          "hiragana": "きょういく",
+          "romaji": "kyouiku",
+          "meaning": "education, schooling, training"
+        },
+        {
+          "kanji": "育てる",
+          "hiragana": "そだてる",
+          "romaji": "sodateru",
+          "meaning": "to raise, to bring up, to nurture"
+        },
+        {
+          "kanji": "育つ",
+          "hiragana": "そだつ",
+          "romaji": "sodatsu",
+          "meaning": "to be raised, to grow up"
+        },
+        {
+          "kanji": "体育",
+          "hiragana": "たいいく",
+          "romaji": "taiiku",
+          "meaning": "physical education, PE, gym"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kanji": "席",
+      "onyomi": "セキ",
+      "kunyomi": "—",
+      "meaning": "seat",
+      "vocabulary": [
+        {
+          "kanji": "席",
+          "hiragana": "せき",
+          "romaji": "seki",
+          "meaning": "seat, location, place"
+        },
+        {
+          "kanji": "出席",
+          "hiragana": "しゅっせき",
+          "romaji": "shusseki",
+          "meaning": "attendance, presence"
+        },
+        {
+          "kanji": "座席",
+          "hiragana": "ざせき",
+          "romaji": "zaseki",
+          "meaning": "seat, assigned seating"
+        },
+        {
+          "kanji": "欠席",
+          "hiragana": "けっせき",
+          "romaji": "kesseki",
+          "meaning": "absence, non-attendance"
+        },
+        {
+          "kanji": "客席",
+          "hiragana": "きゃくせき",
+          "romaji": "kyakuseki",
+          "meaning": "guest seating, passenger seat"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kanji": "残",
+      "onyomi": "ザン",
+      "kunyomi": "のこ.る, のこ.す",
+      "meaning": "remain",
+      "vocabulary": [
+        {
+          "kanji": "残る",
+          "hiragana": "のこる",
+          "romaji": "nokoru",
+          "meaning": "to remain, to be left"
+        },
+        {
+          "kanji": "残念",
+          "hiragana": "ざんねん",
+          "romaji": "zannen",
+          "meaning": "regrettable, unfortunate, disappointing"
+        },
+        {
+          "kanji": "残す",
+          "hiragana": "のこす",
+          "romaji": "nokosu",
+          "meaning": "to leave behind, to save, to reserve"
+        },
+        {
+          "kanji": "残り",
+          "hiragana": "のこり",
+          "romaji": "nokori",
+          "meaning": "remainder, remnant, the rest"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kanji": "想",
+      "onyomi": "ソウ, ソ",
+      "kunyomi": "おも.う",
+      "meaning": "idea",
+      "vocabulary": [
+        {
+          "kanji": "想像",
+          "hiragana": "そうぞう",
+          "romaji": "souzou",
+          "meaning": "imagination, guess"
+        },
+        {
+          "kanji": "思想",
+          "hiragana": "しそう",
+          "romaji": "shisou",
+          "meaning": "thought, idea, ideology"
+        },
+        {
+          "kanji": "理想",
+          "hiragana": "りそう",
+          "romaji": "risou",
+          "meaning": "ideal, ideals"
+        },
+        {
+          "kanji": "連想",
+          "hiragana": "れんそう",
+          "romaji": "rensou",
+          "meaning": "association of ideas"
+        },
+        {
+          "kanji": "感想",
+          "hiragana": "かんそう",
+          "romaji": "kansou",
+          "meaning": "impression, thoughts, comments"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kanji": "線",
+      "onyomi": "セン",
+      "kunyomi": "—",
+      "meaning": "line",
+      "vocabulary": [
+        {
+          "kanji": "線",
+          "hiragana": "せん",
+          "romaji": "sen",
+          "meaning": "line, stripe, track, wire"
+        },
+        {
+          "kanji": "地平線",
+          "hiragana": "ちへいせん",
+          "romaji": "chiheisen",
+          "meaning": "horizon (land)"
+        },
+        {
+          "kanji": "線路",
+          "hiragana": "せんろ",
+          "romaji": "senro",
+          "meaning": "railway track, railroad"
+        },
+        {
+          "kanji": "新幹線",
+          "hiragana": "しんかんせん",
+          "romaji": "shinkansen",
+          "meaning": "Shinkansen, bullet train"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kanji": "農",
+      "onyomi": "ノウ",
+      "kunyomi": "—",
+      "meaning": "agriculture",
+      "vocabulary": [
+        {
+          "kanji": "農業",
+          "hiragana": "のうぎょう",
+          "romaji": "nougyou",
+          "meaning": "agriculture, farming"
+        },
+        {
+          "kanji": "農民",
+          "hiragana": "のうみん",
+          "romaji": "noumin",
+          "meaning": "farmer, peasant"
+        },
+        {
+          "kanji": "農家",
+          "hiragana": "のうか",
+          "romaji": "nouka",
+          "meaning": "farmer, farming family, farmhouse"
+        },
+        {
+          "kanji": "農産物",
+          "hiragana": "のうさんぶつ",
+          "romaji": "nousanbutsu",
+          "meaning": "agricultural produce"
+        },
+        {
+          "kanji": "農村",
+          "hiragana": "のうそん",
+          "romaji": "nouson",
+          "meaning": "agricultural community, farm village"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kanji": "州",
+      "onyomi": "シュウ, ス",
+      "kunyomi": "す",
+      "meaning": "state",
+      "vocabulary": [
+        {
+          "kanji": "州",
+          "hiragana": "しゅう",
+          "romaji": "shuu",
+          "meaning": "state, province, county"
+        },
+        {
+          "kanji": "欧州",
+          "hiragana": "おうしゅう",
+          "romaji": "oushou",
+          "meaning": "Europe"
+        },
+        {
+          "kanji": "九州",
+          "hiragana": "きゅうしゅう",
+          "romaji": "kyuushuu",
+          "meaning": "Kyushu (southern main island)"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kanji": "念",
+      "onyomi": "ネン",
+      "kunyomi": "—",
+      "meaning": "wish",
+      "vocabulary": [
+        {
+          "kanji": "残念",
+          "hiragana": "ざんねん",
+          "romaji": "zannen",
+          "meaning": "regrettable, disappointing"
+        },
+        {
+          "kanji": "記念",
+          "hiragana": "きねん",
+          "romaji": "kinen",
+          "meaning": "commemoration, remembrance, memento"
+        },
+        {
+          "kanji": "観念",
+          "hiragana": "かんねん",
+          "romaji": "kannen",
+          "meaning": "idea, notion, concept, resignation"
+        },
+        {
+          "kanji": "概念",
+          "hiragana": "がいねん",
+          "romaji": "gainen",
+          "meaning": "concept, notion, conception"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kanji": "象",
+      "onyomi": "ショウ, ゾウ",
+      "kunyomi": "かたど.る",
+      "meaning": "elephant",
+      "vocabulary": [
+        {
+          "kanji": "対象",
+          "hiragana": "たいしょう",
+          "romaji": "taishou",
+          "meaning": "target, object, subject"
+        },
+        {
+          "kanji": "象",
+          "hiragana": "ぞう",
+          "romaji": "zou",
+          "meaning": "elephant"
+        },
+        {
+          "kanji": "現象",
+          "hiragana": "げんしょう",
+          "romaji": "genshou",
+          "meaning": "phenomenon"
+        },
+        {
+          "kanji": "印象",
+          "hiragana": "いんしょう",
+          "romaji": "inshou",
+          "meaning": "impression"
+        },
+        {
+          "kanji": "象徴",
+          "hiragana": "しょうちょう",
+          "romaji": "shouchou",
+          "meaning": "symbol, emblem"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kanji": "助",
+      "onyomi": "ジョ",
+      "kunyomi": "たす.ける, たす.かる",
+      "meaning": "help",
+      "vocabulary": [
+        {
+          "kanji": "助ける",
+          "hiragana": "たすける",
+          "romaji": "tasukeru",
+          "meaning": "to save, to rescue, to help"
+        },
+        {
+          "kanji": "援助",
+          "hiragana": "えんじょ",
+          "romaji": "enjo",
+          "meaning": "assistance, aid, support"
+        },
+        {
+          "kanji": "救助",
+          "hiragana": "きゅうじょ",
+          "romaji": "kyuujo",
+          "meaning": "relief, aid, rescue"
+        },
+        {
+          "kanji": "助手",
+          "hiragana": "じょしゅ",
+          "romaji": "joshu",
+          "meaning": "assistant, helper"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kanji": "労",
+      "onyomi": "ロウ",
+      "kunyomi": "いたわ.る, ねぎら.う",
+      "meaning": "labor",
+      "vocabulary": [
+        {
+          "kanji": "労働",
+          "hiragana": "ろうどう",
+          "romaji": "roudou",
+          "meaning": "labor, work"
+        },
+        {
+          "kanji": "苦労",
+          "hiragana": "くろう",
+          "romaji": "kurou",
+          "meaning": "trouble, hardship, toil, anxiety"
+        },
+        {
+          "kanji": "ご苦労様",
+          "hiragana": "ごくろうさま",
+          "romaji": "gokurousama",
+          "meaning": "thank you for your hard work"
+        },
+        {
+          "kanji": "疲労",
+          "hiragana": "ひろう",
+          "romaji": "hirou",
+          "meaning": "fatigue, weariness, exhaustion"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kanji": "例",
+      "onyomi": "レイ",
+      "kunyomi": "たと.える, たと.えば",
+      "meaning": "example",
+      "vocabulary": [
+        {
+          "kanji": "例えば",
+          "hiragana": "たとえば",
+          "romaji": "tatoeba",
+          "meaning": "for example, for instance"
+        },
+        {
+          "kanji": "例",
+          "hiragana": "れい",
+          "romaji": "rei",
+          "meaning": "example, instance, custom"
+        },
+        {
+          "kanji": "例外",
+          "hiragana": "れいがい",
+          "romaji": "reigai",
+          "meaning": "exception"
+        },
+        {
+          "kanji": "実例",
+          "hiragana": "じつれい",
+          "romaji": "jitsurei",
+          "meaning": "example, illustration"
+        },
+        {
+          "kanji": "比例",
+          "hiragana": "ひれい",
+          "romaji": "hirei",
+          "meaning": "proportion, proportional representation"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kanji": "然",
+      "onyomi": "ゼン, ネン",
+      "kunyomi": "しか, さ",
+      "meaning": "sort of thing",
+      "vocabulary": [
+        {
+          "kanji": "突然",
+          "hiragana": "とつぜん",
+          "romaji": "totsuzen",
+          "meaning": "abrupt, sudden, unexpected"
+        },
+        {
+          "kanji": "自然",
+          "hiragana": "しぜん",
+          "romaji": "shizen",
+          "meaning": "nature, natural, spontaneous"
+        },
+        {
+          "kanji": "偶然",
+          "hiragana": "ぐうぜん",
+          "romaji": "guuzen",
+          "meaning": "coincidence, chance, accident"
+        },
+        {
+          "kanji": "全然",
+          "hiragana": "ぜんぜん",
+          "romaji": "zenzen",
+          "meaning": "(not) at all, completely"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kanji": "追",
+      "onyomi": "ツイ",
+      "kunyomi": "お.う",
+      "meaning": "chase",
+      "vocabulary": [
+        {
+          "kanji": "追う",
+          "hiragana": "おう",
+          "romaji": "ou",
+          "meaning": "to chase, to run after, to pursue"
+        },
+        {
+          "kanji": "追いつく",
+          "hiragana": "おいつく",
+          "romaji": "oitsuku",
+          "meaning": "to catch up with, to draw level"
+        },
+        {
+          "kanji": "追加",
+          "hiragana": "ついか",
+          "romaji": "tsuika",
+          "meaning": "addition, supplement"
+        },
+        {
+          "kanji": "追跡",
+          "hiragana": "ついせき",
+          "romaji": "tsuiseki",
+          "meaning": "pursuit, tracking, tracing"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kanji": "商",
+      "onyomi": "ショウ",
+      "kunyomi": "あきな.う",
+      "meaning": "make a deal",
+      "vocabulary": [
+        {
+          "kanji": "商品",
+          "hiragana": "しょうひん",
+          "romaji": "shouhin",
+          "meaning": "commodity, goods, merchandise"
+        },
+        {
+          "kanji": "商売",
+          "hiragana": "しょうばい",
+          "romaji": "shoubai",
+          "meaning": "trade, business, commerce"
+        },
+        {
+          "kanji": "商人",
+          "hiragana": "しょうにん",
+          "romaji": "shounin",
+          "meaning": "merchant, trader, shopkeeper"
+        },
+        {
+          "kanji": "商業",
+          "hiragana": "しょうぎょう",
+          "romaji": "shougyou",
+          "meaning": "commerce, trade, business"
+        },
+        {
+          "kanji": "商店",
+          "hiragana": "しょうてん",
+          "romaji": "shouten",
+          "meaning": "shop, store"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kanji": "葉",
+      "onyomi": "ヨウ",
+      "kunyomi": "は",
+      "meaning": "leaf",
+      "vocabulary": [
+        {
+          "kanji": "言葉",
+          "hiragana": "ことば",
+          "romaji": "kotoba",
+          "meaning": "language, dialect, word, phrase"
+        },
+        {
+          "kanji": "葉",
+          "hiragana": "は",
+          "romaji": "ha",
+          "meaning": "leaf, blade of grass, foliage"
+        },
+        {
+          "kanji": "紅葉",
+          "hiragana": "こうよう",
+          "romaji": "kouyou",
+          "meaning": "autumn colours, red leaves"
+        },
+        {
+          "kanji": "落ち葉",
+          "hiragana": "おちば",
+          "romaji": "ochiba",
+          "meaning": "fallen leaves, leaf litter"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kanji": "伝",
+      "onyomi": "デン, テン",
+      "kunyomi": "つた.える, つた.わる",
+      "meaning": "transmit",
+      "vocabulary": [
+        {
+          "kanji": "伝える",
+          "hiragana": "つたえる",
+          "romaji": "tsutaeru",
+          "meaning": "to convey, report, transmit"
+        },
+        {
+          "kanji": "手伝う",
+          "hiragana": "てつだう",
+          "romaji": "tetsudau",
+          "meaning": "to help, assist, aid"
+        },
+        {
+          "kanji": "伝統",
+          "hiragana": "でんとう",
+          "romaji": "dentou",
+          "meaning": "tradition, convention"
+        },
+        {
+          "kanji": "宣伝",
+          "hiragana": "せんでん",
+          "romaji": "senden",
+          "meaning": "publicity, advertisement"
+        },
+        {
+          "kanji": "伝わる",
+          "hiragana": "つたわる",
+          "romaji": "tsutawaru",
+          "meaning": "to be handed down, be transmitted"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kanji": "形",
+      "onyomi": "ケイ, ギョウ",
+      "kunyomi": "かた, かたち",
+      "meaning": "shape",
+      "vocabulary": [
+        {
+          "kanji": "人形",
+          "hiragana": "にんぎょう",
+          "romaji": "ningyou",
+          "meaning": "doll, puppet, marionette"
+        },
+        {
+          "kanji": "形式",
+          "hiragana": "けいしき",
+          "romaji": "keishiki",
+          "meaning": "form, format, style, formality"
+        },
+        {
+          "kanji": "形容詞",
+          "hiragana": "けいようし",
+          "romaji": "keiyoushi",
+          "meaning": "adjective, i-adjective"
+        },
+        {
+          "kanji": "長方形",
+          "hiragana": "ちょうほうけい",
+          "romaji": "chouhoukei",
+          "meaning": "rectangle, oblong"
+        },
+        {
+          "kanji": "正方形",
+          "hiragana": "せいほうけい",
+          "romaji": "seihoukei",
+          "meaning": "square"
+        }
+      ]
+    }
+  ],
+  "Set 7": [
+    {
+      "index": 1,
+      "kanji": "景",
+      "onyomi": "ケイ",
+      "kunyomi": "—",
+      "meaning": "scenery",
+      "vocabulary": [
+        {
+          "kanji": "光景",
+          "hiragana": "こうけい",
+          "romaji": "koukei",
+          "meaning": "scene, spectacle, sight, view"
+        },
+        {
+          "kanji": "風景",
+          "hiragana": "ふうけい",
+          "romaji": "fuukei",
+          "meaning": "scenery, landscape, view"
+        },
+        {
+          "kanji": "景気",
+          "hiragana": "けいき",
+          "romaji": "keiki",
+          "meaning": "business conditions, economic climate"
+        },
+        {
+          "kanji": "背景",
+          "hiragana": "はいけい",
+          "romaji": "haikei",
+          "meaning": "background, scenery, backdrop"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kanji": "落",
+      "onyomi": "ラク",
+      "kunyomi": "お.ちる, お.とす",
+      "meaning": "fall",
+      "vocabulary": [
+        {
+          "kanji": "落す",
+          "hiragana": "おとす",
+          "romaji": "otosu",
+          "meaning": "to drop"
+        },
+        {
+          "kanji": "落第",
+          "hiragana": "らくだい",
+          "romaji": "rakudai",
+          "meaning": "failure (exam), failing to advance"
+        },
+        {
+          "kanji": "墜落",
+          "hiragana": "ついらく",
+          "romaji": "tsuiraku",
+          "meaning": "fall, crash (of aircraft)"
+        },
+        {
+          "kanji": "落下",
+          "hiragana": "らっか",
+          "romaji": "rakka",
+          "meaning": "fall, drop, descent"
+        },
+        {
+          "kanji": "落書き",
+          "hiragana": "らくがき",
+          "romaji": "rakugaki",
+          "meaning": "scrawl, scribble, graffiti"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kanji": "賞",
+      "onyomi": "ショウ",
+      "kunyomi": "ほ.める",
+      "meaning": "prize",
+      "vocabulary": [
+        {
+          "kanji": "賞",
+          "hiragana": "しょう",
+          "romaji": "shou",
+          "meaning": "prize, award"
+        },
+        {
+          "kanji": "鑑賞",
+          "hiragana": "かんしょう",
+          "romaji": "kanshou",
+          "meaning": "appreciation (of art, music)"
+        },
+        {
+          "kanji": "賞金",
+          "hiragana": "しょうきん",
+          "romaji": "shoukin",
+          "meaning": "prize money, monetary award"
+        },
+        {
+          "kanji": "賞品",
+          "hiragana": "しょうひん",
+          "romaji": "shouhin",
+          "meaning": "prize, trophy"
+        },
+        {
+          "kanji": "受賞",
+          "hiragana": "じゅしょう",
+          "romaji": "jushou",
+          "meaning": "winning a prize, receiving an award"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kanji": "辺",
+      "onyomi": "ヘン",
+      "kunyomi": "あた.り, べ",
+      "meaning": "environs",
+      "vocabulary": [
+        {
+          "kanji": "辺",
+          "hiragana": "へん",
+          "romaji": "hen",
+          "meaning": "area, vicinity, region; side"
+        },
+        {
+          "kanji": "辺り",
+          "hiragana": "あたり",
+          "romaji": "atari",
+          "meaning": "neighborhood, vicinity, nearby"
+        },
+        {
+          "kanji": "周辺",
+          "hiragana": "しゅうへん",
+          "romaji": "shuuhen",
+          "meaning": "circumference, outskirts; peripheral"
+        },
+        {
+          "kanji": "海辺",
+          "hiragana": "うみべ",
+          "romaji": "umibe",
+          "meaning": "beach, seashore, seaside, coast"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kanji": "負",
+      "onyomi": "フ",
+      "kunyomi": "ま.ける, ま.かす, お.う",
+      "meaning": "defeat",
+      "vocabulary": [
+        {
+          "kanji": "負ける",
+          "hiragana": "まける",
+          "romaji": "makeru",
+          "meaning": "to lose, to be defeated, yield"
+        },
+        {
+          "kanji": "背負う",
+          "hiragana": "せおう",
+          "romaji": "seou",
+          "meaning": "to carry on back, be burdened with"
+        },
+        {
+          "kanji": "勝負",
+          "hiragana": "しょうぶ",
+          "romaji": "shoubu",
+          "meaning": "victory or defeat, match, game"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kanji": "失",
+      "onyomi": "シツ",
+      "kunyomi": "うしな.う, う.せる",
+      "meaning": "lose",
+      "vocabulary": [
+        {
+          "kanji": "失敗",
+          "hiragana": "しっぱい",
+          "romaji": "shippai",
+          "meaning": "failure, mistake, blunder"
+        },
+        {
+          "kanji": "失う",
+          "hiragana": "うしなう",
+          "romaji": "ushinau",
+          "meaning": "to lose, to miss (a chance)"
+        },
+        {
+          "kanji": "失業",
+          "hiragana": "しつぎょう",
+          "romaji": "shitsugyou",
+          "meaning": "unemployment, losing job"
+        },
+        {
+          "kanji": "失望",
+          "hiragana": "しつぼう",
+          "romaji": "shitsubou",
+          "meaning": "disappointment, despair"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kanji": "差",
+      "onyomi": "サ",
+      "kunyomi": "さ.す",
+      "meaning": "distinction",
+      "vocabulary": [
+        {
+          "kanji": "差別",
+          "hiragana": "さべつ",
+          "romaji": "sabetsu",
+          "meaning": "distinction, discrimination"
+        },
+        {
+          "kanji": "差",
+          "hiragana": "さ",
+          "romaji": "sa",
+          "meaning": "difference, variation"
+        },
+        {
+          "kanji": "人差し指",
+          "hiragana": "ひとさしゆび",
+          "romaji": "hitosashiyubi",
+          "meaning": "index finger, forefinger"
+        },
+        {
+          "kanji": "差し支え",
+          "hiragana": "さしつかえ",
+          "romaji": "sashitsukae",
+          "meaning": "hindrance, impediment"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kanji": "課",
+      "onyomi": "カ",
+      "kunyomi": "—",
+      "meaning": "chapter",
+      "vocabulary": [
+        {
+          "kanji": "課長",
+          "hiragana": "かちょう",
+          "romaji": "kachou",
+          "meaning": "section manager, section chief"
+        },
+        {
+          "kanji": "科目",
+          "hiragana": "かもく",
+          "romaji": "kamoku",
+          "meaning": "(school) subject, curriculum"
+        },
+        {
+          "kanji": "課",
+          "hiragana": "か",
+          "romaji": "ka",
+          "meaning": "lesson, section, division"
+        },
+        {
+          "kanji": "課税",
+          "hiragana": "かぜい",
+          "romaji": "kazei",
+          "meaning": "taxation"
+        },
+        {
+          "kanji": "日課",
+          "hiragana": "にっか",
+          "romaji": "nikka",
+          "meaning": "daily routine, daily work"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kanji": "末",
+      "onyomi": "マツ, バツ",
+      "kunyomi": "すえ",
+      "meaning": "end",
+      "vocabulary": [
+        {
+          "kanji": "粗末",
+          "hiragana": "そまつ",
+          "romaji": "somatsu",
+          "meaning": "crude, plain, shabby, careless"
+        },
+        {
+          "kanji": "末",
+          "hiragana": "すえ",
+          "romaji": "sue",
+          "meaning": "end, tip, top, youngest child"
+        },
+        {
+          "kanji": "末っ子",
+          "hiragana": "すえっこ",
+          "romaji": "suekko",
+          "meaning": "youngest child"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kanji": "守",
+      "onyomi": "シュ, ス",
+      "kunyomi": "まも.る, まも.り",
+      "meaning": "guard",
+      "vocabulary": [
+        {
+          "kanji": "留守",
+          "hiragana": "るす",
+          "romaji": "rusu",
+          "meaning": "absence, being away from home"
+        },
+        {
+          "kanji": "守る",
+          "hiragana": "まもる",
+          "romaji": "mamoru",
+          "meaning": "to protect, guard, defend, keep"
+        },
+        {
+          "kanji": "守衛",
+          "hiragana": "しゅえい",
+          "romaji": "shuei",
+          "meaning": "security guard, caretaker"
+        },
+        {
+          "kanji": "守備",
+          "hiragana": "しゅび",
+          "romaji": "shubi",
+          "meaning": "defense (sports), guarding"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kanji": "極",
+      "onyomi": "キョク, ゴク",
+      "kunyomi": "きわ.める, きわ.まる",
+      "meaning": "extreme",
+      "vocabulary": [
+        {
+          "kanji": "積極的",
+          "hiragana": "せっきょくてき",
+          "romaji": "sekkyokuteki",
+          "meaning": "positive, assertive, proactive"
+        },
+        {
+          "kanji": "北極",
+          "hiragana": "ほっきょく",
+          "romaji": "hokkyoku",
+          "meaning": "North Pole, the Arctic"
+        },
+        {
+          "kanji": "消極的",
+          "hiragana": "しょうきょくてき",
+          "romaji": "shoukyokuteki",
+          "meaning": "negative, passive, half-hearted"
+        },
+        {
+          "kanji": "南極",
+          "hiragana": "なんきょく",
+          "romaji": "nankyoku",
+          "meaning": "South Pole, the Antarctic"
+        },
+        {
+          "kanji": "極端",
+          "hiragana": "きょくたん",
+          "romaji": "kyokutan",
+          "meaning": "extreme, extremity"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kanji": "種",
+      "onyomi": "シュ",
+      "kunyomi": "たね",
+      "meaning": "species",
+      "vocabulary": [
+        {
+          "kanji": "種",
+          "hiragana": "たね",
+          "romaji": "tane",
+          "meaning": "seed, ingredient, secret"
+        },
+        {
+          "kanji": "種類",
+          "hiragana": "しゅるい",
+          "romaji": "shurui",
+          "meaning": "variety, kind, type, category"
+        },
+        {
+          "kanji": "人種",
+          "hiragana": "じんしゅ",
+          "romaji": "jinshu",
+          "meaning": "race (of people), type of person"
+        },
+        {
+          "kanji": "一種",
+          "hiragana": "いっしゅ",
+          "romaji": "isshu",
+          "meaning": "a kind, a sort, a species"
+        },
+        {
+          "kanji": "各種",
+          "hiragana": "かくしゅ",
+          "romaji": "kakushu",
+          "meaning": "every kind, all sorts"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kanji": "美",
+      "onyomi": "ビ, ミ",
+      "kunyomi": "うつく.しい",
+      "meaning": "beauty",
+      "vocabulary": [
+        {
+          "kanji": "美しい",
+          "hiragana": "うつくしい",
+          "romaji": "utsukushii",
+          "meaning": "beautiful, pretty, lovely"
+        },
+        {
+          "kanji": "美術館",
+          "hiragana": "びじゅつかん",
+          "romaji": "bijutsukan",
+          "meaning": "art museum, art gallery"
+        },
+        {
+          "kanji": "美人",
+          "hiragana": "びじん",
+          "romaji": "bijin",
+          "meaning": "beautiful woman, belle"
+        },
+        {
+          "kanji": "美",
+          "hiragana": "び",
+          "romaji": "bi",
+          "meaning": "beauty"
+        },
+        {
+          "kanji": "優美",
+          "hiragana": "ゆうび",
+          "romaji": "yuubi",
+          "meaning": "graceful, elegant"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kanji": "命",
+      "onyomi": "メイ, ミョウ",
+      "kunyomi": "いのち",
+      "meaning": "fate",
+      "vocabulary": [
+        {
+          "kanji": "一生懸命",
+          "hiragana": "いっしょうけんめい",
+          "romaji": "isshoukenmei",
+          "meaning": "very hard, with utmost effort"
+        },
+        {
+          "kanji": "生命",
+          "hiragana": "せいめい",
+          "romaji": "seimei",
+          "meaning": "life, existence"
+        },
+        {
+          "kanji": "命",
+          "hiragana": "いのち",
+          "romaji": "inochi",
+          "meaning": "life, life force, lifespan"
+        },
+        {
+          "kanji": "命令",
+          "hiragana": "めいれい",
+          "romaji": "meirei",
+          "meaning": "command, order, instruction"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kanji": "福",
+      "onyomi": "フク",
+      "kunyomi": "—",
+      "meaning": "blessing",
+      "vocabulary": [
+        {
+          "kanji": "幸福",
+          "hiragana": "こうふく",
+          "romaji": "koufuku",
+          "meaning": "happiness, well-being, joy"
+        },
+        {
+          "kanji": "福祉",
+          "hiragana": "ふくし",
+          "romaji": "fukushi",
+          "meaning": "welfare, social security"
+        },
+        {
+          "kanji": "福",
+          "hiragana": "ふく",
+          "romaji": "fuku",
+          "meaning": "good fortune, blessing, good luck"
+        },
+        {
+          "kanji": "裕福",
+          "hiragana": "ゆうふく",
+          "romaji": "yuufuku",
+          "meaning": "wealthy, rich, affluent"
+        },
+        {
+          "kanji": "祝福",
+          "hiragana": "しゅくふく",
+          "romaji": "shukufuku",
+          "meaning": "blessing, benediction"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kanji": "量",
+      "onyomi": "リョウ",
+      "kunyomi": "はか.る",
+      "meaning": "quantity",
+      "vocabulary": [
+        {
+          "kanji": "量",
+          "hiragana": "りょう",
+          "romaji": "ryou",
+          "meaning": "quantity, amount, volume"
+        },
+        {
+          "kanji": "計る",
+          "hiragana": "はかる",
+          "romaji": "hakaru",
+          "meaning": "to measure, weigh, time"
+        },
+        {
+          "kanji": "重量",
+          "hiragana": "じゅうりょう",
+          "romaji": "juuryou",
+          "meaning": "weight"
+        },
+        {
+          "kanji": "測量",
+          "hiragana": "そくりょう",
+          "romaji": "sokuryou",
+          "meaning": "measurement, surveying"
+        },
+        {
+          "kanji": "裁量",
+          "hiragana": "さいりょう",
+          "romaji": "sairyou",
+          "meaning": "discretion"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kanji": "望",
+      "onyomi": "ボウ, モウ",
+      "kunyomi": "のぞ.む",
+      "meaning": "ambition",
+      "vocabulary": [
+        {
+          "kanji": "希望",
+          "hiragana": "きぼう",
+          "romaji": "kibou",
+          "meaning": "hope, wish, aspiration"
+        },
+        {
+          "kanji": "望む",
+          "hiragana": "のぞむ",
+          "romaji": "nozomu",
+          "meaning": "to desire, wish for, see"
+        },
+        {
+          "kanji": "失望",
+          "hiragana": "しつぼう",
+          "romaji": "shitsubou",
+          "meaning": "disappointment, despair"
+        },
+        {
+          "kanji": "望み",
+          "hiragana": "のぞみ",
+          "romaji": "nozomi",
+          "meaning": "wish, desire, prospect"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kanji": "観",
+      "onyomi": "カン",
+      "kunyomi": "み.る",
+      "meaning": "outlook",
+      "vocabulary": [
+        {
+          "kanji": "観察",
+          "hiragana": "かんさつ",
+          "romaji": "kansatsu",
+          "meaning": "observation, survey, watching"
+        },
+        {
+          "kanji": "観客",
+          "hiragana": "かんきゃく",
+          "romaji": "kankyaku",
+          "meaning": "spectator, audience"
+        },
+        {
+          "kanji": "観光",
+          "hiragana": "かんこう",
+          "romaji": "kankou",
+          "meaning": "sightseeing, tourism"
+        },
+        {
+          "kanji": "観測",
+          "hiragana": "かんそく",
+          "romaji": "kansoku",
+          "meaning": "observation, survey, measurement"
+        },
+        {
+          "kanji": "観念",
+          "hiragana": "かんねん",
+          "romaji": "kannen",
+          "meaning": "idea, concept, notion"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kanji": "察",
+      "onyomi": "サツ",
+      "kunyomi": "—",
+      "meaning": "guess",
+      "vocabulary": [
+        {
+          "kanji": "警察",
+          "hiragana": "けいさつ",
+          "romaji": "keisatsu",
+          "meaning": "police, police station"
+        },
+        {
+          "kanji": "観察",
+          "hiragana": "かんさつ",
+          "romaji": "kansatsu",
+          "meaning": "observation, survey"
+        },
+        {
+          "kanji": "診察",
+          "hiragana": "しんさつ",
+          "romaji": "shinsatsu",
+          "meaning": "medical examination, checkup"
+        },
+        {
+          "kanji": "視察",
+          "hiragana": "しさつ",
+          "romaji": "shisatsu",
+          "meaning": "inspection, observation"
+        },
+        {
+          "kanji": "察する",
+          "hiragana": "さっする",
+          "romaji": "sassuru",
+          "meaning": "to guess, sense, presume"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kanji": "整",
+      "onyomi": "セイ",
+      "kunyomi": "ととの.える, ととの.う",
+      "meaning": "organize",
+      "vocabulary": [
+        {
+          "kanji": "整理",
+          "hiragana": "せいり",
+          "romaji": "seiri",
+          "meaning": "sorting, organization, putting in order"
+        },
+        {
+          "kanji": "調整",
+          "hiragana": "ちょうせい",
+          "romaji": "chousei",
+          "meaning": "adjustment, coordination"
+        },
+        {
+          "kanji": "整う",
+          "hiragana": "ととのう",
+          "romaji": "totonou",
+          "meaning": "to be prepared, be in order"
+        },
+        {
+          "kanji": "整備",
+          "hiragana": "せいび",
+          "romaji": "seibi",
+          "meaning": "maintenance, servicing"
+        }
+      ]
+    }
+  ],
+  "Set 8": [
+    {
+      "index": 1,
+      "kanji": "横",
+      "onyomi": "オウ",
+      "kunyomi": "よこ",
+      "meaning": "sideways",
+      "vocabulary": [
+        {
+          "kanji": "横",
+          "hiragana": "よこ",
+          "romaji": "yoko",
+          "meaning": "horizontal, side-to-side, beside"
+        },
+        {
+          "kanji": "横断",
+          "hiragana": "おうだん",
+          "romaji": "oudan",
+          "meaning": "crossing, traversing"
+        },
+        {
+          "kanji": "横切る",
+          "hiragana": "よこぎる",
+          "romaji": "yokogiru",
+          "meaning": "to cross, to traverse"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kanji": "型",
+      "onyomi": "ケイ",
+      "kunyomi": "かた",
+      "meaning": "mould",
+      "vocabulary": [
+        {
+          "kanji": "典型",
+          "hiragana": "てんけい",
+          "romaji": "tenkei",
+          "meaning": "type, pattern, model, archetype"
+        },
+        {
+          "kanji": "模型",
+          "hiragana": "もけい",
+          "romaji": "mokei",
+          "meaning": "model, dummy, maquette"
+        },
+        {
+          "kanji": "血液型",
+          "hiragana": "けつえきがた",
+          "romaji": "ketsuekigata",
+          "meaning": "blood type, blood group"
+        },
+        {
+          "kanji": "体型",
+          "hiragana": "たいけい",
+          "romaji": "taikei",
+          "meaning": "figure, body shape, build"
+        },
+        {
+          "kanji": "原型",
+          "hiragana": "げんけい",
+          "romaji": "genkei",
+          "meaning": "model, prototype, archetype"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kanji": "深",
+      "onyomi": "シン",
+      "kunyomi": "ふか.い, ふか.まる",
+      "meaning": "deep",
+      "vocabulary": [
+        {
+          "kanji": "深い",
+          "hiragana": "ふかい",
+          "romaji": "fukai",
+          "meaning": "deep, profound, dense, close"
+        },
+        {
+          "kanji": "深刻",
+          "hiragana": "しんこく",
+          "romaji": "shinkoku",
+          "meaning": "serious, severe, grave"
+        },
+        {
+          "kanji": "深夜",
+          "hiragana": "しんや",
+          "romaji": "shin'ya",
+          "meaning": "late at night"
+        },
+        {
+          "kanji": "深まる",
+          "hiragana": "ふかまる",
+          "romaji": "fukamaru",
+          "meaning": "to deepen, intensify"
+        },
+        {
+          "kanji": "深める",
+          "hiragana": "ふかめる",
+          "romaji": "fukameru",
+          "meaning": "to deepen, heighten (transitive)"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kanji": "申",
+      "onyomi": "シン",
+      "kunyomi": "もう.す",
+      "meaning": "have the honor to",
+      "vocabulary": [
+        {
+          "kanji": "申す",
+          "hiragana": "もうす",
+          "romaji": "mousu",
+          "meaning": "to say, to be called (humble)"
+        },
+        {
+          "kanji": "申し込む",
+          "hiragana": "もうしこむ",
+          "romaji": "moushikomu",
+          "meaning": "to apply for, propose, offer"
+        },
+        {
+          "kanji": "申請",
+          "hiragana": "しんせい",
+          "romaji": "shinsei",
+          "meaning": "application, request, petition"
+        },
+        {
+          "kanji": "申告",
+          "hiragana": "しんこく",
+          "romaji": "shinkoku",
+          "meaning": "report, tax return, statement"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kanji": "様",
+      "onyomi": "ヨウ, ショウ",
+      "kunyomi": "さま",
+      "meaning": "way",
+      "vocabulary": [
+        {
+          "kanji": "様々",
+          "hiragana": "さまざま",
+          "romaji": "samazama",
+          "meaning": "various, varied, diverse"
+        },
+        {
+          "kanji": "同様",
+          "hiragana": "どうよう",
+          "romaji": "douyou",
+          "meaning": "same, similar, just like"
+        },
+        {
+          "kanji": "様子",
+          "hiragana": "ようす",
+          "romaji": "yousu",
+          "meaning": "state of affairs, situation, appearance"
+        },
+        {
+          "kanji": "模様",
+          "hiragana": "もよう",
+          "romaji": "moyou",
+          "meaning": "pattern, design, condition"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kanji": "港",
+      "onyomi": "コウ",
+      "kunyomi": "みなと",
+      "meaning": "harbor",
+      "vocabulary": [
+        {
+          "kanji": "空港",
+          "hiragana": "くうこう",
+          "romaji": "kuukou",
+          "meaning": "airport"
+        },
+        {
+          "kanji": "港",
+          "hiragana": "みなと",
+          "romaji": "minato",
+          "meaning": "harbour, port"
+        },
+        {
+          "kanji": "港湾",
+          "hiragana": "こうわん",
+          "romaji": "kouwan",
+          "meaning": "harbour, port"
+        },
+        {
+          "kanji": "寄港",
+          "hiragana": "きこう",
+          "romaji": "kikou",
+          "meaning": "calling at a port, stopover"
+        },
+        {
+          "kanji": "漁港",
+          "hiragana": "ぎょこう",
+          "romaji": "gyokou",
+          "meaning": "fishing port"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kanji": "達",
+      "onyomi": "タツ, ダ",
+      "kunyomi": "たち",
+      "meaning": "accomplished",
+      "vocabulary": [
+        {
+          "kanji": "友達",
+          "hiragana": "ともだち",
+          "romaji": "tomodachi",
+          "meaning": "friend, companion"
+        },
+        {
+          "kanji": "発達",
+          "hiragana": "はったつ",
+          "romaji": "hattatsu",
+          "meaning": "development, growth, progress"
+        },
+        {
+          "kanji": "達する",
+          "hiragana": "たっする",
+          "romaji": "tassuru",
+          "meaning": "to reach, get to, arrive at"
+        },
+        {
+          "kanji": "配達",
+          "hiragana": "はいたつ",
+          "romaji": "haitatsu",
+          "meaning": "delivery"
+        },
+        {
+          "kanji": "上達",
+          "hiragana": "じょうたつ",
+          "romaji": "joutatsu",
+          "meaning": "improvement, progress (in skill)"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kanji": "良",
+      "onyomi": "リョウ",
+      "kunyomi": "よ.い, いい",
+      "meaning": "good",
+      "vocabulary": [
+        {
+          "kanji": "仲良し",
+          "hiragana": "なかよし",
+          "romaji": "nakayoshi",
+          "meaning": "close friendship, good friend"
+        },
+        {
+          "kanji": "良心",
+          "hiragana": "りょうしん",
+          "romaji": "ryoushin",
+          "meaning": "conscience"
+        },
+        {
+          "kanji": "改良",
+          "hiragana": "かいりょう",
+          "romaji": "kairyou",
+          "meaning": "improvement, reform"
+        },
+        {
+          "kanji": "善良",
+          "hiragana": "ぜんりょう",
+          "romaji": "zenryou",
+          "meaning": "good-natured, virtuous, honest"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kanji": "谷",
+      "onyomi": "コク",
+      "kunyomi": "たに",
+      "meaning": "valley",
+      "vocabulary": [
+        {
+          "kanji": "谷",
+          "hiragana": "たに",
+          "romaji": "tani",
+          "meaning": "valley, ravine, gorge"
+        },
+        {
+          "kanji": "谷間",
+          "hiragana": "たにま",
+          "romaji": "tanima",
+          "meaning": "valley, gorge, chasm, gap"
+        },
+        {
+          "kanji": "峡谷",
+          "hiragana": "きょうこく",
+          "romaji": "kyoukoku",
+          "meaning": "gorge, ravine, canyon"
+        },
+        {
+          "kanji": "渓谷",
+          "hiragana": "けいこく",
+          "romaji": "keikoku",
+          "meaning": "valley (with river), gorge"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kanji": "候",
+      "onyomi": "コウ",
+      "kunyomi": "そうろう",
+      "meaning": "climate",
+      "vocabulary": [
+        {
+          "kanji": "天候",
+          "hiragana": "てんこう",
+          "romaji": "tenkou",
+          "meaning": "weather"
+        },
+        {
+          "kanji": "気候",
+          "hiragana": "きこう",
+          "romaji": "kikou",
+          "meaning": "climate"
+        },
+        {
+          "kanji": "候補",
+          "hiragana": "こうほ",
+          "romaji": "kouho",
+          "meaning": "candidate, choice"
+        },
+        {
+          "kanji": "立候補",
+          "hiragana": "りっこうほ",
+          "romaji": "rikkouho",
+          "meaning": "standing as a candidate"
+        },
+        {
+          "kanji": "居候",
+          "hiragana": "いそうろう",
+          "romaji": "isourou",
+          "meaning": "lodger, freeloader, sponger"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kanji": "史",
+      "onyomi": "シ",
+      "kunyomi": "—",
+      "meaning": "history",
+      "vocabulary": [
+        {
+          "kanji": "歴史",
+          "hiragana": "れきし",
+          "romaji": "rekishi",
+          "meaning": "history"
+        },
+        {
+          "kanji": "女史",
+          "hiragana": "じょし",
+          "romaji": "joshi",
+          "meaning": "lady (high status), Ms."
+        },
+        {
+          "kanji": "史料",
+          "hiragana": "しりょう",
+          "romaji": "shiryou",
+          "meaning": "historical materials, archives"
+        },
+        {
+          "kanji": "日本史",
+          "hiragana": "にほんし",
+          "romaji": "nihonshi",
+          "meaning": "Japanese history"
+        },
+        {
+          "kanji": "史跡",
+          "hiragana": "しせき",
+          "romaji": "shiseki",
+          "meaning": "historic landmark, historic site"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kanji": "階",
+      "onyomi": "カイ",
+      "kunyomi": "きざはし",
+      "meaning": "storey",
+      "vocabulary": [
+        {
+          "kanji": "階段",
+          "hiragana": "かいだん",
+          "romaji": "kaidan",
+          "meaning": "stairs, stairway"
+        },
+        {
+          "kanji": "二階建て",
+          "hiragana": "にかいだて",
+          "romaji": "nikaidate",
+          "meaning": "two-storied building"
+        },
+        {
+          "kanji": "段階",
+          "hiragana": "だんかい",
+          "romaji": "dankai",
+          "meaning": "stage, step, phase, level"
+        },
+        {
+          "kanji": "階級",
+          "hiragana": "かいきゅう",
+          "romaji": "kaikyuu",
+          "meaning": "class, rank, grade"
+        },
+        {
+          "kanji": "階層",
+          "hiragana": "かいそう",
+          "romaji": "kaisou",
+          "meaning": "hierarchy, stratum, class"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kanji": "満",
+      "onyomi": "マン, バン",
+      "kunyomi": "み.ちる, み.たす",
+      "meaning": "full",
+      "vocabulary": [
+        {
+          "kanji": "満足",
+          "hiragana": "まんぞく",
+          "romaji": "manzoku",
+          "meaning": "satisfaction, contentment"
+        },
+        {
+          "kanji": "満ちる",
+          "hiragana": "みちる",
+          "romaji": "michiru",
+          "meaning": "to fill, become full, mature"
+        },
+        {
+          "kanji": "不満",
+          "hiragana": "ふまん",
+          "romaji": "fuman",
+          "meaning": "dissatisfaction, discontent"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kanji": "敗",
+      "onyomi": "ハイ",
+      "kunyomi": "やぶ.れる",
+      "meaning": "failure",
+      "vocabulary": [
+        {
+          "kanji": "失敗",
+          "hiragana": "しっぱい",
+          "romaji": "shippai",
+          "meaning": "failure, mistake, blunder"
+        },
+        {
+          "kanji": "勝敗",
+          "hiragana": "しょうはい",
+          "romaji": "shouhai",
+          "meaning": "victory or defeat, outcome"
+        },
+        {
+          "kanji": "腐敗",
+          "hiragana": "ふはい",
+          "romaji": "fuhai",
+          "meaning": "decomposition, corruption"
+        },
+        {
+          "kanji": "敗戦",
+          "hiragana": "はいせん",
+          "romaji": "haisen",
+          "meaning": "defeat, lost battle"
+        },
+        {
+          "kanji": "敗北",
+          "hiragana": "はいぼく",
+          "romaji": "haiboku",
+          "meaning": "defeat, setback"
+        },
+        {
+          "kanji": "敗れる",
+          "hiragana": "やぶれる",
+          "romaji": "yabureru",
+          "meaning": "to be defeated, to lose"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kanji": "管",
+      "onyomi": "カン",
+      "kunyomi": "くだ",
+      "meaning": "pipe",
+      "vocabulary": [
+        {
+          "kanji": "管理",
+          "hiragana": "かんり",
+          "romaji": "kanri",
+          "meaning": "control, management"
+        },
+        {
+          "kanji": "管",
+          "hiragana": "かん",
+          "romaji": "kan",
+          "meaning": "pipe, tube, duct"
+        },
+        {
+          "kanji": "血管",
+          "hiragana": "けっかん",
+          "romaji": "kekkan",
+          "meaning": "blood vessel, vein"
+        },
+        {
+          "kanji": "保管",
+          "hiragana": "ほかん",
+          "romaji": "hokan",
+          "meaning": "custody, safekeeping, storage"
+        },
+        {
+          "kanji": "管轄",
+          "hiragana": "かんかつ",
+          "romaji": "kankatsu",
+          "meaning": "jurisdiction, control"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kanji": "兵",
+      "onyomi": "ヘイ, ヒョウ",
+      "kunyomi": "つわもの",
+      "meaning": "soldier",
+      "vocabulary": [
+        {
+          "kanji": "兵隊",
+          "hiragana": "へいたい",
+          "romaji": "heitai",
+          "meaning": "military, troops, soldier"
+        },
+        {
+          "kanji": "兵士",
+          "hiragana": "へいし",
+          "romaji": "heishi",
+          "meaning": "soldier"
+        },
+        {
+          "kanji": "兵器",
+          "hiragana": "へいき",
+          "romaji": "heiki",
+          "meaning": "arms, weapon, ordnance"
+        },
+        {
+          "kanji": "核兵器",
+          "hiragana": "かくへいき",
+          "romaji": "kakuheiki",
+          "meaning": "nuclear weapon"
+        },
+        {
+          "kanji": "徴兵",
+          "hiragana": "ちょうへい",
+          "romaji": "chouhei",
+          "meaning": "conscription, military draft"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kanji": "器",
+      "onyomi": "キ",
+      "kunyomi": "うつわ",
+      "meaning": "utensil",
+      "vocabulary": [
+        {
+          "kanji": "機械",
+          "hiragana": "きかい",
+          "romaji": "kikai",
+          "meaning": "machine, mechanism, appliance"
+        },
+        {
+          "kanji": "武器",
+          "hiragana": "ぶき",
+          "romaji": "buki",
+          "meaning": "weapon, arms, asset"
+        },
+        {
+          "kanji": "器用",
+          "hiragana": "きよう",
+          "romaji": "kiyou",
+          "meaning": "skillful, adroit, dexterous"
+        },
+        {
+          "kanji": "食器",
+          "hiragana": "しょっき",
+          "romaji": "shokki",
+          "meaning": "tableware"
+        },
+        {
+          "kanji": "容器",
+          "hiragana": "ようき",
+          "romaji": "youki",
+          "meaning": "container, receptacle, vessel"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kanji": "路",
+      "onyomi": "ロ, ル",
+      "kunyomi": "じ, みち",
+      "meaning": "path",
+      "vocabulary": [
+        {
+          "kanji": "道路",
+          "hiragana": "どうろ",
+          "romaji": "douro",
+          "meaning": "road, highway"
+        },
+        {
+          "kanji": "線路",
+          "hiragana": "せんろ",
+          "romaji": "senro",
+          "meaning": "railway track, railroad"
+        },
+        {
+          "kanji": "通路",
+          "hiragana": "つうろ",
+          "romaji": "tsuuro",
+          "meaning": "passage, pathway, aisle"
+        },
+        {
+          "kanji": "進路",
+          "hiragana": "しんろ",
+          "romaji": "shinro",
+          "meaning": "route, course, future path"
+        },
+        {
+          "kanji": "回路",
+          "hiragana": "かいろ",
+          "romaji": "kairo",
+          "meaning": "circuit [electricity]"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kanji": "科",
+      "onyomi": "カ",
+      "kunyomi": "—",
+      "meaning": "department",
+      "vocabulary": [
+        {
+          "kanji": "科学",
+          "hiragana": "かがく",
+          "romaji": "kagaku",
+          "meaning": "science"
+        },
+        {
+          "kanji": "教科書",
+          "hiragana": "きょうかしょ",
+          "romaji": "kyoukasho",
+          "meaning": "textbook, coursebook"
+        },
+        {
+          "kanji": "科目",
+          "hiragana": "かもく",
+          "romaji": "kamoku",
+          "meaning": "school subject, curriculum"
+        },
+        {
+          "kanji": "外科",
+          "hiragana": "げか",
+          "romaji": "geka",
+          "meaning": "surgery department"
+        },
+        {
+          "kanji": "学科",
+          "hiragana": "がっか",
+          "romaji": "gakka",
+          "meaning": "academic course, department"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kanji": "細",
+      "onyomi": "サイ",
+      "kunyomi": "ほそ.い, こま.かい",
+      "meaning": "dainty",
+      "vocabulary": [
+        {
+          "kanji": "細い",
+          "hiragana": "ほそい",
+          "romaji": "hosoi",
+          "meaning": "thin, slender, fine"
+        },
+        {
+          "kanji": "細かい",
+          "hiragana": "こまかい",
+          "romaji": "komakai",
+          "meaning": "small, fine, minute, trivial"
+        },
+        {
+          "kanji": "詳細",
+          "hiragana": "しょうさい",
+          "romaji": "shousai",
+          "meaning": "details, particulars"
+        },
+        {
+          "kanji": "細胞",
+          "hiragana": "さいぼう",
+          "romaji": "saibou",
+          "meaning": "cell [biology]"
+        }
+      ]
+    }
+  ],
+  "Set 9": [
+    {
+      "index": 1,
+      "kanji": "積",
+      "onyomi": "セキ",
+      "kunyomi": "つ.む, つ.もる",
+      "meaning": "volume",
+      "vocabulary": [
+        {
+          "kanji": "積極的",
+          "hiragana": "せっきょくてき",
+          "romaji": "sekkyokuteki",
+          "meaning": "positive, assertive, proactive"
+        },
+        {
+          "kanji": "積もる",
+          "hiragana": "つもる",
+          "romaji": "つもる",
+          "meaning": "to pile up, to accumulate"
+        },
+        {
+          "kanji": "積む",
+          "hiragana": "つむ",
+          "romaji": "tsumu",
+          "meaning": "to pile up, stack, load"
+        },
+        {
+          "kanji": "面積",
+          "hiragana": "めんせき",
+          "romaji": "menseki",
+          "meaning": "area, square measure, size"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kanji": "丸",
+      "onyomi": "ガン",
+      "kunyomi": "まる, まる.い",
+      "meaning": "round",
+      "vocabulary": [
+        {
+          "kanji": "丸",
+          "hiragana": "まる",
+          "romaji": "maru",
+          "meaning": "circle, whole, complete"
+        },
+        {
+          "kanji": "丸める",
+          "hiragana": "まるめる",
+          "romaji": "marumeru",
+          "meaning": "to make round, roll up, curl"
+        },
+        {
+          "kanji": "日の丸",
+          "hiragana": "ひのまる",
+          "romaji": "hinomaru",
+          "meaning": "red circle of the Sun"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kanji": "他",
+      "onyomi": "タ",
+      "kunyomi": "ほか",
+      "meaning": "other",
+      "vocabulary": [
+        {
+          "kanji": "他",
+          "hiragana": "ほか",
+          "romaji": "hoka",
+          "meaning": "other"
+        },
+        {
+          "kanji": "他人",
+          "hiragana": "たにん",
+          "romaji": "tanin",
+          "meaning": "another person, others, stranger"
+        },
+        {
+          "kanji": "その他",
+          "hiragana": "そのほか",
+          "romaji": "sonohoka",
+          "meaning": "the rest, the others, besides"
+        },
+        {
+          "kanji": "他方",
+          "hiragana": "たほう",
+          "romaji": "tahou",
+          "meaning": "on the other hand"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kanji": "録",
+      "onyomi": "ロク",
+      "kunyomi": "しる.す",
+      "meaning": "record",
+      "vocabulary": [
+        {
+          "kanji": "記録",
+          "hiragana": "きろく",
+          "romaji": "kiroku",
+          "meaning": "record, document, minutes"
+        },
+        {
+          "kanji": "録音",
+          "hiragana": "ろくおん",
+          "romaji": "rokuon",
+          "meaning": "audio recording"
+        },
+        {
+          "kanji": "登録",
+          "hiragana": "とうろく",
+          "romaji": "touroku",
+          "meaning": "registration, entry, record"
+        },
+        {
+          "kanji": "目録",
+          "hiragana": "もくろく",
+          "romaji": "mokuroku",
+          "meaning": "catalogue, inventory, contents"
+        },
+        {
+          "kanji": "付録",
+          "hiragana": "ふろく",
+          "romaji": "furoku",
+          "meaning": "appendix, supplement"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kanji": "省",
+      "onyomi": "ショウ, セイ",
+      "kunyomi": "はぶ.く, かえり.みる",
+      "meaning": "ministry",
+      "vocabulary": [
+        {
+          "kanji": "省く",
+          "hiragana": "はぶく",
+          "romaji": "habuku",
+          "meaning": "to omit, exclude, economize"
+        },
+        {
+          "kanji": "省略",
+          "hiragana": "しょうりゃく",
+          "romaji": "shouryaku",
+          "meaning": "omission, abbreviation"
+        },
+        {
+          "kanji": "反省",
+          "hiragana": "はんせい",
+          "romaji": "hansei",
+          "meaning": "reflection, introspection, regret"
+        },
+        {
+          "kanji": "省みる",
+          "hiragana": "かえりみる",
+          "romaji": "kaerimiru",
+          "meaning": "to reflect on, contemplate"
+        },
+        {
+          "kanji": "大蔵省",
+          "hiragana": "おおくらしょう",
+          "romaji": "ookurashou",
+          "meaning": "Ministry of Finance (former)"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kanji": "橋",
+      "onyomi": "キョウ",
+      "kunyomi": "はし",
+      "meaning": "bridge",
+      "vocabulary": [
+        {
+          "kanji": "橋",
+          "hiragana": "はし",
+          "romaji": "hashi",
+          "meaning": "bridge"
+        },
+        {
+          "kanji": "鉄橋",
+          "hiragana": "てっきょう",
+          "romaji": "tekkyou",
+          "meaning": "railway bridge, iron bridge"
+        },
+        {
+          "kanji": "桟橋",
+          "hiragana": "さんばし",
+          "romaji": "sanbashi",
+          "meaning": "wharf, jetty, pier"
+        },
+        {
+          "kanji": "橋渡し",
+          "hiragana": "はしわたし",
+          "romaji": "hashiwatashi",
+          "meaning": "mediation, go-between"
+        },
+        {
+          "kanji": "歩道橋",
+          "hiragana": "ほどうきょう",
+          "romaji": "hodoukyou",
+          "meaning": "pedestrian overpass"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kanji": "岸",
+      "onyomi": "ガン",
+      "kunyomi": "きし",
+      "meaning": "beach",
+      "vocabulary": [
+        {
+          "kanji": "海岸",
+          "hiragana": "かいがん",
+          "romaji": "kaigan",
+          "meaning": "seashore, coast, seaside, beach"
+        },
+        {
+          "kanji": "岸",
+          "hiragana": "きし",
+          "romaji": "kishi",
+          "meaning": "bank, coast, shore"
+        },
+        {
+          "kanji": "沿岸",
+          "hiragana": "えんがん",
+          "romaji": "engan",
+          "meaning": "coast, shore, coastal area"
+        },
+        {
+          "kanji": "対岸",
+          "hiragana": "たいがん",
+          "romaji": "taigan",
+          "meaning": "opposite shore"
+        },
+        {
+          "kanji": "岸壁",
+          "hiragana": "がんぺき",
+          "romaji": "ganpeki",
+          "meaning": "quay, wharf, cliff wall"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kanji": "客",
+      "onyomi": "キャク, カク",
+      "kunyomi": "—",
+      "meaning": "guest",
+      "vocabulary": [
+        {
+          "kanji": "客",
+          "hiragana": "きゃく",
+          "romaji": "kyaku",
+          "meaning": "guest, visitor, customer"
+        },
+        {
+          "kanji": "乗客",
+          "hiragana": "じょうきゃく",
+          "romaji": "joukyaku",
+          "meaning": "passenger"
+        },
+        {
+          "kanji": "観客",
+          "hiragana": "かんきゃく",
+          "romaji": "kankyaku",
+          "meaning": "spectator, audience"
+        },
+        {
+          "kanji": "客席",
+          "hiragana": "きゃくせき",
+          "romaji": "kyakuseki",
+          "meaning": "audience seat, spectator seat"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kanji": "周",
+      "onyomi": "シュウ",
+      "kunyomi": "まわ.り",
+      "meaning": "circumference",
+      "vocabulary": [
+        {
+          "kanji": "周り",
+          "hiragana": "まわり",
+          "romaji": "mawari",
+          "meaning": "circumference, surroundings"
+        },
+        {
+          "kanji": "周囲",
+          "hiragana": "しゅうい",
+          "romaji": "shuui",
+          "meaning": "surroundings, environs"
+        },
+        {
+          "kanji": "周辺",
+          "hiragana": "しゅうへん",
+          "romaji": "shuuhen",
+          "meaning": "outskirts, peripheral"
+        },
+        {
+          "kanji": "円周",
+          "hiragana": "えんしゅう",
+          "romaji": "enshuu",
+          "meaning": "circumference"
+        },
+        {
+          "kanji": "周期",
+          "hiragana": "しゅうき",
+          "romaji": "shuuki",
+          "meaning": "period, cycle"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kanji": "材",
+      "onyomi": "ザイ",
+      "kunyomi": "—",
+      "meaning": "lumber",
+      "vocabulary": [
+        {
+          "kanji": "材料",
+          "hiragana": "ざいりょう",
+          "romaji": "zairyou",
+          "meaning": "materials, ingredients, data"
+        },
+        {
+          "kanji": "木材",
+          "hiragana": "もくざい",
+          "romaji": "mokuzai",
+          "meaning": "lumber, timber, wood"
+        },
+        {
+          "kanji": "素材",
+          "hiragana": "そざい",
+          "romaji": "sozai",
+          "meaning": "ingredient, raw material"
+        },
+        {
+          "kanji": "取材",
+          "hiragana": "しゅざい",
+          "romaji": "shuzai",
+          "meaning": "collecting info, reporting"
+        },
+        {
+          "kanji": "人材",
+          "hiragana": "じんざい",
+          "romaji": "jinzai",
+          "meaning": "human resources, talent"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kanji": "登",
+      "onyomi": "トウ, ト",
+      "kunyomi": "のぼ.る",
+      "meaning": "ascend",
+      "vocabulary": [
+        {
+          "kanji": "登山",
+          "hiragana": "とざん",
+          "romaji": "tozan",
+          "meaning": "mountain climbing, ascent"
+        },
+        {
+          "kanji": "登場",
+          "hiragana": "とうじょう",
+          "romaji": "toujou",
+          "meaning": "entrance on stage, emergence"
+        },
+        {
+          "kanji": "登録",
+          "hiragana": "とうろく",
+          "romaji": "touroku",
+          "meaning": "registration, entry, record"
+        },
+        {
+          "kanji": "登校",
+          "hiragana": "とうこう",
+          "romaji": "toukou",
+          "meaning": "attendance at school"
+        },
+        {
+          "kanji": "山登り",
+          "hiragana": "やまのぼり",
+          "romaji": "yamanobori",
+          "meaning": "mountain climbing"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kanji": "健",
+      "onyomi": "ケン",
+      "kunyomi": "すこ.やか",
+      "meaning": "healthy",
+      "vocabulary": [
+        {
+          "kanji": "健康",
+          "hiragana": "けんこう",
+          "romaji": "kenkou",
+          "meaning": "health, sound, fit"
+        },
+        {
+          "kanji": "保健",
+          "hiragana": "ほけん",
+          "romaji": "hoken",
+          "meaning": "preservation of health, hygiene"
+        },
+        {
+          "kanji": "健全",
+          "hiragana": "けんぜん",
+          "romaji": "kenzen",
+          "meaning": "healthy, sound, wholesome"
+        },
+        {
+          "kanji": "健やか",
+          "hiragana": "すこやか",
+          "romaji": "sukoyaka",
+          "meaning": "vigorous, healthy, sound"
+        },
+        {
+          "kanji": "穏健",
+          "hiragana": "おんけん",
+          "romaji": "onken",
+          "meaning": "moderate, temperate, sensible"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kanji": "戸",
+      "onyomi": "コ",
+      "kunyomi": "と",
+      "meaning": "door",
+      "vocabulary": [
+        {
+          "kanji": "戸",
+          "hiragana": "と",
+          "romaji": "to",
+          "meaning": "door, shutter"
+        },
+        {
+          "kanji": "井戸",
+          "hiragana": "いど",
+          "romaji": "ido",
+          "meaning": "water well"
+        },
+        {
+          "kanji": "雨戸",
+          "hiragana": "あまど",
+          "romaji": "amado",
+          "meaning": "sliding storm shutter"
+        },
+        {
+          "kanji": "戸棚",
+          "hiragana": "とだな",
+          "romaji": "todana",
+          "meaning": "cupboard, cabinet, closet"
+        },
+        {
+          "kanji": "戸籍",
+          "hiragana": "こせき",
+          "romaji": "koseki",
+          "meaning": "family register"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kanji": "速",
+      "onyomi": "ソク",
+      "kunyomi": "はや.い, すみ.やか",
+      "meaning": "quick",
+      "vocabulary": [
+        {
+          "kanji": "速い",
+          "hiragana": "はやい",
+          "romaji": "hayai",
+          "meaning": "fast, quick, rapid, speedy"
+        },
+        {
+          "kanji": "急速",
+          "hiragana": "きゅうそく",
+          "romaji": "kyuusoku",
+          "meaning": "rapid (progress)"
+        },
+        {
+          "kanji": "速度",
+          "hiragana": "そくど",
+          "romaji": "sokudo",
+          "meaning": "speed, velocity, pace"
+        },
+        {
+          "kanji": "高速",
+          "hiragana": "こうそく",
+          "romaji": "kousoku",
+          "meaning": "high-speed, express"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kanji": "飛",
+      "onyomi": "ヒ",
+      "kunyomi": "と.ぶ, と.ばす",
+      "meaning": "fly",
+      "vocabulary": [
+        {
+          "kanji": "飛行機",
+          "hiragana": "ひこうき",
+          "romaji": "hikouki",
+          "meaning": "airplane, aircraft"
+        },
+        {
+          "kanji": "飛ぶ",
+          "hiragana": "とぶ",
+          "romaji": "tobu",
+          "meaning": "to fly, to leap, to scatter"
+        },
+        {
+          "kanji": "飛ばす",
+          "hiragana": "とばす",
+          "romaji": "tobasu",
+          "meaning": "to let fly, fire, skip over"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kanji": "殺",
+      "onyomi": "サツ, サイ",
+      "kunyomi": "ころ.す",
+      "meaning": "kill",
+      "vocabulary": [
+        {
+          "kanji": "殺す",
+          "hiragana": "ころす",
+          "romaji": "korosu",
+          "meaning": "to kill, murder, suppress"
+        },
+        {
+          "kanji": "自殺",
+          "hiragana": "じさつ",
+          "romaji": "jisatsu",
+          "meaning": "suicide"
+        },
+        {
+          "kanji": "殺人",
+          "hiragana": "さつじん",
+          "romaji": "satsujin",
+          "meaning": "murder, homicide"
+        },
+        {
+          "kanji": "暗殺",
+          "hiragana": "あんさつ",
+          "romaji": "ansatsu",
+          "meaning": "assassination"
+        },
+        {
+          "kanji": "殺虫剤",
+          "hiragana": "さっちゅうざい",
+          "romaji": "sacchuuzai",
+          "meaning": "insecticide"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kanji": "央",
+      "onyomi": "オウ",
+      "kunyomi": "—",
+      "meaning": "center",
+      "vocabulary": [
+        {
+          "kanji": "中央",
+          "hiragana": "ちゅうおう",
+          "romaji": "chuuou",
+          "meaning": "centre, middle, heart, capital"
+        },
+        {
+          "kanji": "道央",
+          "hiragana": "どうおう",
+          "romaji": "douou",
+          "meaning": "central Hokkaido"
+        },
+        {
+          "kanji": "震央",
+          "hiragana": "しんおう",
+          "romaji": "shin'ou",
+          "meaning": "epicentre (of earthquake)"
+        },
+        {
+          "kanji": "月央",
+          "hiragana": "げつおう",
+          "romaji": "getsuou",
+          "meaning": "middle of the month"
+        },
+        {
+          "kanji": "年央",
+          "hiragana": "ねんおう",
+          "romaji": "nen'ou",
+          "meaning": "mid-year"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kanji": "号",
+      "onyomi": "ゴウ",
+      "kunyomi": "さけ.ぶ",
+      "meaning": "nickname",
+      "vocabulary": [
+        {
+          "kanji": "番号",
+          "hiragana": "ばんごう",
+          "romaji": "bangou",
+          "meaning": "number, series of digits"
+        },
+        {
+          "kanji": "信号",
+          "hiragana": "しんごう",
+          "romaji": "shingou",
+          "meaning": "traffic light, signal"
+        },
+        {
+          "kanji": "記号",
+          "hiragana": "きごう",
+          "romaji": "kigou",
+          "meaning": "sign, symbol, mark"
+        },
+        {
+          "kanji": "符号",
+          "hiragana": "ふごう",
+          "romaji": "fugou",
+          "meaning": "sign, code, math symbol"
+        },
+        {
+          "kanji": "年号",
+          "hiragana": "ねんごう",
+          "romaji": "nengou",
+          "meaning": "era name"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kanji": "単",
+      "onyomi": "タン",
+      "kunyomi": "—",
+      "meaning": "simple",
+      "vocabulary": [
+        {
+          "kanji": "簡単",
+          "hiragana": "かんたん",
+          "romaji": "kantan",
+          "meaning": "simple, easy, brief"
+        },
+        {
+          "kanji": "単位",
+          "hiragana": "たんい",
+          "romaji": "tan'i",
+          "meaning": "unit, denomination, credit"
+        },
+        {
+          "kanji": "単に",
+          "hiragana": "たんに",
+          "romaji": "tanni",
+          "meaning": "simply, merely, only"
+        },
+        {
+          "kanji": "単語",
+          "hiragana": "たんご",
+          "romaji": "tango",
+          "meaning": "word, vocabulary"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kanji": "竹",
+      "onyomi": "チク",
+      "kunyomi": "たけ",
+      "meaning": "bamboo",
+      "vocabulary": [
+        {
+          "kanji": "竹",
+          "hiragana": "たけ",
+          "romaji": "take",
+          "meaning": "bamboo"
+        },
+        {
+          "kanji": "竹林",
+          "hiragana": "ちくりん",
+          "romaji": "chikurin",
+          "meaning": "bamboo thicket, bamboo grove"
+        },
+        {
+          "kanji": "竹刀",
+          "hiragana": "しない",
+          "romaji": "shinai",
+          "meaning": "bamboo sword (kendo)"
+        },
+        {
+          "kanji": "爆竹",
+          "hiragana": "ばくちく",
+          "romaji": "bakuchiku",
+          "meaning": "firecracker"
+        }
+      ]
+    }
+  ],
+  "Set 10": [
+    {
+      "index": 1,
+      "kanji": "完",
+      "onyomi": "カン",
+      "kunyomi": "—",
+      "meaning": "perfect",
+      "vocabulary": [
+        {
+          "kanji": "完全",
+          "hiragana": "かんぜん",
+          "romaji": "kanzen",
+          "meaning": "perfect, complete"
+        },
+        {
+          "kanji": "完成",
+          "hiragana": "かんせい",
+          "romaji": "kansei",
+          "meaning": "completion, perfection"
+        },
+        {
+          "kanji": "完了",
+          "hiragana": "かんりょう",
+          "romaji": "kanryou",
+          "meaning": "completion, perfect tense"
+        },
+        {
+          "kanji": "完璧",
+          "hiragana": "かんぺき",
+          "romaji": "kanpeki",
+          "meaning": "perfect, flawless"
+        },
+        {
+          "kanji": "完結",
+          "hiragana": "かんけつ",
+          "romaji": "kanketsu",
+          "meaning": "conclusion, completion"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kanji": "競",
+      "onyomi": "キョウ, ケイ",
+      "kunyomi": "きそ.う, せ.る",
+      "meaning": "emulate",
+      "vocabulary": [
+        {
+          "kanji": "競争",
+          "hiragana": "きょうそう",
+          "romaji": "kyousou",
+          "meaning": "competition, rivalry, race"
+        },
+        {
+          "kanji": "競技",
+          "hiragana": "きょうぎ",
+          "romaji": "kyougi",
+          "meaning": "game, match, sporting event"
+        },
+        {
+          "kanji": "競馬",
+          "hiragana": "けいば",
+          "romaji": "keiba",
+          "meaning": "horse racing"
+        },
+        {
+          "kanji": "競う",
+          "hiragana": "きそう",
+          "romaji": "kisou",
+          "meaning": "to compete, vie, contend"
+        },
+        {
+          "kanji": "競る",
+          "hiragana": "せる",
+          "romaji": "seru",
+          "meaning": "to compete, to bid"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kanji": "給",
+      "onyomi": "キュウ",
+      "kunyomi": "たま.う",
+      "meaning": "salary",
+      "vocabulary": [
+        {
+          "kanji": "供給",
+          "hiragana": "きょうきゅう",
+          "romaji": "kyoukyuu",
+          "meaning": "supply, provision"
+        },
+        {
+          "kanji": "給料",
+          "hiragana": "きゅうりょう",
+          "romaji": "kyuuryou",
+          "meaning": "salary, wages, pay"
+        },
+        {
+          "kanji": "支給",
+          "hiragana": "しきゅう",
+          "romaji": "shikyuu",
+          "meaning": "provision, allowance, grant"
+        },
+        {
+          "kanji": "給与",
+          "hiragana": "きゅうよ",
+          "romaji": "kyuuyo",
+          "meaning": "pay, wages, salary"
+        },
+        {
+          "kanji": "月給",
+          "hiragana": "げっきゅう",
+          "romaji": "gekkyuu",
+          "meaning": "monthly salary"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kanji": "根",
+      "onyomi": "コン",
+      "kunyomi": "ね",
+      "meaning": "root",
+      "vocabulary": [
+        {
+          "kanji": "根",
+          "hiragana": "ね",
+          "romaji": "ne",
+          "meaning": "root, source, origin, cause"
+        },
+        {
+          "kanji": "根拠",
+          "hiragana": "こんきょ",
+          "romaji": "konkyo",
+          "meaning": "basis, grounds, authority"
+        },
+        {
+          "kanji": "根気",
+          "hiragana": "こんき",
+          "romaji": "konki",
+          "meaning": "patience, perseverance"
+        },
+        {
+          "kanji": "根底",
+          "hiragana": "こんてい",
+          "romaji": "kontei",
+          "meaning": "root, basis, foundation"
+        },
+        {
+          "kanji": "根回し",
+          "hiragana": "ねまわし",
+          "romaji": "nemawashi",
+          "meaning": "laying groundwork, consensus"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kanji": "苦",
+      "onyomi": "ク",
+      "kunyomi": "くる.しい, にが.い",
+      "meaning": "suffering",
+      "vocabulary": [
+        {
+          "kanji": "苦い",
+          "hiragana": "にがい",
+          "romaji": "nigai",
+          "meaning": "bitter"
+        },
+        {
+          "kanji": "苦労",
+          "hiragana": "くろう",
+          "romaji": "kurou",
+          "meaning": "trouble, hardship, difficulty"
+        },
+        {
+          "kanji": "苦痛",
+          "hiragana": "くつう",
+          "romaji": "kutsuu",
+          "meaning": "pain, agony, distress"
+        },
+        {
+          "kanji": "苦手",
+          "hiragana": "にがて",
+          "romaji": "nigate",
+          "meaning": "poor at, not one's cup of tea"
+        },
+        {
+          "kanji": "苦しい",
+          "hiragana": "くるしい",
+          "romaji": "kurushii",
+          "meaning": "painful, difficult"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kanji": "園",
+      "onyomi": "エン",
+      "kunyomi": "その",
+      "meaning": "park",
+      "vocabulary": [
+        {
+          "kanji": "公園",
+          "hiragana": "こうえん",
+          "romaji": "kouen",
+          "meaning": "public park"
+        },
+        {
+          "kanji": "動物園",
+          "hiragana": "どうぶつえん",
+          "romaji": "doubutsuen",
+          "meaning": "zoo, zoological gardens"
+        },
+        {
+          "kanji": "園芸",
+          "hiragana": "えんげい",
+          "romaji": "engei",
+          "meaning": "horticulture, gardening"
+        },
+        {
+          "kanji": "幼稚園",
+          "hiragana": "ようちえん",
+          "romaji": "youchien",
+          "meaning": "kindergarten, preschool"
+        },
+        {
+          "kanji": "遊園地",
+          "hiragana": "ゆうえんち",
+          "romaji": "yuuenchi",
+          "meaning": "amusement park"
+        },
+        {
+          "kanji": "園",
+          "hiragana": "その",
+          "romaji": "sono",
+          "meaning": "garden, park"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kanji": "具",
+      "onyomi": "グ",
+      "kunyomi": "そな.える",
+      "meaning": "tool",
+      "vocabulary": [
+        {
+          "kanji": "道具",
+          "hiragana": "どうぐ",
+          "romaji": "dougu",
+          "meaning": "tool, implement, instrument"
+        },
+        {
+          "kanji": "具合",
+          "hiragana": "ぐあい",
+          "romaji": "guai",
+          "meaning": "condition, state, health"
+        },
+        {
+          "kanji": "家具",
+          "hiragana": "かぐ",
+          "romaji": "kagu",
+          "meaning": "furniture"
+        },
+        {
+          "kanji": "具体",
+          "hiragana": "ぐたい",
+          "romaji": "gutai",
+          "meaning": "concreteness, embodiment"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kanji": "歴",
+      "onyomi": "レキ",
+      "kunyomi": "—",
+      "meaning": "curriculum",
+      "vocabulary": [
+        {
+          "kanji": "歴史",
+          "hiragana": "れきし",
+          "romaji": "rekishi",
+          "meaning": "history"
+        },
+        {
+          "kanji": "経歴",
+          "hiragana": "けいれき",
+          "romaji": "keireki",
+          "meaning": "personal history, career"
+        },
+        {
+          "kanji": "学歴",
+          "hiragana": "がくれき",
+          "romaji": "gakureki",
+          "meaning": "academic background"
+        },
+        {
+          "kanji": "遍歴",
+          "hiragana": "へんれき",
+          "romaji": "henreki",
+          "meaning": "travels, pilgrimage"
+        },
+        {
+          "kanji": "履歴書",
+          "hiragana": "りれきしょ",
+          "romaji": "rirekisho",
+          "meaning": "resume, CV"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kanji": "辞",
+      "onyomi": "ジ",
+      "kunyomi": "や.める",
+      "meaning": "resign",
+      "vocabulary": [
+        {
+          "kanji": "辞書",
+          "hiragana": "じしょ",
+          "romaji": "jisho",
+          "meaning": "dictionary, lexicon"
+        },
+        {
+          "kanji": "辞典",
+          "hiragana": "じてん",
+          "romaji": "jiten",
+          "meaning": "dictionary, lexicon"
+        },
+        {
+          "kanji": "辞める",
+          "hiragana": "やめる",
+          "romaji": "yameru",
+          "meaning": "to resign, quit, retire"
+        },
+        {
+          "kanji": "お辞儀",
+          "hiragana": "おじぎ",
+          "romaji": "ojigi",
+          "meaning": "bow, bowing"
+        },
+        {
+          "kanji": "百科事典",
+          "hiragana": "ひゃっかじてん",
+          "romaji": "hyakkajiten",
+          "meaning": "encyclopedia"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kanji": "馬",
+      "onyomi": "バ",
+      "kunyomi": "うま",
+      "meaning": "horse",
+      "vocabulary": [
+        {
+          "kanji": "馬",
+          "hiragana": "うま",
+          "romaji": "uma",
+          "meaning": "horse"
+        },
+        {
+          "kanji": "競馬",
+          "hiragana": "けいば",
+          "romaji": "keiba",
+          "meaning": "horse racing"
+        },
+        {
+          "kanji": "馬車",
+          "hiragana": "ばしゃ",
+          "romaji": "basha",
+          "meaning": "coach, carriage, wagon"
+        },
+        {
+          "kanji": "馬力",
+          "hiragana": "ばりき",
+          "romaji": "bariki",
+          "meaning": "horsepower, energy, vitality"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kanji": "愛",
+      "onyomi": "アイ",
+      "kunyomi": "いと.しい",
+      "meaning": "love",
+      "vocabulary": [
+        {
+          "kanji": "愛",
+          "hiragana": "あい",
+          "romaji": "ai",
+          "meaning": "love, affection, care"
+        },
+        {
+          "kanji": "愛情",
+          "hiragana": "あいじょう",
+          "romaji": "aijou",
+          "meaning": "love, affection"
+        },
+        {
+          "kanji": "愛する",
+          "hiragana": "あいする",
+          "romaji": "aisuru",
+          "meaning": "to love"
+        },
+        {
+          "kanji": "可愛らしい",
+          "hiragana": "かわいらしい",
+          "romaji": "kawairashii",
+          "meaning": "lovely, sweet, pretty, cute"
+        },
+        {
+          "kanji": "恋愛",
+          "hiragana": "れんあい",
+          "romaji": "ren'ai",
+          "meaning": "love, romance, passion"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kanji": "未",
+      "onyomi": "ミ",
+      "kunyomi": "いま.だ, ま.だ",
+      "meaning": "un-",
+      "vocabulary": [
+        {
+          "kanji": "未来",
+          "hiragana": "みらい",
+          "romaji": "mirai",
+          "meaning": "(distant) future"
+        },
+        {
+          "kanji": "未満",
+          "hiragana": "みまん",
+          "romaji": "miman",
+          "meaning": "less than, under, below"
+        },
+        {
+          "kanji": "未熟",
+          "hiragana": "みじゅく",
+          "romaji": "mijuku",
+          "meaning": "unripe, immature, unskilled"
+        },
+        {
+          "kanji": "未婚",
+          "hiragana": "みこん",
+          "romaji": "mikon",
+          "meaning": "unmarried, single"
+        },
+        {
+          "kanji": "未払い",
+          "hiragana": "みはらい",
+          "romaji": "miharai",
+          "meaning": "unpaid, overdue"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kanji": "航",
+      "onyomi": "コウ",
+      "kunyomi": "わた.る",
+      "meaning": "navigate",
+      "vocabulary": [
+        {
+          "kanji": "航空",
+          "hiragana": "こうくう",
+          "romaji": "koukuu",
+          "meaning": "aviation, flying"
+        },
+        {
+          "kanji": "航海",
+          "hiragana": "こうかい",
+          "romaji": "koukai",
+          "meaning": "voyage, navigation, sailing"
+        },
+        {
+          "kanji": "運航",
+          "hiragana": "うんこう",
+          "romaji": "unkou",
+          "meaning": "operation (of ship/aircraft)"
+        },
+        {
+          "kanji": "航路",
+          "hiragana": "こうろ",
+          "romaji": "kouro",
+          "meaning": "route, flight course"
+        },
+        {
+          "kanji": "就航",
+          "hiragana": "しゅうこう",
+          "romaji": "shuukou",
+          "meaning": "entering service (plane/ship)"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kanji": "冷",
+      "onyomi": "レイ",
+      "kunyomi": "つめ.たい, ひ.える",
+      "meaning": "cool",
+      "vocabulary": [
+        {
+          "kanji": "冷たい",
+          "hiragana": "つめたい",
+          "romaji": "tsumetai",
+          "meaning": "cold (to touch), coldhearted"
+        },
+        {
+          "kanji": "冷蔵庫",
+          "hiragana": "れいぞうこ",
+          "romaji": "reizouko",
+          "meaning": "refrigerator, fridge"
+        },
+        {
+          "kanji": "冷える",
+          "hiragana": "ひえる",
+          "romaji": "hieru",
+          "meaning": "to grow cold, get chilly"
+        },
+        {
+          "kanji": "冷房",
+          "hiragana": "れいぼう",
+          "romaji": "reibou",
+          "meaning": "air conditioning, cooling"
+        },
+        {
+          "kanji": "冷静",
+          "hiragana": "れいせい",
+          "romaji": "reisei",
+          "meaning": "calm, composure, coolness"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kanji": "鉄",
+      "onyomi": "テツ",
+      "kunyomi": "くろがね",
+      "meaning": "iron",
+      "vocabulary": [
+        {
+          "kanji": "地下鉄",
+          "hiragana": "ちかてつ",
+          "romaji": "chikatetsu",
+          "meaning": "subway, metro"
+        },
+        {
+          "kanji": "鉄道",
+          "hiragana": "てつどう",
+          "romaji": "tetsudou",
+          "meaning": "railroad, railway"
+        },
+        {
+          "kanji": "鉄",
+          "hiragana": "てつ",
+          "romaji": "tetsu",
+          "meaning": "iron (Fe), steel"
+        },
+        {
+          "kanji": "鉄砲",
+          "hiragana": "てっぽう",
+          "romaji": "teppou",
+          "meaning": "gun, firearm"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kanji": "類",
+      "onyomi": "ルイ",
+      "kunyomi": "たぐ.い",
+      "meaning": "sort",
+      "vocabulary": [
+        {
+          "kanji": "種類",
+          "hiragana": "しゅるい",
+          "romaji": "shurui",
+          "meaning": "variety, kind, type, category"
+        },
+        {
+          "kanji": "人類",
+          "hiragana": "じんるい",
+          "romaji": "jinrui",
+          "meaning": "mankind, humanity"
+        },
+        {
+          "kanji": "書類",
+          "hiragana": "しょるい",
+          "romaji": "shorui",
+          "meaning": "document, papers"
+        },
+        {
+          "kanji": "分類",
+          "hiragana": "ぶんるい",
+          "romaji": "bunrui",
+          "meaning": "classification, sorting"
+        },
+        {
+          "kanji": "親類",
+          "hiragana": "しんるい",
+          "romaji": "shinrui",
+          "meaning": "relative, relation, kin"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kanji": "児",
+      "onyomi": "ジ, ニ",
+      "kunyomi": "こ",
+      "meaning": "newborn babe",
+      "vocabulary": [
+        {
+          "kanji": "幼児",
+          "hiragana": "ようじ",
+          "romaji": "youji",
+          "meaning": "young child, toddler"
+        },
+        {
+          "kanji": "児童",
+          "hiragana": "じどう",
+          "romaji": "jidou",
+          "meaning": "children, juvenile"
+        },
+        {
+          "kanji": "育児",
+          "hiragana": "いくじ",
+          "romaji": "ikuji",
+          "meaning": "childcare, upbringing"
+        },
+        {
+          "kanji": "小児科",
+          "hiragana": "しょうにか",
+          "romaji": "shounika",
+          "meaning": "pediatrics"
+        },
+        {
+          "kanji": "双生児",
+          "hiragana": "そうせいじ",
+          "romaji": "souseiji",
+          "meaning": "twins"
+        },
+        {
+          "kanji": "園児",
+          "hiragana": "えんじ",
+          "romaji": "enji",
+          "meaning": "kindergartener"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kanji": "印",
+      "onyomi": "イン",
+      "kunyomi": "しるし",
+      "meaning": "stamp",
+      "vocabulary": [
+        {
+          "kanji": "印",
+          "hiragana": "しるし",
+          "romaji": "shirushi",
+          "meaning": "mark, sign, symbol, token"
+        },
+        {
+          "kanji": "印刷",
+          "hiragana": "いんさつ",
+          "romaji": "insatsu",
+          "meaning": "printing"
+        },
+        {
+          "kanji": "印象",
+          "hiragana": "いんしょう",
+          "romaji": "inshou",
+          "meaning": "impression"
+        },
+        {
+          "kanji": "目印",
+          "hiragana": "めじるし",
+          "romaji": "mejirushi",
+          "meaning": "mark, landmark, guide"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kanji": "王",
+      "onyomi": "オウ",
+      "kunyomi": "—",
+      "meaning": "king",
+      "vocabulary": [
+        {
+          "kanji": "王",
+          "hiragana": "おう",
+          "romaji": "ou",
+          "meaning": "king, ruler, tycoon"
+        },
+        {
+          "kanji": "女王",
+          "hiragana": "じょおう",
+          "romaji": "joou",
+          "meaning": "queen, female champion"
+        },
+        {
+          "kanji": "王子",
+          "hiragana": "おうじ",
+          "romaji": "ouji",
+          "meaning": "prince"
+        },
+        {
+          "kanji": "王様",
+          "hiragana": "おうさま",
+          "romaji": "ousama",
+          "meaning": "king (respectful)"
+        },
+        {
+          "kanji": "王女",
+          "hiragana": "おうじょ",
+          "romaji": "oujo",
+          "meaning": "princess"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kanji": "返",
+      "onyomi": "ヘン",
+      "kunyomi": "かえ.す, かえ.る",
+      "meaning": "return",
+      "vocabulary": [
+        {
+          "kanji": "返す",
+          "hiragana": "かえす",
+          "romaji": "kaesu",
+          "meaning": "to return, pay back, do again"
+        },
+        {
+          "kanji": "返事",
+          "hiragana": "へんじ",
+          "romaji": "henji",
+          "meaning": "reply, answer, response"
+        },
+        {
+          "kanji": "繰り返す",
+          "hiragana": "くりかえす",
+          "romaji": "kurikaesu",
+          "meaning": "to repeat, do over"
+        },
+        {
+          "kanji": "裏返す",
+          "hiragana": "うらがえす",
+          "romaji": "uragaesu",
+          "meaning": "to turn inside out, flip over"
+        },
+        {
+          "kanji": "返る",
+          "hiragana": "かえる",
+          "romaji": "kaeru",
+          "meaning": "to return, come back"
+        }
+      ]
+    }
+  ]
+}

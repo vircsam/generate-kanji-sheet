@@ -592,7 +592,284 @@ CHAPTER_3_DATA = {
     ]
 }
 
-def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter3_5cols.docx"):
+# Chapter 4 (Week 4, 7 Days): Kanji data
+CHAPTER_4_DATA = {
+    "Chapter 4 (Week 4)": [
+        # 第4週 1日目：日用品
+        ["砂", "サ / すな / sand, sugar", [
+            ["砂糖", "さとう", "sugar"],
+            ["砂", "すな", "sand"]
+        ]],
+        ["塩", "エン / しお / salt", [
+            ["食塩", "しょくえん", "table salt"],
+            ["塩", "しお", "salt"]
+        ]],
+        ["油", "ユ / あぶら / oil", [
+            ["しょう油", "しょうゆ", "soy sauce"],
+            ["灯油", "とうゆ", "kerosene"],
+            ["石油", "せきゆ", "oil (petroleum)"],
+            ["油", "あぶら", "oil"]
+        ]],
+        ["緑", "リョク / みどり / green, green tea", [
+            ["緑茶", "りょくちゃ", "green tea"],
+            ["緑(色)", "みどり(いろ)", "green"]
+        ]],
+        ["紅", "コウ / べに / crimson, tea, lipstick", [
+            ["紅茶", "こうちゃ", "tea"],
+            ["口紅", "くちべに", "lipstick"]
+        ]],
+        ["冊", "サツ / counter for books", [
+            ["～冊", "～さつ", "counter for books"],
+            ["冊数", "さっすう", "the number of copies"]
+        ]],
+        ["個", "コ / counter of general objects, individual", [
+            ["～個", "～こ", "counter of general objects"],
+            ["個人", "こじん", "individual (person)"],
+            ["個数", "こすう", "the number of items"],
+            ["団体", "だんたい", "a group"]
+        ]],
+        ["枚", "マイ / counter for flat objects", [
+            ["～枚", "～まい", "counter for flat objects"],
+            ["枚数", "まいすう", "the number of sheets/copies"]
+        ]],
+
+        # 第4週 2日目：広告メール
+        ["告", "コク / announce, advertise", [
+            ["広告", "こうこく", "an advertisement"]
+        ]],
+        ["利", "リ / profit, convenient, use", [
+            ["便利(な)", "べんり(な)", "convenient"],
+            ["利用", "りよう", "use"]
+        ]],
+        ["割", "わ-る / わ-れる / break, ratio, discount", [
+            ["割る", "わる", "break"],
+            ["割れる", "われる", "crack/cleave"],
+            ["割合", "わりあい", "a ratio, a percentage"],
+            ["割引", "わりびき", "a discount"]
+        ]],
+        ["倍", "バイ / times, double", [
+            ["～倍", "～ばい", "... times (quantity - e.g. twice as many)"],
+            ["倍", "ばい", "2倍"]
+        ]],
+        ["値", "ね / price", [
+            ["値段", "ねだん", "a price"],
+            ["値上げ", "ねあげ", "a price increase"],
+            ["値下げ", "ねさげ", "a price reduction"]
+        ]],
+        ["商", "ショウ / trade, goods, shop", [
+            ["商品", "しょうひん", "goods"],
+            ["商店", "しょうてん", "a shop"]
+        ]],
+        ["支", "シ / branch, support, pay", [
+            ["支店", "してん", "a branch"],
+            ["支社", "ししゃ", "a branch office"],
+            ["本店", "ほんてん", "the main branch of a store"],
+            ["本社", "ほんしゃ", "the head office"]
+        ]],
+        ["払", "はら-う / pay", [
+            ["払う", "はらう", "pay"],
+            ["支払い", "しはらい", "a payment"]
+        ]],
+
+        # 第4週 3日目：通信販売
+        ["米", "ベイ / こめ / rice, USA", [
+            ["米国", "べいこく", "the United States of America"],
+            ["米", "こめ", "rice"]
+        ]],
+        ["級", "キュウ / class, grade", [
+            ["高級", "こうきゅう", "high class/grade"],
+            ["上級", "じょうきゅう", "advanced level"],
+            ["中級", "ちゅうきゅう", "intermediate level"]
+        ]],
+        ["残", "ザン / のこ-る / のこ-す / remain, leave", [
+            ["残業", "ざんぎょう", "overtime work"],
+            ["残る", "のこる", "remain"],
+            ["残り", "のこり", "the remainder"],
+            ["残す", "のこす", "leave, leave behind"]
+        ]],
+        ["型", "かた / model, type", [
+            ["大型", "おおがた", "large, jumbo"],
+            ["新型", "しんがた", "new-model"],
+            ["小型", "こがた", "small-sized"]
+        ]],
+        ["税", "ゼイ / tax", [
+            ["消費税", "しょうひぜい", "consumption tax"],
+            ["税金", "ぜいきん", "a tax"]
+        ]],
+        ["込", "こ-む / crowd, include", [
+            ["込む", "こむ", "congest/crowd"],
+            ["振り込む", "ふりこむ", "transfer money to a person's account"],
+            ["税込", "ぜいこみ", "tax included"]
+        ]],
+        ["価", "カ / price, value", [
+            ["価格", "かかく", "a price"],
+            ["定価", "ていか", "a fixed price"]
+        ]],
+        ["格", "カク / status, price, pass", [
+            ["合格", "ごうかく", "pass an exam"],
+            ["格安", "かくやす", "a bargain"]
+        ]],
+
+        # 第4週 4日目：申込書
+        ["申", "シン / もう-す / apply, say (humble)", [
+            ["申し込む", "もうしこむ", "apply"],
+            ["申告", "しんこく", "a declaration"],
+            ["申す", "もうす", "say (humble form)"],
+            ["申込書", "もうしこみしょ", "an application form"],
+            ["申請", "しんせい", "application"],
+            ["申し上げる", "もうしあげる", "say (very humble form)"]
+        ]],
+        ["記", "キ / record, sign, diary", [
+            ["記入", "きにゅう", "entry"],
+            ["記号", "きごう", "a sign, a symbol"],
+            ["日記", "にっき", "a diary / journal"],
+            ["記事", "きじ", "an article"]
+        ]],
+        ["例", "レイ / たと-える / example", [
+            ["例", "れい", "an example"],
+            ["例えば", "たとえば", "for example"]
+        ]],
+        ["齢", "レイ / age", [
+            ["年齢", "ねんれい", "age"],
+            ["高齢", "こうれい", "old age"]
+        ]],
+        ["歳", "サイ / years old", [
+            ["～歳", "～さい", "... years old"],
+            ["二十歳", "にじゅっさい / はたち", "20 years old"]
+        ]],
+        ["性", "セイ / gender, personality", [
+            ["性別", "せいべつ", "sex/gender"],
+            ["女性", "じょせい", "woman"],
+            ["性格", "せいかく", "personality"],
+            ["男性", "だんせい", "man"]
+        ]],
+        ["連", "レン / つ-れる / connect, take along", [
+            ["連休", "れんきゅう", "a holiday"],
+            ["連れて行く", "つれていく", "take someone to ..."],
+            ["連れて来る", "つれてくる", "bring someone to ..."]
+        ]],
+        ["絡", "ラク / contact", [
+            ["連絡", "れんらく", "contact/connection"]
+        ]],
+
+        # 第4週 5日目：注文
+        ["届", "とど-ける / とど-く / deliver, arrive", [
+            ["届ける", "とどける", "deliver"],
+            ["届く", "とどく", "arrive (mail)"]
+        ]],
+        ["宅", "タク / house, home", [
+            ["自宅", "じたく", "one's house / home"],
+            ["宅配", "たくはい", "deliver to someone's house"],
+            ["お宅", "おたく", "house/home (respectful form)"]
+        ]],
+        ["配", "ハイ / くば-る / delivery, distribute", [
+            ["配達", "はいたつ", "delivery"],
+            ["心配", "しんぱい", "anxiety/worry"],
+            ["配送料", "はいそうりょう", "a shipping charge"],
+            ["配る", "くばる", "distribute"]
+        ]],
+        ["希", "キ / hope", [
+            ["希望", "きぼう", "hope"]
+        ]],
+        ["望", "ボウ / のぞ-む / hope, want", [
+            ["失望", "しつぼう", "despair"],
+            ["望む", "のぞむ", "want, hope for"]
+        ]],
+        ["荷", "カ / luggage, load", [
+            ["入荷", "にゅうか", "receipt (of goods)"],
+            ["荷物", "にもつ", "luggage"],
+            ["出荷", "しゅっか", "shipment"],
+            ["手荷物", "てにもつ", "hand luggage"]
+        ]],
+        ["換", "カン / か-える / exchange", [
+            ["交換", "こうかん", "exchange"],
+            ["乗り換え", "のりかえ", "changing trains"],
+            ["代金引換", "だいきんひきかえ", "cash on delivery"]
+        ]],
+        ["額", "ガク / amount, sum", [
+            ["金額", "きんがく", "an amount/sum (of money)"],
+            ["半額", "はんがく", "half price"]
+        ]],
+
+        # 第4週 6日目：不在通知
+        ["在", "ザイ / present, exist", [
+            ["不在", "ふざい", "absence"],
+            ["現在", "げんざい", "present (time)"]
+        ]],
+        ["取", "と-る / take, receive", [
+            ["取る", "とる", "take"],
+            ["受け取る", "うけとる", "receive, take"],
+            ["受取人", "うけとりにん", "a recipient"]
+        ]],
+        ["預", "ヨ / あず-ける / deposit, entrust", [
+            ["預金", "よきん", "a money deposit"],
+            ["預ける", "あずける", "entrust"]
+        ]],
+        ["衣", "イ / clothing", [
+            ["衣類", "いるい", "clothing"],
+            ["衣服", "いふく", "clothes"]
+        ]],
+        ["参", "サン / まい-る / participate, go/come (humble)", [
+            ["参加", "さんか", "participate"],
+            ["参る", "まいる", "go / come (humble form)"],
+            ["参考書", "さんこうしょ", "a reference book"]
+        ]],
+        ["達", "タツ / progress, friend, special delivery", [
+            ["上達", "じょうたつ", "make progress"],
+            ["友達", "ともだち", "a friend"],
+            ["速達", "そくたつ", "a special delivery"]
+        ]],
+        ["勤", "キン / つと-める / work, employ", [
+            ["通勤", "つうきん", "commuting to work"],
+            ["勤める", "つとめる", "work / be employed"]
+        ]],
+        ["帯", "タイ / おび / phone, belt, time slot", [
+            ["携帯(電話)", "けいたい(でんわ)", "a cell phone / mobile phone"],
+            ["帯", "おび", "a belt/sash"],
+            ["時間帯", "じかんたい", "a time zone, a time slot"]
+        ]],
+
+        # 第4週 7日目：クイズ④ 読みはどちら？
+        ["細", "ほそ-い / こま-かい / fine, thin, small", [
+            ["細い", "ほそい", "fine/thin"],
+            ["細かい", "こまかい", "fine/small"]
+        ]],
+        ["戸", "と / door", [
+            ["戸", "と", "a door"],
+            ["戸だな", "とだな", "a closet, a cupboard"],
+            ["雨戸", "あまど", "a sliding storm door"]
+        ]],
+        ["湖", "コ / みずうみ / lake", [
+            ["びわ湖", "びわこ", "Lake Biwa"],
+            ["湖", "みずうみ", "a lake"]
+        ]],
+        ["船", "セン / ふね / ふな / ship, boat", [
+            ["風船", "ふうせん", "a balloon"],
+            ["船", "ふね", "a boat, ship"],
+            ["船長", "せんちょう", "a captain"],
+            ["船便", "ふなびん", "surface/sea mail"]
+        ]],
+        ["角", "カク / かど / angle, corner, square", [
+            ["角度", "かくど", "an angle"],
+            ["四角い", "しかくい", "square"],
+            ["三角形", "さんかくけい", "a triangle"],
+            ["角", "かど", "a corner"]
+        ]],
+        ["夫", "フ / フウ / おっと / husband, couple", [
+            ["夫妻", "ふさい", "husband and wife"],
+            ["夫婦", "ふうふ", "a married couple"],
+            ["夫", "おっと", "a husband"]
+        ]],
+        ["苦", "ク / くる-しい / にが-い / bitter, trying", [
+            ["苦労", "くろう", "distressful, trying"],
+            ["苦い", "にがい", "bitter"],
+            ["苦しい", "くるしい", "distressful, trying"],
+            ["苦手(な)", "にがて(な)", "a weak point"]
+        ]]
+    ]
+}
+
+def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter4_5cols.docx"):
     doc = Document()
     
     # Configure margins for extra printable width (7.7 inches)
@@ -733,3 +1010,4 @@ def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter3_5cols.
 
 if __name__ == "__main__":
     generate_soma_document(CHAPTER_3_DATA, "Kanji_Practice_Chapter3_5cols.docx")
+    generate_soma_document(CHAPTER_4_DATA, "Kanji_Practice_Chapter4_5cols.docx")

@@ -869,6 +869,277 @@ CHAPTER_4_DATA = {
     ]
 }
 
+# Chapter 5 (Week 5, 7 Days): Kanji data
+CHAPTER_5_DATA = {
+    "Chapter 5 (Week 5)": [
+        # 第5週 1日目：メールを送る
+        ["礼", "レイ / thanks", [
+            ["お礼", "おれい", "thanks"]
+        ]],
+        ["伺", "うかが-う / visit, ask (humble form)", [
+            ["伺う", "うかがう", "visit, ask (humble form)"]
+        ]],
+        ["遅", "チ / おそ-い / おく-れる / tardiness, slow, be late", [
+            ["遅刻", "ちこく", "tardiness"],
+            ["遅い", "おそい", "slow"],
+            ["遅れる", "おくれる", "be late"]
+        ]],
+        ["失", "シツ / rudeness, failure, mistake, be excused", [
+            ["失礼(な)", "しつれい(な)", "rudeness"],
+            ["失敗", "しっぱい", "failure, mistake"],
+            ["失礼する", "しつれいする", "be excused"]
+        ]],
+        ["汗", "あせ / perspiration, sweat", [
+            ["汗", "あせ", "perspiration, sweat"],
+            ["汗をかく", "あせをかく", "sweat"]
+        ]],
+        ["念", "ネン / regret, disappointment, commemoration", [
+            ["残念(な)", "ざんねん(な)", "regret, disappointment"],
+            ["記念", "きねん", "commemoration"]
+        ]],
+        ["涙", "なみだ / tear(s), weep", [
+            ["涙", "なみだ", "tear(s)"],
+            ["涙を流す", "なみだをながす", "weep"]
+        ]],
+        ["笑", "わら-う / え-む / laugh, smile, laughter", [
+            ["笑う", "わらう", "laugh / smile"],
+            ["笑顔", "えがお", "smile / smiling face"],
+            ["笑い", "わらい", "laughter"]
+        ]],
+
+        # 第5週 2日目：アンケート
+        ["調", "チョウ / しら-べる / condition, look up, emphasis", [
+            ["調子", "ちょうし", "condition"],
+            ["調べる", "しらべる", "look up something, investigate"],
+            ["強調", "きょうちょう", "emphasis, stress"]
+        ]],
+        ["査", "サ / investigation, inquiry", [
+            ["調査", "ちょうさ", "an investigation/inquiry"]
+        ]],
+        ["移", "イ / うつ-る / うつ-す / move, transfer, shift", [
+            ["移動", "いどう", "move / transfer"],
+            ["移る", "うつる", "move / shift"],
+            ["移す", "うつす", "move / shift (something)"]
+        ]],
+        ["難", "ナン / むずか-しい / difficulty, difficult, problem", [
+            ["困難(な)", "こんなん(な)", "difficulty"],
+            ["難しい", "むずかしい", "difficult"],
+            ["難問", "なんもん", "a difficult problem"]
+        ]],
+        ["簡", "カン / easy, simple", [
+            ["簡単(な)", "かんたん(な)", "easy"]
+        ]],
+        ["単", "タン / vocabulary, unit, credit", [
+            ["単語", "たんご", "vocabulary"],
+            ["単位", "たんい", "a unit, credit"]
+        ]],
+        ["感", "カン / feel, inspiration", [
+            ["感じる", "かんじる", "feel"],
+            ["感動", "かんどう", "inspiration"]
+        ]],
+        ["想", "ソウ / impressions, thoughts, forecast", [
+            ["感想", "かんそう", "impressions, thoughts"],
+            ["予想", "よそう", "anticipation, forecast"]
+        ]],
+
+        # 第5週 3日目：日本語クラス
+        ["練", "レン / practice", [
+            ["練習", "れんしゅう", "practice"]
+        ]],
+        ["最", "サイ / もっと-も / recently, last, beginning, most", [
+            ["最近", "さいきん", "recently"],
+            ["最後", "さいご", "last / end"],
+            ["最初", "さいしょ", "first / beginning"],
+            ["最も", "もっとも", "most"]
+        ]],
+        ["適", "テキ / correct, appropriate, comfortable", [
+            ["適当(な)", "てきとう(な)", "correct / appropriate"],
+            ["快適(な)", "かいてき(な)", "comfortable"]
+        ]],
+        ["選", "セン / えら-ぶ / election, choose, player, athlete", [
+            ["選挙", "せんきょ", "an election"],
+            ["選ぶ", "えらぶ", "choose"],
+            ["選手", "せんしゅ", "a player, an athlete"]
+        ]],
+        ["違", "ちが-う / ちが-える / different, wrong, mistake", [
+            ["違う", "ちがう", "different, wrong"],
+            ["間違い", "まちがい", "a mistake"],
+            ["間違う", "まちがう", "make a mistake"],
+            ["間違える", "まちがえる", "make a mistake"]
+        ]],
+        ["直", "チョク / なお-る / なお-す / straight line, repair, direct, fix", [
+            ["直線", "ちょくせん", "a straight line"],
+            ["直る", "なおる", "be repaired"],
+            ["直接", "ちょくせつ", "direct"],
+            ["直す", "なおす", "fix"]
+        ]],
+        ["復", "フク / review, recovery, round trip", [
+            ["復習", "ふくしゅう", "review"],
+            ["回復", "かいふく", "recovery/recuperation"],
+            ["往復", "おうふく", "a round trip"]
+        ]],
+        ["辞", "ジ / や-める / dictionary, resign, retire", [
+            ["辞書", "じしょ", "a dictionary"],
+            ["辞める", "やめる", "resign, retire"]
+        ]],
+        ["宿", "シュク / やど / homework, lodgings, inn, hotel", [
+            ["宿題", "しゅくだい", "a homework"],
+            ["下宿", "げしゅく", "lodgings"],
+            ["宿", "やど", "an inn, a hotel"]
+        ]],
+
+        # 第5週 4日目：作文
+        ["昨", "サク / yesterday, last night, last year", [
+            ["昨日", "さくじつ / きのう", "yesterday"],
+            ["昨夜", "さくや", "last night"],
+            ["昨年", "さくねん", "last year"]
+        ]],
+        ["君", "クン / きみ / honorific, you", [
+            ["○○君", "○○くん", "honorific appended to names of males younger than oneself"],
+            ["君", "きみ", "you"]
+        ]],
+        ["結", "ケツ / むす-ぶ / splendid, after all, tie, connect, conclude", [
+            ["結構(な)", "けっこう(な)", "splendid, nice"],
+            ["結局", "けっきょく", "after all"],
+            ["「いいえ、結構です」", "「いいえ、けっこうです」", "No, thank you."],
+            ["結ぶ", "むすぶ", "tie / connect / conclude"]
+        ]],
+        ["婚", "コン / marriage, engagement, honeymoon", [
+            ["結婚", "けっこん", "a marriage"],
+            ["婚約", "こんやく", "an engagement"],
+            ["新婚旅行", "しんこんりょこう", "a honeymoon"]
+        ]],
+        ["祝", "シュク / いわ-う / holiday, celebrate, congratulate", [
+            ["祝日", "しゅくじつ", "a holiday / festival day"],
+            ["祝う", "いわう", "celebrate/congratulate"],
+            ["お祝い", "おいわい", "celebration/congratulation"]
+        ]],
+        ["曲", "キョク / ま-がる / ま-げる / music piece, bend, curve", [
+            ["曲", "きょく", "a piece of music"],
+            ["曲がる", "まがる", "bend, turn a corner"],
+            ["曲線", "きょくせん", "a curve"],
+            ["曲げる", "まげる", "bend"]
+        ]],
+        ["奥", "おく / wife, inmost", [
+            ["奥さん", "おくさん", "another person's wife"],
+            ["奥", "おく", "inmost"]
+        ]],
+        ["寝", "ね-る / sleep, nap, late riser", [
+            ["寝る", "ねる", "sleep"],
+            ["昼寝", "ひるね", "a nap"],
+            ["寝坊", "ねぼう", "late riser, sleepyhead"]
+        ]],
+
+        # 第5週 5日目：問診票―歯科で
+        ["痛", "ツウ / いた-い / headache, sore, painful, stomach ache", [
+            ["頭痛", "ずつう", "a headache"],
+            ["痛い", "いたい", "sore, painful"],
+            ["腹痛", "ふくつう", "stomach ache"]
+        ]],
+        ["熱", "ネツ / あつ-い / heat, fever, hot, enthusiasm", [
+            ["熱", "ねつ", "heat, fever"],
+            ["熱い", "あつい", "hot"],
+            ["熱心(な)", "ねっしん(な)", "enthusiasm, zeal"]
+        ]],
+        ["虫", "むし / insect, decayed tooth", [
+            ["虫", "むし", "an insect"]
+        ]],
+        ["歯", "シ / は / dentistry, dentist, teeth, decayed tooth", [
+            ["歯科", "しか", "dentistry"],
+            ["歯医者", "はいしゃ", "a dentist"],
+            ["歯", "は", "teeth"],
+            ["虫歯", "むしば", "a decayed tooth"]
+        ]],
+        ["治", "ジ / チ / なお-る / なお-す / politics, heal, treatment, cure", [
+            ["政治", "せいじ", "politics, government"],
+            ["治る", "なおる", "heal"],
+            ["治療", "ちりょう", "a treatment"],
+            ["治す", "なおす", "cure"]
+        ]],
+        ["汚", "きたな-い / よご-れる / dirty, become dirty", [
+            ["汚い", "きたない", "dirty"],
+            ["汚れる", "よごれる", "become dirty"]
+        ]],
+        ["並", "なら-ぶ / なら-べる / stand in line, alignment", [
+            ["並ぶ", "ならぶ", "stand in a line"],
+            ["歯並び", "はならび", "the alignment of your teeth"],
+            ["並べる", "ならべる", "line up, set up"]
+        ]],
+        ["他", "タ / ほか / other", [
+            ["他の人", "ほかのひと", "other"],
+            ["その他", "そのた", "other"]
+        ]],
+
+        # 第5週 6日目：問診票―健康診断
+        ["身", "シン / み / height, status, single, sashimi", [
+            ["身長", "しんちょう", "height"],
+            ["身分", "みぶん", "social status"],
+            ["独身", "どくしん", "single, unmarried"],
+            ["刺身", "さしみ", "sashimi (sliced raw fish)"]
+        ]],
+        ["酒", "シュ / さけ / さか / sake, alcohol, cooking sake, liquor store", [
+            ["日本酒", "にほんしゅ", "sake"],
+            ["お酒", "おさけ", "alcohol, liquor"],
+            ["料理酒", "りょうりしゅ", "cooking sake"],
+            ["酒屋", "さかや", "a liquor store"]
+        ]],
+        ["吸", "キュウ / す-う / breathing, inhale", [
+            ["呼吸", "こきゅう", "breathing, respiration"],
+            ["吸う", "すう", "breathe / inhale"]
+        ]],
+        ["欲", "ヨク / ほ-しい / appetite, want, motivation", [
+            ["食欲", "しょくよく", "appetite"],
+            ["欲しい", "ほしい", "want"],
+            ["意欲", "いよく", "a will, eagerness, motivation"]
+        ]],
+        ["眠", "ミン / ねむ-い / ねむ-る / sleep, sleepy", [
+            ["睡眠", "すいみん", "sleep"],
+            ["眠い", "ねむい", "sleepy"],
+            ["眠る", "ねむる", "sleep"]
+        ]],
+        ["疲", "つか-れる / get tired, exhaust", [
+            ["疲れる", "つかれる", "get tired, exhaust"]
+        ]],
+        ["息", "いき / breath, son, short of breath", [
+            ["息", "いき", "a breath"],
+            ["息子", "むすこ", "a son"],
+            ["息切れ", "いきぎれ", "be short of breath"]
+        ]],
+        ["呼", "コ / よ-ぶ / breathing, call", [
+            ["呼吸", "こきゅう", "breathing, respiration"],
+            ["呼ぶ", "よぶ", "call"]
+        ]],
+
+        # 第5週 7日目：クイズ⑤ 読みはどちら？
+        ["厚", "あつ-い / thick", [
+            ["厚い", "あつい", "thick"]
+        ]],
+        ["泣", "な-く / cry, weep", [
+            ["泣く", "なく", "cry / weep"]
+        ]],
+        ["鳴", "な-く / な-る / chirp, ring, chime", [
+            ["鳴く", "なく", "chirp / croak / bleat (etc.)"],
+            ["鳴る", "なる", "ring, chime"]
+        ]],
+        ["初", "ショ / はじ-め / はじ-めて / first, beginning, level", [
+            ["最初", "さいしょ", "first / beginning"],
+            ["初め", "はじめ", "the beginning"],
+            ["初級", "しょきゅう", "beginning level"],
+            ["初めて", "はじめて", "first time"]
+        ]],
+        ["泊", "ハク / と-まる / と-める / lodging, stay, accommodate", [
+            ["宿泊", "しゅくはく", "lodging"],
+            ["泊まる", "とまる", "stay"],
+            ["泊める", "とめる", "accommodate"]
+        ]],
+        ["葉", "ヨウ / は / leaf, word, language", [
+            ["紅葉", "こうよう", "autumn leaves"],
+            ["葉", "は", "a leaf"],
+            ["言葉", "ことば", "word / language"]
+        ]]
+    ]
+}
+
 def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter4_5cols.docx"):
     doc = Document()
     
@@ -1011,3 +1282,5 @@ def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter4_5cols.
 if __name__ == "__main__":
     generate_soma_document(CHAPTER_3_DATA, "Kanji_Practice_Chapter3_5cols.docx")
     generate_soma_document(CHAPTER_4_DATA, "Kanji_Practice_Chapter4_5cols.docx")
+    generate_soma_document(CHAPTER_5_DATA, "Kanji_Practice_Chapter5_5cols.docx")
+

@@ -1140,6 +1140,269 @@ CHAPTER_5_DATA = {
     ]
 }
 
+# Chapter 6 (Week 6, 7 Days): Kanji data
+CHAPTER_6_DATA = {
+    "Chapter 6 (Week 6)": [
+        # 第6週 1日目：天気予報
+        ["報", "ホウ / report, forecast", [
+            ["予報", "よほう", "a forecast"],
+            ["報告", "ほうこく", "a report"]
+        ]],
+        ["晴", "は-れる / clear, fine weather", [
+            ["晴れる", "はれる", "be sunny"],
+            ["晴れ", "はれ", "fine weather"]
+        ]],
+        ["雲", "くも / cloud", [
+            ["雲", "くも", "clouds"]
+        ]],
+        ["吹", "ふ-く / blow", [
+            ["吹く", "ふく", "blow"]
+        ]],
+        ["暖", "ダン / あたた-かい / warm, heater", [
+            ["暖房", "だんぼう", "a heater"],
+            ["暖かい", "あたたかい", "warm"]
+        ]],
+        ["雪", "ゆき / snow", [
+            ["雪", "ゆき", "snow"]
+        ]],
+        ["震", "シン / earthquake, seismic", [
+            ["地震", "じしん", "an earthquake"],
+            ["震度", "しんど", "seismic intensity"]
+        ]],
+        ["波", "ハ / なみ / wave, tsunami", [
+            ["電波", "でんぱ", "electromagnetic wave"],
+            ["波", "なみ", "a wave"],
+            ["津波", "つなみ", "tsunami"]
+        ]],
+
+        # 第6週 2日目：求人広告
+        ["求", "キュウ / もと-める / demand, request, help wanted", [
+            ["要求", "ようきゅう", "a demand, request"],
+            ["請求書", "せいきゅうしょ", "a bill, invoice"],
+            ["求人", "きゅうじん", "'Help Wanted'"],
+            ["求める", "もとめる", "demand, request"]
+        ]],
+        ["募", "ボ / recruitment", [
+            ["募集", "ぼしゅう", "recruitment"]
+        ]],
+        ["職", "ショク / workplace, job, occupation", [
+            ["職場", "しょくば", "a work place"],
+            ["転職", "てんしょく", "change your job"],
+            ["職業", "しょくぎょう", "an occupation/profession"],
+            ["職員", "しょくいん", "employees"]
+        ]],
+        ["容", "ヨウ / contents, appearance", [
+            ["美容院", "びよういん", "a hairdresser"],
+            ["内容", "ないよう", "contents/substance"]
+        ]],
+        ["技", "ギ / technique, technology", [
+            ["技術", "ぎじゅつ", "technique, technology"],
+            ["技術者", "ぎじゅつしゃ", "a technician"]
+        ]],
+        ["般", "ハン / general, average", [
+            ["一般", "いっぱん", "general, average"],
+            ["一般に", "いっぱんに", "in general"]
+        ]],
+        ["務", "ム / work, office, duty", [
+            ["事務", "じむ", "office work"],
+            ["事務所", "じむしょ", "an office"],
+            ["公務員", "こうむいん", "a civil servant, govement employee"],
+            ["税務署", "ぜいむ署", "tax office"]
+        ]],
+        ["課", "カ / lesson, section chief", [
+            ["第1課", "だい1か", "Lesson one"],
+            ["課長", "かちょう", "a section chief"]
+        ]],
+
+        # 第6週 3日目：スポーツ記事
+        ["球", "キュウ / earth, bulb, ball", [
+            ["地球", "ちきゅう", "the earth"],
+            ["電球", "でんきゅう", "a light bulb"],
+            ["野球", "やきゅう", "baseball"]
+        ]],
+        ["決", "ケツ / き-める / き-まる / decide, decision, final", [
+            ["決して", "けっして", "by no means"],
+            ["決める", "きめる", "decide (something)"],
+            ["決定", "けってい", "a decision"],
+            ["決まる", "きまる", "be decided"],
+            ["決勝", "けっしょう", "final game"]
+        ]],
+        ["勝", "ショウ / か-つ / victory, win", [
+            ["優勝", "ゆうしょう", "a victory, championship"],
+            ["勝つ", "かつ", "win"],
+            ["決勝", "けっしょう", "final game"]
+        ]],
+        ["対", "タイ / score, opposite", [
+            ["1対2", "1たい2", "(a score of) one to two"],
+            ["反対", "はんたい", "opposite"]
+        ]],
+        ["流", "なが-れる / なが-す / flow, stream", [
+            ["流れる", "ながれる", "flow"],
+            ["流す", "ながす", "let (water, etc.) flow"]
+        ]],
+        ["負", "フ / ま-ける / match, lose", [
+            ["勝負", "しょうぶ", "a match, contest, game"],
+            ["負ける", "まける", "lose"]
+        ]],
+        ["投", "トウ / な-げる / pitcher, throw", [
+            ["投手", "とうしゅ", "(baseball) pitcher"],
+            ["投げる", "なげる", "throw"]
+        ]],
+        ["果", "カ / result, fruit", [
+            ["結果", "けっか", "a result"],
+            ["果物", "くだもの", "fruit"]
+        ]],
+
+        # 第6週 4日目：経済
+        ["戦", "セン / たたか-う / war, fight", [
+            ["戦後", "せんご", "after the war"],
+            ["戦う", "たたかう", "fight"],
+            ["戦争", "せんそう", "war"]
+        ]],
+        ["経", "ケイ / experience, management", [
+            ["経験", "けいけん", "an experience"],
+            ["経営", "けいえい", "management"]
+        ]],
+        ["済", "サイ / す-む / economy, finish", [
+            ["経済", "けいざい", "economy"],
+            ["済む", "すむ", "finish"]
+        ]],
+        ["成", "セイ / growth, completion", [
+            ["成長", "せいちょう", "growth"],
+            ["完成", "かんせい", "completion"]
+        ]],
+        ["貿", "ボウ / trade", [
+            ["貿易", "ぼうえき", "trade"]
+        ]],
+        ["易", "エキ / やさ-しい / trade, easy, simple", [
+            ["貿易", "ぼうえき", "trade"],
+            ["易しい", "やさしい", "easy, plain, simple"]
+        ]],
+        ["輸", "ユ / export, transport, import", [
+            ["輸出", "ゆしゅつ", "export"],
+            ["輸送", "ゆそう", "transport"],
+            ["輸入", "ゆにゅう", "import"]
+        ]],
+        ["相", "ソウ / ショウ / あい / consultation, opponent, prime minister", [
+            ["相談", "そうだん", "consultation"],
+            ["相手", "あいて", "an opponent/competitor"],
+            ["首相", "しゅしょう", "prime minister"]
+        ]],
+
+        # 第6週 5日目：地球温暖化
+        ["化", "カ / ケ / culture, chemistry, change", [
+            ["文化", "ぶんか", "culture"],
+            ["化学", "かがく", "chemistry"],
+            ["○○化", "○○か", "-ize (change something into something else)"],
+            ["化粧", "けしょう", "makeup"]
+        ]],
+        ["比", "くら-べる / compare", [
+            ["比べる", "くらべる", "compare"]
+        ]],
+        ["原", "ゲン / raw material, cause", [
+            ["原料", "げんりょう", "(raw) material"],
+            ["原因", "げんいん", "a cause"]
+        ]],
+        ["因", "イン / cause", [
+            ["原因", "げんいん", "a cause"]
+        ]],
+        ["際", "サイ / international, association", [
+            ["国際(の)", "こくさい(の)", "international"],
+            ["交際", "こうさい", "association/dealings (with)"]
+        ]],
+        ["議", "ギ / meeting, assembly member", [
+            ["会議", "かいぎ", "a meeting"],
+            ["議員", "ぎいん", "a member of an assembly"]
+        ]],
+        ["活", "カツ / life, activity", [
+            ["生活", "せいかつ", "life / livelihood"],
+            ["活動", "かつどう", "activity"]
+        ]],
+        ["変", "ヘン / か-わる / か-える / serious, change", [
+            ["大変(な)", "たいへん(な)", "very, serious"],
+            ["変わる", "かわる", "change"],
+            ["変化", "へんか", "a change"],
+            ["変える", "かえる", "change (something)"]
+        ]],
+
+        # 第6週 6日目：政治
+        ["政", "セイ / politics, politician", [
+            ["政治", "せいじ", "politics"],
+            ["政治家", "せいじか", "a politician"]
+        ]],
+        ["府", "フ / government, prefectures", [
+            ["政府", "せいふ", "an government, administration"],
+            ["都道府県", "とどうふけん", "prefectures"]
+        ]],
+        ["改", "カイ / あらた-める / amendment, change, check", [
+            ["改正", "かいせい", "an amendment"],
+            ["改める", "あらためる", "change / check"],
+            ["改札口", "かいさつぐち", "a ticket gate"]
+        ]],
+        ["否", "ヒ / negation, negative", [
+            ["否定", "ひてい", "negation"],
+            ["否定的(な)", "ひていてき(な)", "negative"]
+        ]],
+        ["的", "テキ / target, suffix (-ic, -al, -tive)", [
+            ["否定的(な)", "ひていてき(na)", "negative"],
+            ["国際的(な)", "こくさいてき(な)", "international"],
+            ["目的", "もくてき", "an aim, purpose"],
+            ["個人的(な)", "こじんてき(な)", "personal"]
+        ]],
+        ["実", "ジツ / practice, actual, experiment, truth", [
+            ["実際に", "じっさいに", "practice, actual conditions"],
+            ["実験", "じっけん", "an experiment"],
+            ["実は", "じつは", "to tell the truth"]
+        ]],
+        ["欠", "ケツ / か-ける / shortcoming, chip, lack, absence", [
+            ["欠点", "けってん", "a shortcoming"],
+            ["欠ける", "かける", "chip, lack"],
+            ["欠席", "けっせき", "absence"]
+        ]],
+        ["専", "セン / specialty, expert", [
+            ["専門", "せんもん", "specialty"],
+            ["専門家", "せんもんか", "an expert"]
+        ]],
+
+        # 第6週 7日目：クイズ⑥ □に入る部分は？
+        ["亡", "ボウ / な-い / death, die", [
+            ["死亡", "しぼう", "death"],
+            ["亡くなる", "なくなる", "die"]
+        ]],
+        ["忙", "ボウ / いそが-しい / busy", [
+            ["多忙(な)", "たぼう(な)", "busy"],
+            ["忙しい", "いそがしい", "busy"]
+        ]],
+        ["忘", "ボウ / わす-れる / forget, lost property", [
+            ["忘年会", "ぼうねんかい", "end of year party"],
+            ["忘れる", "わすれる", "forget"],
+            ["忘れ物", "わすれもの", "thing left behind (lost property)"]
+        ]],
+        ["祭", "サイ / まつ-り / festival", [
+            ["文化祭", "ぶんかさい", "a school festival"],
+            ["(お)祭り", "(お)まつり", "a festival"]
+        ]],
+        ["労", "ロウ / trouble, hardship, labourer", [
+            ["苦労", "くろう", "troubles, hardships"],
+            ["労働者", "ろうどうしゃ", "a labourer"]
+        ]],
+        ["加", "カ / くわ-える / participate, add, increase", [
+            ["参加", "さんか", "participate"],
+            ["加える", "くわえる", "add to"],
+            ["増加", "ぞうか", "increase"]
+        ]],
+        ["情", "ジョウ / information, circumstance, emotion", [
+            ["情報", "じょうほう", "information"],
+            ["事情", "じじょう", "circumstance"],
+            ["表情", "ひょうじょう", "a facial expression"],
+            ["感情", "かんじょう", "emotions"]
+        ]],
+        ["反", "ハン / opposite", [
+            ["反対", "はんたい", "opposite"]
+        ]]
+    ]
+}
+
 def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter4_5cols.docx"):
     doc = Document()
     
@@ -1280,7 +1543,6 @@ def generate_soma_document(subset_dict, filename="Kanji_Practice_Chapter4_5cols.
     print(f"Successfully generated: {filename}")
 
 if __name__ == "__main__":
-    generate_soma_document(CHAPTER_3_DATA, "Kanji_Practice_Chapter3_5cols.docx")
-    generate_soma_document(CHAPTER_4_DATA, "Kanji_Practice_Chapter4_5cols.docx")
-    generate_soma_document(CHAPTER_5_DATA, "Kanji_Practice_Chapter5_5cols.docx")
+    generate_soma_document(CHAPTER_6_DATA, "Kanji_Practice_Chapter6_5cols.docx")
+
 

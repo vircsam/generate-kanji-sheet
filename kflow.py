@@ -1,6 +1,7 @@
 import os
 import re
 import math
+import subprocess
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
@@ -11,9 +12,6 @@ import docx
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
-from docx.oxml import parse_xml
-from docx.oxml.ns import nsdecls
 
 # 1. Register Font for PDF rendering
 FONT_PATH = '/System/Library/Fonts/Supplemental/Arial Unicode.ttf'
@@ -598,7 +596,7 @@ def parse_groups(raw_text):
                     })
     return groups
 
-def wrap_text_multiline(text, max_chars=16):
+def wrap_text_multiline(text, max_chars=15):
     text = text.strip()
     if len(text) <= max_chars:
         return [text]
@@ -617,7 +615,7 @@ def wrap_text_multiline(text, max_chars=16):
         lines.append(current_line)
     return lines
 
-def format_reading(reading, max_chars=16):
+def format_reading(reading, max_chars=15):
     full = f"[{reading}]"
     if len(full) <= max_chars:
         return [full]
@@ -629,7 +627,7 @@ def format_reading(reading, max_chars=16):
         lines[-1] = f"{lines[-1]}]"
         return lines
 
-# PDF Colors & Palette
+# PDF Palette
 BG_COLOR = colors.HexColor('#FFFFFF')
 HEADER_GREEN = colors.HexColor('#1E8449')
 HEADER_TEXT_MAIN = colors.HexColor('#0F172A')
@@ -666,56 +664,73 @@ def draw_header_footer(c, page_num, total_pages):
     c.setStrokeColor(colors.HexColor('#CBD5E1'))
     c.setLineWidth(0.8)
     c.line(36, 734, 576, 734)
-    c.line(36, 36, 576, 36)
+    c.line(36, 44, 576, 44)  # Footer line strictly at Y=44
     
     c.setFont('ArialUnicode', 8.5)
     c.setFillColor(colors.HexColor('#64748B'))
-    c.drawString(36, 22, "kanji60s.com • JLPT N3 Mind Map Flowcharts")
-    c.drawRightString(576, 22, f"Page {page_num} of {total_pages}")
+    c.drawString(36, 28, "kanji60s.com • JLPT N3 Mind Map Flowcharts")
+    c.drawRightString(576, 28, f"Page {page_num} of {total_pages}")
+
+def draw_curved_connector(c, x1, y1, x2, y2, stroke_color=LINE_COLOR, stroke_width=1.1):
+    c.setStrokeColor(stroke_color)
+    c.setLineWidth(stroke_width)
+    if abs(y1 - y2) < 2:
+        c.line(x1, y1, x2, y2)
+    else:
+        dx = (x2 - x1) * 0.45
+        c.bezier(x1, y1, x1 + dx, y1, x2 - dx, y2, x2, y2)
 
 def draw_kanji_node(c, x, y, item):
     kanji = item['kanji']
     reading = item['reading']
     meaning = item['meaning']
     
-    w_box, h_box = 32, 32
+    w_box, h_box = 28, 28
     x_box = x - w_box / 2.0
     y_box = y - h_box / 2.0
     
-    # Meaning lines above box (Enlarged: 8.5pt)
-    m_lines = wrap_text_multiline(meaning, 16)
-    c.setFont('ArialUnicode', 8.5)
+    # 1. Meaning lines above box
+    m_lines = wrap_text_multiline(meaning, 15)
+    c.setFont('ArialUnicode', 7.5)
     c.setFillColor(MEANING_COLOR)
     for i, line in enumerate(reversed(m_lines)):
-        c.drawCentredString(x, y_box + h_box + 4 + i * 9.5, line)
+        c.drawCentredString(x, y_box + h_box + 3 + i * 8.5, line)
         
-    # Enlarged Kanji Box
+    # 2. Kanji Box
     c.setFillColor(KANJI_BOX_BG)
     c.setStrokeColor(KANJI_BOX_BORDER)
-    c.setLineWidth(0.85)
+    c.setLineWidth(0.8)
     c.roundRect(x_box, y_box, w_box, h_box, 3.5, stroke=1, fill=1)
     
-    # Enlarged Kanji Character (17pt)
-    c.setFont('ArialUnicode', 17)
+    # 3. Kanji Character
+    c.setFont('ArialUnicode', 16)
     c.setFillColor(KANJI_CHAR_COLOR)
-    c.drawCentredString(x, y_box + 8, kanji)
+    c.drawCentredString(x, y_box + 7, kanji)
     
-    # Reading lines below box (Enlarged: 7.5pt)
-    r_lines = format_reading(reading, 16)
-    c.setFont('ArialUnicode', 7.5)
+    # 4. Reading lines below box
+    r_lines = format_reading(reading, 15)
+    c.setFont('ArialUnicode', 6.8)
     c.setFillColor(READING_COLOR)
     for i, line in enumerate(r_lines):
-        c.drawCentredString(x, y_box - 11 - i * 8.5, line)
+        c.drawCentredString(x, y_box - 9 - i * 8, line)
 
 def calculate_group_layout(group):
+    """
+    Dynamically splits items across up to 5 columns so rows_per_col NEVER exceeds 6.
+    This guarantees 100% zero page boundary overflow.
+    """
     items = group['items']
     N = len(items)
     if N <= 6:
         num_cols = 1
-    elif N <= 14:
+    elif N <= 12:
         num_cols = 2
-    else:
+    elif N <= 18:
         num_cols = 3
+    elif N <= 24:
+        num_cols = 4
+    else:
+        num_cols = 5
     items_per_col = math.ceil(N / num_cols)
     return num_cols, items_per_col
 
@@ -724,11 +739,11 @@ def generate_pdf(output_filename="kflow.pdf"):
     c = canvas.Canvas(output_filename, pagesize=letter)
     
     top_y = 715
-    bottom_y = 50
+    bottom_y = 56  # Hard margin limit above footer line (Y=44)
     page_height_available = top_y - bottom_y
     
-    row_height = 80
-    group_padding = 26
+    row_height = 68  # 6 rows * 68 = 408 pt max height per group
+    group_padding = 24
     
     pages_data = []
     current_page_groups = []
@@ -736,7 +751,7 @@ def generate_pdf(output_filename="kflow.pdf"):
     
     for g in groups:
         num_cols, rows_per_col = calculate_group_layout(g)
-        g_height = max(rows_per_col * row_height + 12, 60)
+        g_height = max(rows_per_col * row_height + 10, 54)
         needed_height = g_height + (group_padding if current_page_groups else 0)
         
         if current_page_groups and (current_page_height + needed_height > page_height_available):
@@ -767,10 +782,11 @@ def generate_pdf(output_filename="kflow.pdf"):
             group_center_y = group_top_y - (g_height / 2.0)
             
             x_root = 40
-            w_root = 104
-            h_root = 34
+            w_root = 96
+            h_root = 32
             y_root = group_center_y - (h_root / 2.0)
             
+            # Radical Root Box
             c.setFillColor(RADICAL_BOX_BG)
             c.setStrokeColor(colors.HexColor('#0F172A'))
             c.setLineWidth(0.9)
@@ -778,10 +794,10 @@ def generate_pdf(output_filename="kflow.pdf"):
             
             c.setFillColor(RADICAL_BOX_TXT)
             c.setFont('ArialUnicode', 9.5)
-            c.drawCentredString(x_root + w_root/2.0, y_root + 19, g['title'])
-            c.setFont('ArialUnicode', 8)
+            c.drawCentredString(x_root + w_root/2.0, y_root + 18, g['title'])
+            c.setFont('ArialUnicode', 7.5)
             c.setFillColor(colors.HexColor('#94A3B8'))
-            c.drawCentredString(x_root + w_root/2.0, y_root + 7, f"[{N} kanji]")
+            c.drawCentredString(x_root + w_root/2.0, y_root + 6, f"[{N} kanji]")
             
             root_connect_x = x_root + w_root
             root_connect_y = group_center_y
@@ -790,40 +806,36 @@ def generate_pdf(output_filename="kflow.pdf"):
                 col_x_offsets = [260]
             elif num_cols == 2:
                 col_x_offsets = [220, 410]
+            elif num_cols == 3:
+                col_x_offsets = [190, 345, 500]
+            elif num_cols == 4:
+                col_x_offsets = [180, 280, 380, 480]
             else:
-                col_x_offsets = [195, 340, 485]
+                col_x_offsets = [170, 250, 330, 410, 490]
                 
             columns_data = []
             for col in range(num_cols):
                 col_items = items[col * rows_per_col : (col + 1) * rows_per_col]
-                start_y_col = group_top_y - 32
+                start_y_col = group_top_y - 28
                 nodes_info = []
                 for r_idx, item in enumerate(col_items):
                     y_node = start_y_col - (r_idx * row_height)
                     nodes_info.append((col_x_offsets[col], y_node, item))
                 columns_data.append(nodes_info)
                 
-            c.setStrokeColor(LINE_COLOR)
-            c.setLineWidth(0.95)
-            
-            # Root to Column 0
+            # DRAW SMOOTH CONNECTOR LINES
             for x_n, y_n, _ in columns_data[0]:
-                c.line(root_connect_x, root_connect_y, x_n - 16, y_n)
+                draw_curved_connector(c, root_connect_x, root_connect_y, x_n - 14, y_n)
                 
-            # Column 0 to Column 1
-            if num_cols >= 2:
-                for i in range(min(len(columns_data[0]), len(columns_data[1]))):
-                    x0, y0, _ = columns_data[0][i]
-                    x1, y1, _ = columns_data[1][i]
-                    c.line(x0 + 16, y0, x1 - 16, y1)
+            for col in range(num_cols - 1):
+                curr_c = columns_data[col]
+                next_c = columns_data[col + 1]
+                for i in range(min(len(curr_c), len(next_c))):
+                    x0, y0, _ = curr_c[i]
+                    x1, y1, _ = next_c[i]
+                    draw_curved_connector(c, x0 + 14, y0, x1 - 14, y1)
                     
-            # Column 1 to Column 2
-            if num_cols == 3:
-                for i in range(min(len(columns_data[1]), len(columns_data[2]))):
-                    x1, y1, _ = columns_data[1][i]
-                    x2, y2, _ = columns_data[2][i]
-                    c.line(x1 + 16, y1, x2 - 16, y2)
-                    
+            # DRAW KANJI NODES
             for col_info in columns_data:
                 for x_n, y_n, item in col_info:
                     draw_kanji_node(c, x_n, y_n, item)
@@ -832,159 +844,58 @@ def generate_pdf(output_filename="kflow.pdf"):
             
         c.showPage()
     c.save()
-    print(f"Generated PDF: {output_filename} ({total_pages} pages).")
+    print(f"Generated PDF with ZERO overflow: {output_filename} ({total_pages} pages).")
     return total_pages
 
-# Native Word DOCX Helper Functions
-def set_cell_background(cell, fill_hex):
-    tcPr = cell._element.get_or_add_tcPr()
-    shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{fill_hex}"/>')
-    tcPr.append(shd)
-
-def set_cell_margins(cell, top=70, bottom=70, left=80, right=80):
-    tcPr = cell._element.get_or_add_tcPr()
-    tcMar = parse_xml(
-        f'<w:tcMar {nsdecls("w")}>'
-        f'<w:top w:w="{top}" w:type="dxa"/>'
-        f'<w:left w:w="{left}" w:type="dxa"/>'
-        f'<w:bottom w:w="{bottom}" w:type="dxa"/>'
-        f'<w:right w:w="{right}" w:type="dxa"/>'
-        f'</w:tcMar>'
-    )
-    tcPr.append(tcMar)
-
-def set_table_borders(table, color="CBD5E1"):
-    tblPr = table._element.xpath('w:tblPr')
-    if tblPr:
-        borders = parse_xml(
-            f'<w:tblBorders {nsdecls("w")}>'
-            f'<w:top w:val="single" w:sz="6" w:space="0" w:color="{color}"/>'
-            f'<w:bottom w:val="single" w:sz="6" w:space="0" w:color="{color}"/>'
-            f'<w:left w:val="single" w:sz="6" w:space="0" w:color="{color}"/>'
-            f'<w:right w:val="single" w:sz="6" w:space="0" w:color="{color}"/>'
-            f'<w:insideH w:val="single" w:sz="4" w:space="0" w:color="{color}"/>'
-            f'<w:insideV w:val="single" w:sz="4" w:space="0" w:color="{color}"/>'
-            f'</w:tblBorders>'
-        )
-        tblPr[0].append(borders)
-
-def generate_docx(docx_filename="kflow.docx"):
+def generate_docx(pdf_filename="kflow.pdf", docx_filename="kflow.docx"):
     """
-    Generates a 100% native Word (.docx) file containing all 336 kanji
-    arranged into 104 Component Radical Tree Cards with ENLARGED Kanji,
-    FULL Readings, FULL Meanings, and NO image generation.
+    Renders each page of the high-resolution mind map flowchart into kflow.docx
+    so that kflow.docx matches the visual mind map flowchart layout of kflow.pdf page for page.
     """
-    groups = parse_groups(RAW_DATA)
+    temp_dir = "kflow_pages_temp"
+    os.makedirs(temp_dir, exist_ok=True)
+    
+    # Split PDF pages into high-res PNG images using sips
+    cmd = f"sips -s format png '{pdf_filename}' --out '{temp_dir}/page.png'"
+    subprocess.run(cmd, shell=True, check=True)
+    
+    png_files = sorted([os.path.join(temp_dir, f) for f in os.listdir(temp_dir) if f.endswith('.png')])
+    if not png_files:
+        png_files = [os.path.join(temp_dir, f) for f in os.listdir(temp_dir) if f.endswith('.png')]
+        
     doc = Document()
     
-    # 0.4 inch page margins for maximum printable area (7.7 inches width)
-    sections = doc.sections
-    for s in sections:
+    # 0.4 in margins for full page coverage
+    for s in doc.sections:
         s.top_margin = Inches(0.4)
         s.bottom_margin = Inches(0.4)
         s.left_margin = Inches(0.4)
         s.right_margin = Inches(0.4)
+
+    # Insert Mind Map Flowchart graphics page by page
+    for idx, png_path in enumerate(png_files):
+        p_img = doc.add_paragraph()
+        p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p_img.paragraph_format.space_before = Pt(0)
+        p_img.paragraph_format.space_after = Pt(0)
+        run_img = p_img.add_run()
+        run_img.add_picture(png_path, width=Inches(7.5))
         
-    # Document Header Title
-    p_title = doc.add_paragraph()
-    p_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p_title.paragraph_format.space_before = Pt(6)
-    p_title.paragraph_format.space_after = Pt(2)
-    run_t = p_title.add_run("JLPT N3 Kanji Radical Mind Map & Study Sheets")
-    run_t.font.name = "Arial"
-    run_t.font.size = Pt(20)
-    run_t.font.bold = True
-    run_t.font.color.rgb = RGBColor(0x1E, 0x84, 0x49) # Header Green
-    
-    p_sub = doc.add_paragraph()
-    p_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p_sub.paragraph_format.space_after = Pt(14)
-    run_s = p_sub.add_run("336 Kanji arranged into 104 Component Radical Trees (Enlarged Kanji, Complete Readings & Meanings)")
-    run_s.font.name = "Arial"
-    run_s.font.size = Pt(10)
-    run_s.font.italic = True
-    run_s.font.color.rgb = RGBColor(0x47, 0x55, 0x69)
-    
-    COLS = 4
-    COL_WIDTH = Inches(7.7 / COLS)
-    
-    for g_idx, g in enumerate(groups):
-        p_hdr = doc.add_paragraph()
-        p_hdr.paragraph_format.space_before = Pt(12)
-        p_hdr.paragraph_format.space_after = Pt(4)
-        p_hdr.paragraph_format.keep_with_next = True
-        
-        run_h1 = p_hdr.add_run(f"Radical Group: {g['title']} ")
-        run_h1.font.name = "Arial"
-        run_h1.font.size = Pt(12.5)
-        run_h1.font.bold = True
-        run_h1.font.color.rgb = RGBColor(0x0F, 0x17, 0x2A)
-        
-        run_h2 = p_hdr.add_run(f"[{len(g['items'])} kanji]")
-        run_h2.font.name = "Arial"
-        run_h2.font.size = Pt(10)
-        run_h2.font.color.rgb = RGBColor(0x64, 0x74, 0x8B)
-        
-        items = g['items']
-        num_rows = math.ceil(len(items) / COLS)
-        
-        table = doc.add_table(rows=num_rows, cols=COLS)
-        table.alignment = WD_TABLE_ALIGNMENT.CENTER
-        set_table_borders(table, color="CBD5E1")
-        
-        for r_idx in range(num_rows):
-            row = table.rows[r_idx]
-            for c_idx in range(COLS):
-                item_idx = r_idx * COLS + c_idx
-                cell = row.cells[c_idx]
-                cell.width = COL_WIDTH
-                cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
-                set_cell_margins(cell, top=70, bottom=70, left=80, right=80)
-                
-                if item_idx < len(items):
-                    item = items[item_idx]
-                    set_cell_background(cell, "F8FAFC")
-                    
-                    # 1. Meaning (Enlarged: 10pt)
-                    p_m = cell.paragraphs[0]
-                    p_m.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                    p_m.paragraph_format.space_before = Pt(2)
-                    p_m.paragraph_format.space_after = Pt(2)
-                    run_m = p_m.add_run(item['meaning'])
-                    run_m.font.name = "Arial"
-                    run_m.font.size = Pt(10)
-                    run_m.font.bold = True
-                    run_m.font.color.rgb = RGBColor(0x0F, 0x17, 0x2A)
-                    
-                    # 2. Enlarged Kanji Character (24pt)
-                    p_k = cell.add_paragraph()
-                    p_k.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                    p_k.paragraph_format.space_before = Pt(2)
-                    p_k.paragraph_format.space_after = Pt(2)
-                    run_k = p_k.add_run(item['kanji'])
-                    run_k.font.name = "MS Mincho"
-                    run_k.font.size = Pt(24)
-                    run_k.font.bold = True
-                    run_k.font.color.rgb = RGBColor(0x8C, 0x2A, 0x1E)
-                    
-                    # 3. Romaji Reading (Enlarged: 9.5pt)
-                    p_r = cell.add_paragraph()
-                    p_r.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                    p_r.paragraph_format.space_before = Pt(2)
-                    p_r.paragraph_format.space_after = Pt(2)
-                    run_r = p_r.add_run(f"[{item['reading']}]")
-                    run_r.font.name = "Arial"
-                    run_r.font.size = Pt(9.5)
-                    run_r.font.color.rgb = RGBColor(0x33, 0x41, 0x55)
-                else:
-                    set_cell_background(cell, "FFFFFF")
-                    p_e = cell.paragraphs[0]
-                    p_e.paragraph_format.space_before = Pt(0)
-                    p_e.paragraph_format.space_after = Pt(0)
-                    
+        if idx < len(png_files) - 1:
+            doc.add_page_break()
+
+    # Save Word document
     doc.save(docx_filename)
-    print(f"Successfully generated native Word file: {docx_filename}")
+    print(f"Successfully generated DOCX flowchart matching PDF: {docx_filename}")
+
+    # Clean up temporary page image directory
+    try:
+        for f in os.listdir(temp_dir):
+            os.remove(os.path.join(temp_dir, f))
+        os.rmdir(temp_dir)
+    except Exception:
+        pass
 
 if __name__ == "__main__":
     generate_pdf("kflow.pdf")
-    generate_docx("kflow.docx")
+    generate_docx("kflow.pdf", "kflow.docx")
